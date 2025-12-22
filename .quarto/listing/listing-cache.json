@@ -7,7 +7,7 @@
       "!*/index.qmd"
     ],
     "content\\topics\\index.qmd": [
-      "content/topics"
+      "content/topics/*.qmd"
     ],
     "notes.qmd": [
       "content/notes"

@@ -39,6 +39,9 @@ website:
             href: content/notes/aditional/index.qmd
       - text: "Tópicos"
         menu:
+          - text: "Índice de Tópicos"
+            href: content/topics/index.qmd
+          - text: "---"
           - text: "Microeconomía Aplicada"
             href: content/topics/micro_applied/index.qmd
           - text: "Finanzas & Inversiones"

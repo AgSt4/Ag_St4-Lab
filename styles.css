@@ -171,65 +171,70 @@ a:hover {
     transform: translateY(-2px);
 }
 
-/* --- EXPLORAR (QUICK LINKS GRID) --- */
-
-.quick-links-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 2 columnas por defecto */
-    gap: 1.5rem;
-    margin-top: 1.5rem;
-}
-
-/* Responsividad: En celulares (menos de 768px), cambiar a 1 columna */
-@media (max-width: 768px) {
-    .quick-links-grid {
-        grid-template-columns: 1fr;
-    }
-}
-
-/* La Tarjeta */
+/* ============================================
+   QUICK LINK CARDS
+   ============================================ */
 .quick-link-card {
-    display: block; /* Para que el link ocupe todo el espacio */
-    background-color: rgba(255, 255, 255, 0.03); /* Fondo semitransparente */
+    background: rgba(255, 255, 255, 0.03);
     border: 1px solid var(--border);
     border-radius: 12px;
     padding: 1.5rem;
-    text-decoration: none !important; /* Quitar subrayado del link */
     transition: all 0.3s ease;
-    position: relative;
-    overflow: hidden;
+    display: block;
+    text-align: center;
 }
 
-/* Efecto Hover (Al pasar el mouse) */
 .quick-link-card:hover {
-    border-color: var(--accent); /* Borde Cian */
-    background-color: rgba(0, 225, 255, 0.05); /* Brillo interior */
-    transform: translateY(-5px); /* Se levanta un poco */
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    background: rgba(255, 255, 255, 0.06);
+    border-color: var(--accent);
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(99, 102, 241, 0.15);
 }
 
-/* Elementos internos */
-.card-icon {
-    font-size: 2rem;
-    margin-bottom: 0.8rem;
-    display: block;
+.quick-link-card h3 {
+    color: #fff !important;
+    transition: color 0.3s ease;
 }
 
-.card-title {
-    font-family: 'Outfit', sans-serif;
-    font-size: 1.2rem;
-    font-weight: 700;
-    color: #fff;
-    margin: 0;
-    display: block;
+.quick-link-card:hover h3 {
+    color: var(--accent) !important;
 }
 
-.card-desc {
-    font-family: 'Space Grotesk', sans-serif;
-    font-size: 0.9rem;
-    color: #94a3b8; /* Gris azulado */
-    margin-top: 0.5rem;
+/* ============================================
+   TOPIC CARDS (Tópicos)
+   ============================================ */
+.topic-card {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.5rem;
+    transition: all 0.3s ease;
     display: block;
+    height: 100%;
+}
+
+.topic-card:hover {
+    background: rgba(255, 255, 255, 0.06);
+    border-color: var(--accent);
+    transform: translateY(-5px);
+    box-shadow: 0 12px 28px rgba(99, 102, 241, 0.2);
+}
+
+.topic-card h3 {
+    transition: color 0.3s ease;
+}
+
+.topic-card:hover h3 {
+    color: #fff !important;
+}
+
+.topic-card ul li {
+    padding: 0.3rem 0;
+    transition: color 0.2s ease;
+}
+
+.topic-card:hover ul li {
+    color: var(--text-main) !important;
 }
 
 /* ============================================
