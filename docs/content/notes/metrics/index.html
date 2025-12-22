@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="Métodos cuantitativos, inferencia causal y análisis de series de tiempo.">
 
-<title>Agustín Sandoval Tapia – Ag_St4</title>
+<title>Econometría – Ag_St4</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +24,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./assets/logo.svg" rel="icon" type="image/svg+xml">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b758ccaa5987ceb1b75504551e579abf.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-5e9e84458628fff8eaf4db1d5d7c7e10.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<link href="../../../assets/logo.svg" rel="icon" type="image/svg+xml">
+<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark-b758ccaa5987ceb1b75504551e579abf.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-5e9e84458628fff8eaf4db1d5d7c7e10.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,21 +73,21 @@ ul.task-list li input[type="checkbox"] {
 <style>html{ scroll-behavior: smooth; }</style>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../../styles.css">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./assets/logo.svg" alt="" class="navbar-logo light-content">
-    <img src="./assets/logo.svg" alt="" class="navbar-logo dark-content">
+    <a href="../../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../../assets/logo.svg" alt="" class="navbar-logo light-content">
+    <img src="../../../assets/logo.svg" alt="" class="navbar-logo dark-content">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">Ag_St4</span>
     </a>
   </div>
@@ -96,11 +98,11 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="../../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects.html"> 
+    <a class="nav-link" href="../../../projects.html"> 
 <span class="menu-text">Proyectos</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -109,35 +111,35 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-apuntes">    
         <li>
-    <a class="dropdown-item" href="./content/notes/library/index.html">
+    <a class="dropdown-item" href="../../../content/notes/library/index.html">
  <span class="dropdown-text">Biblioteca de Apuntes del Grado</span></a>
   </li>  
         <li><hr class="dropdown-divider"></li>
         <li>
-    <a class="dropdown-item" href="./content/notes/micro/index.html">
+    <a class="dropdown-item" href="../../../content/notes/micro/index.html">
  <span class="dropdown-text">Microeconomía - Examen de Grado</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./content/notes/macro/index.html">
+    <a class="dropdown-item" href="../../../content/notes/macro/index.html">
  <span class="dropdown-text">Macroeconomía - Examen de Grado</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./content/notes/metrics/index.html">
+    <a class="dropdown-item" href="../../../content/notes/metrics/index.html">
  <span class="dropdown-text">Econometría - Examen de Grado</span></a>
   </li>  
         <li><hr class="dropdown-divider"></li>
         <li>
-    <a class="dropdown-item" href="./content/notes/aditional/index.qmd">
+    <a class="dropdown-item" href="../../../content/notes/aditional/index.qmd">
  <span class="dropdown-text">Apuntes Generales de Economía y Negocios</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./topics.html"> 
+    <a class="nav-link" href="../../../topics.html"> 
 <span class="menu-text">Tópicos</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./cv.html"> 
+    <a class="nav-link" href="../../../cv.html"> 
 <span class="menu-text">CV</span></a>
   </li>  
 </ul>
@@ -163,194 +165,169 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#i.-fundamentos-del-análisis-empírico" id="toc-i.-fundamentos-del-análisis-empírico" class="nav-link active" data-scroll-target="#i.-fundamentos-del-análisis-empírico">I. Fundamentos del Análisis Empírico</a>
+  <ul class="collapse">
+  <li><a href="#método-científico-en-economía" id="toc-método-científico-en-economía" class="nav-link" data-scroll-target="#método-científico-en-economía">1. Método Científico en Economía</a></li>
+  <li><a href="#el-modelo-de-regresión-lineal-mrl" id="toc-el-modelo-de-regresión-lineal-mrl" class="nav-link" data-scroll-target="#el-modelo-de-regresión-lineal-mrl">2. El Modelo de Regresión Lineal (MRL)</a></li>
+  </ul></li>
+  <li><a href="#ii.-especificación-y-robustez" id="toc-ii.-especificación-y-robustez" class="nav-link" data-scroll-target="#ii.-especificación-y-robustez">II. Especificación y Robustez</a>
+  <ul class="collapse">
+  <li><a href="#especificación-y-problemas-en-el-mrl" id="toc-especificación-y-problemas-en-el-mrl" class="nav-link" data-scroll-target="#especificación-y-problemas-en-el-mrl">3. Especificación y Problemas en el MRL</a></li>
+  <li><a href="#inferencia-causal" id="toc-inferencia-causal" class="nav-link" data-scroll-target="#inferencia-causal">4. Inferencia Causal</a></li>
+  <li><a href="#heterocedasticidad-y-dependencia" id="toc-heterocedasticidad-y-dependencia" class="nav-link" data-scroll-target="#heterocedasticidad-y-dependencia">5. Heterocedasticidad y Dependencia</a></li>
+  </ul></li>
+  <li><a href="#iv.-datos-temporales" id="toc-iv.-datos-temporales" class="nav-link" data-scroll-target="#iv.-datos-temporales">IV. Datos Temporales</a>
+  <ul class="collapse">
+  <li><a href="#series-de-tiempo" id="toc-series-de-tiempo" class="nav-link" data-scroll-target="#series-de-tiempo">6. Series de Tiempo</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<div class="quarto-about-trestles">
-  <div class="about-entity">
-    <img src="assets/profile.jpg" class="about-image
-  round " style="height: 15em; width: 15em;">
+<main class="content" id="quarto-document-content">
+
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Agustín Sandoval Tapia</h1>
-<p class="subtitle lead">B.Sc. Economics &amp; Business | M.Sc. (c) Applied Economics PUC</p>
+<h1 class="title">Econometría</h1>
+<p class="subtitle lead">Temario de Examen de Grado</p>
 </div>
+
+<div>
+  <div class="description">
+    Métodos cuantitativos, inferencia causal y análisis de series de tiempo.
+  </div>
+</div>
+
+
 <div class="quarto-title-meta">
+
+    
+  
+    
   </div>
+  
+
+
 </header>
-    <div class="about-links">
-  <a href="https://linkedin.com/in/agustinsandovaltapia" class="about-link" rel="" target="">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text">LinkedIn</span>
-  </a>
-  <a href="https://github.com/AgSt4" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">GitHub</span>
-  </a>
-  <a href="mailto:a.sandovaltapia@uc.cl" class="about-link" rel="" target="">
-    <i class="bi bi-envelope"></i>
-     <span class="about-link-text">Email</span>
-  </a>
+
+
+<div class="callout callout-style-simple callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
 </div>
-  </div>
-  <div class="about-contents"><main class="content" id="quarto-document-content">
-<section id="sobre-mí" class="level2">
-<h2 data-anchor-id="sobre-mí">Sobre mí</h2>
-<div style="text-align: justify;">
-<p>Economista con enfoque cuantitativo, actualmente cursando el <strong>Magíster en Economía Aplicada (Economía Financiera)</strong> en la Pontificia Universidad Católica de Chile. Mi formación se centra en la aplicación de métodos empíricos y herramientas cuantitativas para el análisis de fenómenos económicos, con experiencia en <strong>microeconomía aplicada</strong>, <strong>finanzas</strong> y análisis de datos.</p>
-<p>Trabajo principalmente con <strong>econometría aplicada</strong>, análisis estadístico y modelos empíricos orientados a la <strong>evaluación y diseño de decisiones económicas</strong>, abarcando desde técnicas clásicas de estimación hasta enfoques predictivos.</p>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>📚 Bibliografía de Referencia
 </div>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>📊 Applied Economics</th>
-<th>💸 Finance &amp; Investments</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>📈 Data Science</td>
-<td>🌱 Sustainability</td>
-</tr>
-<tr class="even">
-<td>💼 Public Policy &amp; Politics</td>
-<td>🌍 Socioeconomics</td>
-</tr>
-</tbody>
-</table>
-<div style="text-align: justify;">
-<p>Mis principales intereses se encuentran en la <strong>economía de la sostenibilidad</strong> y en el rol de los <strong>mercados financieros</strong> como herramientas para el desarrollo económico de largo plazo. En particular, me interesa el análisis de <strong>inversión responsable (ESG)</strong> como un punto de convergencia entre eficiencia económica, estabilidad financiera y responsabilidad social.</p>
-<p>Mi aproximación está informada por una perspectiva de <strong>economía política aplicada</strong>, influida por el pensamiento socialcristiano: la centralidad de la dignidad humana, la función social de los bienes económicos y la relevancia de las instituciones para el buen funcionamiento de los mercados. Estos principios orientan mi interés por políticas públicas basadas en evidencia y por estrategias de inversión con impacto económico y social.</p>
-<p>Desde una perspectiva profesional, distingo cuidadosamente entre el análisis empírico positivo y los fundamentos normativos que orientan mis intereses, privilegiando siempre la evidencia y la consistencia analítica en el diseño de políticas y decisiones económicas.</p>
 </div>
-</section>
-<section id="tech-stack" class="level2">
-<h2 data-anchor-id="tech-stack">Tech Stack</h2>
-<div class="tech-section">
-  <span class="category-label">Core Analytics &amp; Programming</span>
-  <div class="skills-grid">
-    <div class="skill-item">
-      <div class="skill-label">
-        <span>Python</span>
-        <span class="skill-percent">90%</span>
-      </div>
-      <div class="progress-track">
-        <div class="progress-fill" style="width: 90%;"></div>
-      </div>
-    </div>
-    <div class="skill-item">
-      <div class="skill-label">
-        <span>R</span>
-        <span class="skill-percent">85%</span>
-      </div>
-      <div class="progress-track">
-        <div class="progress-fill" style="width: 85%;"></div>
-      </div>
-    </div>
-    <div class="skill-item">
-      <div class="skill-label">
-        <span>Stata</span>
-        <span class="skill-percent">80%</span>
-      </div>
-      <div class="progress-track">
-        <div class="progress-fill" style="width: 80%;"></div>
-      </div>
-    </div>
-    <div class="skill-item">
-      <div class="skill-label">
-        <span>SQL</span>
-        <span class="skill-percent">75%</span>
-      </div>
-      <div class="progress-track">
-        <div class="progress-fill" style="width: 75%;"></div>
-      </div>
-    </div>
-  </div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><strong>Wooldridge, J. (2015).</strong> <em>Introducción a la Econometría</em>. Cengage Learning, 5ta edición.</li>
+<li><strong>Stock, J. H. y M. Watson (2010).</strong> <em>Introduction to Econometrics</em>. Pearson Addison-Wesley, 3ra edición.</li>
+<li><strong>Johnston, J. y J. DiNardo (2001).</strong> <em>Métodos de Econometría</em>. Vicens-Vives, 1ra edición.</li>
+<li><strong>Greene, W. (2008).</strong> <em>Econometric Analysis</em>. Prentice-Hall, 6ta edición.</li>
+</ul>
 </div>
-<div class="tech-section">
-  <span class="category-label">Quantitative Finance &amp; Tools</span>
-  <div class="skills-grid">
-    <div class="skill-item">
-      <div class="skill-label">
-        <span>Bloomberg Terminal</span>
-        <span class="skill-percent">Expert</span>
-      </div>
-      <div class="progress-track">
-        <div class="progress-fill" style="width: 95%;"></div>
-      </div>
-    </div>
-    <div class="skill-item">
-      <div class="skill-label">
-        <span>QuantLib</span>
-        <span class="skill-percent">75%</span>
-      </div>
-      <div class="progress-track">
-        <div class="progress-fill" style="width: 75%;"></div>
-      </div>
-    </div>
-    <div class="skill-item">
-      <div class="skill-label">
-        <span>Portfolio Optimization</span>
-        <span class="skill-percent">85%</span>
-      </div>
-      <div class="progress-track">
-        <div class="progress-fill" style="width: 85%;"></div>
-      </div>
-    </div>
-    <div class="skill-item">
-      <div class="skill-label">
-        <span>Time Series Analysis</span>
-        <span class="skill-percent">80%</span>
-      </div>
-      <div class="progress-track">
-        <div class="progress-fill" style="width: 80%;"></div>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="tech-section">
-  <span class="category-label">Libraries &amp; Frameworks</span>
-  <div class="badges-container">
-    <span class="badge-item">Pandas</span>
-    <span class="badge-item">NumPy</span>
-    <span class="badge-item">Scikit-learn</span>
-    <span class="badge-item">Tidyverse</span>
-    <span class="badge-item">ggplot2</span>
-    <span class="badge-item">Plotly</span>
-    <span class="badge-item">Statsmodels</span>
-    <span class="badge-item">PyPortfolioOpt</span>
-    <span class="badge-item">yfinance</span>
-    <span class="badge-item">Quarto</span>
-  </div>
 </div>
 <hr>
-</section>
-<section id="research-interests" class="level2">
-<h2 data-anchor-id="research-interests">Research Interests</h2>
+<section id="i.-fundamentos-del-análisis-empírico" class="level2">
+<h2 class="anchored" data-anchor-id="i.-fundamentos-del-análisis-empírico">I. Fundamentos del Análisis Empírico</h2>
+<section id="método-científico-en-economía" class="level3">
+<h3 class="anchored" data-anchor-id="método-científico-en-economía">1. Método Científico en Economía</h3>
+<p>👉 <strong><a href="datos-causalidad.qmd">Apunte maestro: Datos y Causalidad</a></strong></p>
 <ul>
-<li><strong>Sustainable Finance</strong> → Integración de factores ESG en estrategias de inversión</li>
-<li><strong>Asset Pricing</strong> → Modelos de riesgo y retorno en mercados emergentes</li>
-<li><strong>Econometría Aplicada</strong> → Causalidad y métodos cuantitativos avanzados</li>
-<li><strong>Machine Learning</strong> → Predicción de series financieras y clasificación de riesgo</li>
+<li>Estructura de los datos en Economía.</li>
+<li>Análisis causal y <em>ceteris paribus</em>.</li>
+</ul>
+</section>
+<section id="el-modelo-de-regresión-lineal-mrl" class="level3">
+<h3 class="anchored" data-anchor-id="el-modelo-de-regresión-lineal-mrl">2. El Modelo de Regresión Lineal (MRL)</h3>
+<p>👉 <strong><a href="regresion-ols.qmd">Apunte maestro: Regresión Lineal y OLS</a></strong></p>
+<ul>
+<li>MRL simple vs.&nbsp;múltiple.</li>
+<li>Estimador de Mínimos Cuadrados Ordinarios (MCO/OLS) y sus propiedades.</li>
+<li>Teorema de Gauss-Markov.</li>
+<li>Intervalos de confianza y test de hipótesis.</li>
+<li>Predicción.</li>
 </ul>
 <hr>
 </section>
-<section id="explorar" class="level2">
-<h2 data-anchor-id="explorar">Explorar</h2>
+</section>
+<section id="ii.-especificación-y-robustez" class="level2">
+<h2 class="anchored" data-anchor-id="ii.-especificación-y-robustez">II. Especificación y Robustez</h2>
+<section id="especificación-y-problemas-en-el-mrl" class="level3">
+<h3 class="anchored" data-anchor-id="especificación-y-problemas-en-el-mrl">3. Especificación y Problemas en el MRL</h3>
+<p>👉 <strong><a href="especificacion.qmd">Apunte maestro: Problemas de Especificación</a></strong></p>
+<ul>
+<li>Transformación de variables y relaciones no lineales.</li>
+<li>Selección de modelos.</li>
+<li>Variables binarias dependientes e independientes.</li>
+<li>Cambio estructural (Test de Chow).</li>
+<li>Multicolinealidad.</li>
+<li>Omisión de variables relevantes e inclusión de variables irrelevantes.</li>
+<li>Errores de medida.</li>
+</ul>
+</section>
+<section id="inferencia-causal" class="level3">
+<h3 class="anchored" data-anchor-id="inferencia-causal">4. Inferencia Causal</h3>
+<p>👉 <strong><a href="inferencia-causal.qmd">Apunte maestro: Inferencia Causal y VI</a></strong></p>
+<ul>
+<li>Modelo de resultados (<em>outcomes</em>) potenciales.</li>
+<li>Sesgo de selección.</li>
+<li>Estimador de Variables Instrumentales (IV) / Mínimos Cuadrados en 2 Etapas (2SLS).
+<ul>
+<li>Validez de los instrumentos.</li>
+<li>Instrumentos débiles.</li>
+<li>Contraste de endogeneidad.</li>
+<li>Contraste de sobre-identificación.</li>
+</ul></li>
+<li>Estimador de Efecto Fijo (Fixed Effects).</li>
+<li>Estimador de Diferencias en Diferencias (Diff-in-Diff).</li>
+</ul>
+</section>
+<section id="heterocedasticidad-y-dependencia" class="level3">
+<h3 class="anchored" data-anchor-id="heterocedasticidad-y-dependencia">5. Heterocedasticidad y Dependencia</h3>
+<p>👉 <strong><a href="heterocedasticidad-gls.qmd">Apunte maestro: Heterocedasticidad y GLS</a></strong></p>
+<ul>
+<li>Causas y consecuencias.</li>
+<li>Contraste de heterocedasticidad.</li>
+<li>Contraste de autocorrelación.</li>
+<li>Inferencia robusta (Errores estándar robustos).</li>
+</ul>
 <hr>
-<div class="quick-links-grid">
-<p><a href="./projects.html" class="quick-link-card"> <span class="card-icon">📂</span> <span class="card-title">Proyectos</span> <span class="card-desc">Modelos, análisis y aplicaciones prácticas.</span> </a></p>
-<p><a href="./cv.html" class="quick-link-card"> <span class="card-icon">📄</span> <span class="card-title">Curriculum Vitae</span> <span class="card-desc">Trayectoria profesional y académica.</span> </a></p>
-<p><a href="./notes.html" class="quick-link-card"> <span class="card-icon">📚</span> <span class="card-title">Apuntes</span> <span class="card-desc">Wiki personal y recursos de estudio.</span> </a></p>
-<p><a href="./topics.html" class="quick-link-card"> <span class="card-icon">💡</span> <span class="card-title">Tópicos</span> <span class="card-desc">Áreas de investigación y notas breves.</span> </a></p>
-</div>
+</section>
+</section>
+<section id="iv.-datos-temporales" class="level2">
+<h2 class="anchored" data-anchor-id="iv.-datos-temporales">IV. Datos Temporales</h2>
+<section id="series-de-tiempo" class="level3">
+<h3 class="anchored" data-anchor-id="series-de-tiempo">6. Series de Tiempo</h3>
+<p>👉 <strong><a href="series-tiempo.qmd">Apunte maestro: Series de Tiempo</a></strong></p>
+<ul>
+<li>Tendencia en el tiempo lineal y exponencial.</li>
+<li>Dependencia débil.</li>
+<li>Prueba de raíz unitaria.</li>
+<li>Regresión espuria.</li>
+</ul>
 
 
 </section>
-</main></div>
-</div>
- <!-- /main -->
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
@@ -752,5 +729,5 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+<script src="../../../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

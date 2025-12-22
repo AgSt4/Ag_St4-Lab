@@ -31,5 +31,17 @@
   },
   "content/topics/esg-investing.qmd": {
     "esg-investing.html": "5c9796b2"
+  },
+  "content/notes/metrics/index.qmd": {
+    "index.html": "b163a468"
+  },
+  "content/notes/macro/index.qmd": {
+    "index.html": "9fc36543"
+  },
+  "content/notes/micro/index.qmd": {
+    "index.html": "63af58e5"
+  },
+  "content/notes/library/index.qmd": {
+    "index.html": "0401f84a"
   }
 }

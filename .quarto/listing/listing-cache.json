@@ -1,5 +1,11 @@
 {
   "listingMap": {
+    "content\\notes\\library\\index.qmd": [
+      "micro/*.qmd",
+      "macro/*.qmd",
+      "metrics/*.qmd",
+      "!*/index.qmd"
+    ],
     "notes.qmd": [
       "content/notes"
     ],

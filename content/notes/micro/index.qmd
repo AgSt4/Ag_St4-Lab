@@ -1,0 +1,100 @@
+---
+title: "Microeconomía"
+subtitle: "Temario de Examen de Grado"
+description: "Teoría neoclásica, equilibrio general, teoría de juegos y organización industrial."
+format:
+  html:
+    toc: true
+    toc-depth: 3
+---
+
+::: {.callout-tip appearance="simple" icon=false}
+## 📚 Bibliografía de Referencia
+* **Osborne, M. (2004).** *An Introduction to Game Theory*. Oxford University Press.
+* **Peppal, L., D. Richards y G. Norman (2006).** *Organización Industrial: teoría y práctica contemporáneas*. Thompson, Tercera edición.
+* **Vial, B. y F. Zurita (2018).** *Microeconomía*. Ediciones UC, Segunda Edición.
+* *Referencias adicionales en los programas de los cursos específicos.*
+:::
+
+---
+
+## I. Teoría Neoclásica Fundamental
+
+### 1. Elección del Consumidor y Demanda
+👉 **[Apunte maestro: Teoría del Consumidor](teoria-consumidor.qmd)**
+
+* Demanda ordinaria y compensada.
+* Estática comparativa, efecto sustitución y efecto ingreso, elasticidades.
+* Bienestar individual: variación compensatoria, excedente del consumidor.
+* Oferta de trabajo.
+
+### 2. Teoría de la Producción y Oferta
+👉 **[Apunte maestro: Teoría de la Producción](teoria-produccion.qmd)**
+
+* Minimización de costos y demanda condicionada por factores.
+* Demanda no condicionada por factores.
+* Oferta individual y estática comparativa, efectos sustitución y escala, elasticidades.
+
+---
+
+## II. Equilibrio y Bienestar
+
+### 3. Equilibrio Parcial en Competencia Perfecta
+👉 **[Apunte maestro: Equilibrio Parcial](equilibrio-parcial.qmd)**
+
+* Bienestar social y equilibrio parcial.
+* Efecto de impuestos, subsidios, fijación de precios: incidencia y pérdida irrecuperable.
+
+### 4. Equilibrio General en Competencia Perfecta
+👉 **[Apunte maestro: Equilibrio General](equilibrio-general.qmd)**
+
+* Bienestar social y equilibrio general.
+* Equilibrio general en una economía de intercambio.
+* Equilibrio general en una economía con producción con rendimientos a escala constantes.
+* Primer y segundo teoremas del bienestar.
+
+### 5. Bienes Públicos y Externalidades
+👉 **[Apunte maestro: Fallas de Mercado](fallas-mercado.qmd)**
+
+* Bienestar social bajo bienes públicos o externalidades.
+* Intervención del gobierno y asignación de derechos de propiedad en presencia de bienes públicos o externalidades: impuesto Pigouviano, asignación de derechos, cuotas u otras intervenciones.
+
+---
+
+## III. Incertidumbre y Estrategia
+
+### 6. Elección bajo Incertidumbre
+👉 **[Apunte maestro: Incertidumbre y Riesgo](incertidumbre-riesgo.qmd)**
+
+* Creencias y utilidad esperada.
+* Aversión al riesgo y aseguramiento.
+
+### 7. Teoría de Juegos
+👉 **[Apunte maestro: Teoría de Juegos](teoria-juegos.qmd)**
+
+* Juegos estáticos y equilibrio de Nash.
+* Juegos dinámicos con información perfecta y perfección en sub-juegos.
+
+### 8. Información Asimétrica
+👉 **[Apunte maestro: Información Asimétrica](informacion-asimetrica.qmd)**
+
+* Equilibrio bayesiano perfecto.
+* El problema del riesgo moral, teoría de contratos.
+* El problema de selección adversa. Modelos de señalización y autoselección.
+
+---
+
+## IV. Organización Industrial
+
+### 9. Poder de Mercado y Monopolio
+👉 **[Apunte maestro: Monopolio y Discriminación](monopolio.qmd)**
+
+* Monopolio básico, monopolio natural y pérdida irrecuperable.
+* Demandas relacionadas: sustitutos y complementos.
+* Discriminación de precios: primer, segundo y tercer grado.
+
+### 10. Oligopolio
+👉 **[Apunte maestro: Modelos de Oligopolio](oligopolio.qmd)**
+
+* Modelos de Cournot y Bertrand.
+* Diferenciación de productos: horizontal y vertical.

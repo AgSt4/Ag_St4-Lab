@@ -23,8 +23,20 @@ website:
         href: index.qmd
       - text: "Proyectos"
         href: projects.qmd
-      - text: "Apuntes"
-        href: notes.qmd
+      - text: "Apuntes"          # <--- AQUÍ EMPIEZA EL CAMBIO
+        menu:
+          - text: "Biblioteca de Apuntes del Grado"
+            href: content/notes/library/index.qmd
+          - text: "---"          # (Separador visual)
+          - text: "Microeconomía - Examen de Grado"
+            href: content/notes/micro/index.qmd
+          - text: "Macroeconomía - Examen de Grado"
+            href: content/notes/macro/index.qmd
+          - text: "Econometría - Examen de Grado"
+            href: content/notes/metrics/index.qmd
+          - text: "---"          # (Separador visual)
+          - text: "Apuntes Generales de Economía y Negocios"
+            href: content/notes/aditional/index.qmd
       - text: "Tópicos"
         href: topics.qmd
       - text: "CV"

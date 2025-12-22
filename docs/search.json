@@ -18,7 +18,7 @@
     "href": "notes.html",
     "title": "Knowledge Vault",
     "section": "",
-    "text": "[!tip] Buscador Escribe palabras clave (ej: “Lagrange”, “GARCH”) para filtrar los apuntes.\n\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\nApunte\nTema\nTiempo\n\n\n\n\n\nNo matching items"
+    "text": "[!tip] Buscador Escribe palabras clave (ej: “Lagrange”, “GARCH”) para filtrar los apuntes.\n\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Apunte\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nApunte\n\n\n\nTema\n\n\n\nTiempo\n\n\n\n\n\n\n\n\nEconometría\n\n\n \n\n\n2 min\n\n\n\n\n\n\nKnowledge Vault\n\n\n \n\n\n2 min\n\n\n\n\n\n\nMacroeconomía\n\n\n \n\n\n3 min\n\n\n\n\n\n\nMicroeconomía\n\n\n \n\n\n2 min\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "cv.html",
@@ -84,11 +84,137 @@
     "text": "Este es un proyecto de prueba para verificar que la galería funciona."
   },
   {
+    "objectID": "content/notes/metrics/index.html",
+    "href": "content/notes/metrics/index.html",
+    "title": "Econometría",
+    "section": "",
+    "text": "Tip📚 Bibliografía de Referencia\n\n\n\n\nWooldridge, J. (2015). Introducción a la Econometría. Cengage Learning, 5ta edición.\nStock, J. H. y M. Watson (2010). Introduction to Econometrics. Pearson Addison-Wesley, 3ra edición.\nJohnston, J. y J. DiNardo (2001). Métodos de Econometría. Vicens-Vives, 1ra edición.\nGreene, W. (2008). Econometric Analysis. Prentice-Hall, 6ta edición."
+  },
+  {
+    "objectID": "content/notes/metrics/index.html#i.-fundamentos-del-análisis-empírico",
+    "href": "content/notes/metrics/index.html#i.-fundamentos-del-análisis-empírico",
+    "title": "Econometría",
+    "section": "I. Fundamentos del Análisis Empírico",
+    "text": "I. Fundamentos del Análisis Empírico\n\n1. Método Científico en Economía\n👉 Apunte maestro: Datos y Causalidad\n\nEstructura de los datos en Economía.\nAnálisis causal y ceteris paribus.\n\n\n\n2. El Modelo de Regresión Lineal (MRL)\n👉 Apunte maestro: Regresión Lineal y OLS\n\nMRL simple vs. múltiple.\nEstimador de Mínimos Cuadrados Ordinarios (MCO/OLS) y sus propiedades.\nTeorema de Gauss-Markov.\nIntervalos de confianza y test de hipótesis.\nPredicción."
+  },
+  {
+    "objectID": "content/notes/metrics/index.html#ii.-especificación-y-robustez",
+    "href": "content/notes/metrics/index.html#ii.-especificación-y-robustez",
+    "title": "Econometría",
+    "section": "II. Especificación y Robustez",
+    "text": "II. Especificación y Robustez\n\n3. Especificación y Problemas en el MRL\n👉 Apunte maestro: Problemas de Especificación\n\nTransformación de variables y relaciones no lineales.\nSelección de modelos.\nVariables binarias dependientes e independientes.\nCambio estructural (Test de Chow).\nMulticolinealidad.\nOmisión de variables relevantes e inclusión de variables irrelevantes.\nErrores de medida.\n\n\n\n4. Inferencia Causal\n👉 Apunte maestro: Inferencia Causal y VI\n\nModelo de resultados (outcomes) potenciales.\nSesgo de selección.\nEstimador de Variables Instrumentales (IV) / Mínimos Cuadrados en 2 Etapas (2SLS).\n\nValidez de los instrumentos.\nInstrumentos débiles.\nContraste de endogeneidad.\nContraste de sobre-identificación.\n\nEstimador de Efecto Fijo (Fixed Effects).\nEstimador de Diferencias en Diferencias (Diff-in-Diff).\n\n\n\n5. Heterocedasticidad y Dependencia\n👉 Apunte maestro: Heterocedasticidad y GLS\n\nCausas y consecuencias.\nContraste de heterocedasticidad.\nContraste de autocorrelación.\nInferencia robusta (Errores estándar robustos)."
+  },
+  {
+    "objectID": "content/notes/metrics/index.html#iv.-datos-temporales",
+    "href": "content/notes/metrics/index.html#iv.-datos-temporales",
+    "title": "Econometría",
+    "section": "IV. Datos Temporales",
+    "text": "IV. Datos Temporales\n\n6. Series de Tiempo\n👉 Apunte maestro: Series de Tiempo\n\nTendencia en el tiempo lineal y exponencial.\nDependencia débil.\nPrueba de raíz unitaria.\nRegresión espuria."
+  },
+  {
+    "objectID": "content/notes/library/index.html",
+    "href": "content/notes/library/index.html",
+    "title": "Knowledge Vault",
+    "section": "",
+    "text": "Este repositorio consolida mis apuntes de preparación para los exámenes de grado de Ingeniería Comercial mención Economía en la Pontificia Universidad Católica de Chile. El material se organiza en dos componentes: teoría y ejercicios aplicados."
+  },
+  {
+    "objectID": "content/notes/library/index.html#introducción",
+    "href": "content/notes/library/index.html#introducción",
+    "title": "Knowledge Vault",
+    "section": "",
+    "text": "Este repositorio consolida mis apuntes de preparación para los exámenes de grado de Ingeniería Comercial mención Economía en la Pontificia Universidad Católica de Chile. El material se organiza en dos componentes: teoría y ejercicios aplicados."
+  },
+  {
+    "objectID": "content/notes/library/index.html#apuntes-teóricos",
+    "href": "content/notes/library/index.html#apuntes-teóricos",
+    "title": "Knowledge Vault",
+    "section": "📚 Apuntes Teóricos",
+    "text": "📚 Apuntes Teóricos\nMaterial sistematizado por área, integrando bibliografía y contenido de cátedra.\n\n📉 Microeconomía\n→ Ver temario completo\nCursos base:\n\nIntroducción a la Microeconomía (EAE1110)\nSecciones coordinadas\nMicroeconomía I (EAE2110)\nProf. Felipe Zurita y Secciones coordinadas\nMicroeconomía II (EAE2120)\nProf. Nicolás Figueroa, Akin Sumeyra, Bernardita Vial\nCompetencia y Mercado (EAE2130)\nProf. Fernando Coloma\n\n\n\n\n🌍 Macroeconomía\n→ Ver temario completo\nCursos base:\n\nIntroducción a la Macroeconomía (EAE1210)\nProf. Bernardita Piedrabuena y Secciones Coordinadas\nMacroeconomía I (EAE2210)\nProf. Emilio Depetris-Chauvin\nMacroeconomía II (EAE2220)\nProf. Alberto Naudón, Caio Machado\nMacroeconomía Internacional (EAE3210)\nProf. Alberto Naudón, Alejandro Vicondoa\n\n\n\n\n📊 Econometría\n→ Ver temario completo\nCursos base:\n\nEconometría I (EAE2510)\nProf. Jeanne Lafortune, Juan Urquiza\n\nEl curso de pregrado está muy enfocado en microeconometría por lo que el apunte fue complementado con:\n\nMicroeconometría Aplicada (EAE3101)\nProf. Miriam Artiles"
+  },
+  {
+    "objectID": "content/notes/library/index.html#ejercicios-aplicados",
+    "href": "content/notes/library/index.html#ejercicios-aplicados",
+    "title": "Knowledge Vault",
+    "section": "🧮 Ejercicios Aplicados",
+    "text": "🧮 Ejercicios Aplicados\nColección de problemas resueltos organizados temáticamente para reforzar la comprensión teórica.\n\n🎯 Ver ejercicios resueltos"
+  },
+  {
+    "objectID": "content/notes/library/index.html#explorador-de-contenido",
+    "href": "content/notes/library/index.html#explorador-de-contenido",
+    "title": "Knowledge Vault",
+    "section": "🔍 Explorador de contenido",
+    "text": "🔍 Explorador de contenido\nUsa el buscador o filtros por categoría para navegar el material:"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
     "text": "About this site"
+  },
+  {
+    "objectID": "content/notes/macro/index.html",
+    "href": "content/notes/macro/index.html",
+    "title": "Macroeconomía",
+    "section": "",
+    "text": "Tip📚 Bibliografía de Referencia\n\n\n\n\nBarro, R., Grilli, V. y Febrero, R. (1997). Macroeconomía: Teoría y Política. McGraw-Hill.\nDe Gregorio, J. (2007). Macroeconomía: Teoría y Políticas. Pearson.\nBlanchard, O. (2017). Macroeconomics, 7th edition. Pearson.\nSchmitt-Grohe, S., M. Uribe y M. Woodford (2022). International Macroeconomics. Princeton University Press.\nKrugman, P., M. Melitz, y M. Obstfeld (2015). International Finance: Theory and Policy, 10th Edition.\nReferencias adicionales en los programas de los cursos específicos."
+  },
+  {
+    "objectID": "content/notes/macro/index.html#i.-economía-real",
+    "href": "content/notes/macro/index.html#i.-economía-real",
+    "title": "Macroeconomía",
+    "section": "I. Economía Real",
+    "text": "I. Economía Real\n\n1. Crecimiento Económico\n👉 Apunte maestro: Teoría del Crecimiento\n\nModelo neoclásico, cambio tecnológico exógeno (modelo de Solow).\nCrecimiento endógeno. Aplicaciones: Modelo AK, Modelo con externalidades basado en conocimiento.\nContabilidad del crecimiento.\n\n\n\n2. Trabajo\n👉 Apunte maestro: Mercado del Trabajo\n\nDemanda por trabajo.\nOferta de trabajo.\nEquilibrio en el mercado del trabajo: salarios reales y empleo. Aplicaciones: Explicaciones del desempleo.\n\n\n\n3. Consumo y Ahorro\n👉 Apunte maestro: Consumo y Ahorro\n\nConsumo bajo certidumbre. Aplicaciones: Consumo intertemporal, Función de consumo keynesiana, Modelo de ciclo de vida, Hipótesis de ingreso permanente, Rol del mercado financiero y restricciones de liquidez.\nConsumo bajo incertidumbre y ahorro precautorio.\n\n\n\n4. Inversión\n👉 Apunte maestro: Teoría de la Inversión\n\nLa demanda por capital e inversión. Aplicaciones: Capital óptimo, Modelo costo de capital, Modelo de la q de Tobin, Modelos de costos de ajuste, Incertidumbre e irreversibilidad de la inversión.\n\n\n\n5. Política Fiscal\n👉 Apunte maestro: Gasto Público e Impuestos\n\nGasto público e impuestos. Aplicaciones: Restricción presupuestaria del gobierno (intertemporal y por período), Sostenibilidad de la deuda pública, Equivalencia Ricadiana, Efectos de la política fiscal sobre consumo/inversión y equilibrio macro (producto real y tasa real).\n\n\n\n6. Equilibrio Macroeconómico (Economía Cerrada)\n👉 Apunte maestro: Equilibrio General Cerrado\n\nEquilibrio en el mercado de bienes: equilibrio ahorro e inversión.\nDeterminación de la tasa de interés real."
+  },
+  {
+    "objectID": "content/notes/macro/index.html#ii.-economía-real-y-monetaria",
+    "href": "content/notes/macro/index.html#ii.-economía-real-y-monetaria",
+    "title": "Macroeconomía",
+    "section": "II. Economía Real y Monetaria",
+    "text": "II. Economía Real y Monetaria\n\n7. Dinero\n👉 Apunte maestro: Mercados Monetarios\n\nDemanda por dinero. Aplicaciones: Modelo de Baumol-Tobin, Dinero en la función de utilidad.\nOferta de dinero. Aplicaciones: Señoreaje, Multiplicadores monetarios, Hojas de Balance del Banco Central.\n\n\n\n8. Oferta Agregada, Demanda Agregada y Ciclos\n👉 Apunte maestro: Modelo AD-AS y Ciclos\n\nOferta agregada y curva de Phillips (corto y largo plazo): rol de las expectativas (racionales y adaptativas). Aplicaciones: Ciclos clásicos y keynesianos, Rol de distintas rigideces, Equilibrio de corto y largo plazo.\nModelo IS-LM.\n\n\n\n9. Nivel de Precios e Inflación\n👉 Apunte maestro: Precios y Política Monetaria\n\nEquilibrio en el mercado monetario. Aplicaciones: Rol de las expectativas, Teoría cuantitativa del dinero.\nConducción de la política monetaria en la práctica. Aplicaciones: Reglas versus discreción, Metas de inflación.\nMecanismos de transmisión de la política monetaria."
+  },
+  {
+    "objectID": "content/notes/macro/index.html#iii.-economías-abiertas",
+    "href": "content/notes/macro/index.html#iii.-economías-abiertas",
+    "title": "Macroeconomía",
+    "section": "III. Economías Abiertas",
+    "text": "III. Economías Abiertas\n\n10. Cuentas Externas y Balanza de Pagos\n👉 Apunte maestro: Balanza de Pagos\n\nBalanza de pagos. Aplicaciones: Componentes de la cuenta corriente y cuenta de capitales, Relación entre ambas cuentas.\nDeterminación de la cuenta corriente. Aplicaciones: Efectos de shocks transitorios y permanentes.\n\n\n\n11. Dinero, Tipo de Cambio y Tasas\n👉 Apunte maestro: Tipo de Cambio Nominal\n\nRegímenes cambiarios.\nDeterminación del tipo de cambio con precios rígidos. Aplicaciones: Paridad descubierta de tasas de interés, Equilibrio monetario y enfoque de portafolio.\nDeterminación del tipo de cambio con precios flexibles. Aplicaciones: Paridad descubierta, Paridad del poder de compra (PPP), Equilibrio monetario y enfoque monetario.\nEfectos de la política monetaria, fiscal y cambiaria. Aplicaciones: Modelo de Mundell-Fleming, Modelo de equilibrio con precios flexibles.\n\n\n\n12. Tipo de Cambio Real\n👉 Apunte maestro: Tipo de Cambio Real\n\nDeterminantes del tipo de cambio real en el corto y largo plazo. Aplicaciones: Modelo de Balassa-Samuelson, Modelo de bienes transables y no transables."
+  },
+  {
+    "objectID": "content/notes/micro/index.html",
+    "href": "content/notes/micro/index.html",
+    "title": "Microeconomía",
+    "section": "",
+    "text": "Tip📚 Bibliografía de Referencia\n\n\n\n\nOsborne, M. (2004). An Introduction to Game Theory. Oxford University Press.\nPeppal, L., D. Richards y G. Norman (2006). Organización Industrial: teoría y práctica contemporáneas. Thompson, Tercera edición.\nVial, B. y F. Zurita (2018). Microeconomía. Ediciones UC, Segunda Edición.\nReferencias adicionales en los programas de los cursos específicos."
+  },
+  {
+    "objectID": "content/notes/micro/index.html#i.-teoría-neoclásica-fundamental",
+    "href": "content/notes/micro/index.html#i.-teoría-neoclásica-fundamental",
+    "title": "Microeconomía",
+    "section": "I. Teoría Neoclásica Fundamental",
+    "text": "I. Teoría Neoclásica Fundamental\n\n1. Elección del Consumidor y Demanda\n👉 Apunte maestro: Teoría del Consumidor\n\nDemanda ordinaria y compensada.\nEstática comparativa, efecto sustitución y efecto ingreso, elasticidades.\nBienestar individual: variación compensatoria, excedente del consumidor.\nOferta de trabajo.\n\n\n\n2. Teoría de la Producción y Oferta\n👉 Apunte maestro: Teoría de la Producción\n\nMinimización de costos y demanda condicionada por factores.\nDemanda no condicionada por factores.\nOferta individual y estática comparativa, efectos sustitución y escala, elasticidades."
+  },
+  {
+    "objectID": "content/notes/micro/index.html#ii.-equilibrio-y-bienestar",
+    "href": "content/notes/micro/index.html#ii.-equilibrio-y-bienestar",
+    "title": "Microeconomía",
+    "section": "II. Equilibrio y Bienestar",
+    "text": "II. Equilibrio y Bienestar\n\n3. Equilibrio Parcial en Competencia Perfecta\n👉 Apunte maestro: Equilibrio Parcial\n\nBienestar social y equilibrio parcial.\nEfecto de impuestos, subsidios, fijación de precios: incidencia y pérdida irrecuperable.\n\n\n\n4. Equilibrio General en Competencia Perfecta\n👉 Apunte maestro: Equilibrio General\n\nBienestar social y equilibrio general.\nEquilibrio general en una economía de intercambio.\nEquilibrio general en una economía con producción con rendimientos a escala constantes.\nPrimer y segundo teoremas del bienestar.\n\n\n\n5. Bienes Públicos y Externalidades\n👉 Apunte maestro: Fallas de Mercado\n\nBienestar social bajo bienes públicos o externalidades.\nIntervención del gobierno y asignación de derechos de propiedad en presencia de bienes públicos o externalidades: impuesto Pigouviano, asignación de derechos, cuotas u otras intervenciones."
+  },
+  {
+    "objectID": "content/notes/micro/index.html#iii.-incertidumbre-y-estrategia",
+    "href": "content/notes/micro/index.html#iii.-incertidumbre-y-estrategia",
+    "title": "Microeconomía",
+    "section": "III. Incertidumbre y Estrategia",
+    "text": "III. Incertidumbre y Estrategia\n\n6. Elección bajo Incertidumbre\n👉 Apunte maestro: Incertidumbre y Riesgo\n\nCreencias y utilidad esperada.\nAversión al riesgo y aseguramiento.\n\n\n\n7. Teoría de Juegos\n👉 Apunte maestro: Teoría de Juegos\n\nJuegos estáticos y equilibrio de Nash.\nJuegos dinámicos con información perfecta y perfección en sub-juegos.\n\n\n\n8. Información Asimétrica\n👉 Apunte maestro: Información Asimétrica\n\nEquilibrio bayesiano perfecto.\nEl problema del riesgo moral, teoría de contratos.\nEl problema de selección adversa. Modelos de señalización y autoselección."
+  },
+  {
+    "objectID": "content/notes/micro/index.html#iv.-organización-industrial",
+    "href": "content/notes/micro/index.html#iv.-organización-industrial",
+    "title": "Microeconomía",
+    "section": "IV. Organización Industrial",
+    "text": "IV. Organización Industrial\n\n9. Poder de Mercado y Monopolio\n👉 Apunte maestro: Monopolio y Discriminación\n\nMonopolio básico, monopolio natural y pérdida irrecuperable.\nDemandas relacionadas: sustitutos y complementos.\nDiscriminación de precios: primer, segundo y tercer grado.\n\n\n\n10. Oligopolio\n👉 Apunte maestro: Modelos de Oligopolio\n\nModelos de Cournot y Bertrand.\nDiferenciación de productos: horizontal y vertical."
   },
   {
     "objectID": "content/topics/esg-investing.html",

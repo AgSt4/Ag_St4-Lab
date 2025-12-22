@@ -7,6 +7,15 @@
   },
   {
     "listing": "/notes.html",
+    "items": [
+      "/content/notes/metrics/index.html",
+      "/content/notes/library/index.html",
+      "/content/notes/macro/index.html",
+      "/content/notes/micro/index.html"
+    ]
+  },
+  {
+    "listing": "/content/notes/library/index.html",
     "items": []
   },
   {

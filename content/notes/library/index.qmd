@@ -1,0 +1,94 @@
+---
+title: "Knowledge Vault"
+subtitle: "Apuntes y ejercicios de economía"
+listing:
+  contents: 
+    - "micro/*.qmd"
+    - "macro/*.qmd"
+    - "metrics/*.qmd"
+    - "!*/index.qmd"
+  type: grid
+  categories: true
+  sort: "date desc"
+  fields: [image, title, reading-time, categories]
+  filter-ui: true
+  sort-ui: false
+page-layout: full
+---
+
+## Introducción
+
+Este repositorio consolida mis apuntes de preparación para los exámenes de grado de **Ingeniería Comercial mención Economía** en la Pontificia Universidad Católica de Chile. El material se organiza en dos componentes: **teoría** y **ejercicios aplicados**.
+
+---
+
+## 📚 Apuntes Teóricos
+
+Material sistematizado por área, integrando bibliografía y contenido de cátedra.
+
+### 📉 Microeconomía
+[→ Ver temario completo](micro/index.qmd)
+
+**Cursos base:**
+
+- [**Introducción a la Microeconomía**](https://catalogo.uc.cl/index.php?tmpl=component&option=com_catalogo&view=programa&sigla=EAE1110) (EAE1110)  
+  *Secciones coordinadas*
+
+- [**Microeconomía I**](https://catalogo.uc.cl/index.php?tmpl=component&option=com_catalogo&view=programa&sigla=EAE2110) (EAE2110)  
+  *Prof. [Felipe Zurita](https://www.economia.uc.cl/profesor/felipe-zurita/)* *y Secciones coordinadas*
+
+- [**Microeconomía II**](https://catalogo.uc.cl/index.php?tmpl=component&option=com_catalogo&view=programa&sigla=EAE2120) (EAE2120)  
+  *Prof. [Nicolás Figueroa](https://economia.uc.cl/profesores/nicolas-figueroa/), [Akin Sumeyra](https://economia.uc.cl/profesores/sumeyra-akin/), [Bernardita Vial](https://www.economia.uc.cl/profesor/bernardita-vial/)*
+
+- [**Competencia y Mercado**](https://catalogo.uc.cl/index.php?tmpl=component&option=com_catalogo&view=programa&sigla=EAE2130) (EAE2130)  
+  *Prof. [Fernando Coloma](https://www.economia.uc.cl/profesor/fernando-coloma/)*
+
+---
+
+### 🌍 Macroeconomía
+[→ Ver temario completo](macro/index.qmd)
+
+**Cursos base:**
+
+- [**Introducción a la Macroeconomía**](https://catalogo.uc.cl/index.php?tmpl=component&option=com_catalogo&view=programa&sigla=EAE1210) (EAE1210)  
+  *Prof. [Bernardita Piedrabuena](https://www.economia.uc.cl/profesor/bernardita-piedrabuena/) y Secciones Coordinadas* 
+
+- [**Macroeconomía I**](https://catalogo.uc.cl/index.php?tmpl=component&option=com_catalogo&view=programa&sigla=EAE2210) (EAE2210)  
+  *Prof. [Emilio Depetris-Chauvin](https://www.economia.uc.cl/profesor/emilio-depetris-chauvin/)*
+
+- [**Macroeconomía II**](https://catalogo.uc.cl/index.php?tmpl=component&option=com_catalogo&view=programa&sigla=EAE2220) (EAE2220)  
+  *Prof. [Alberto Naudón](https://www.bcentral.cl/el-banco/gobierno-corporativo/personas/alberto-naudon), [Caio Machado](https://www.economia.uc.cl/profesor/caio-machado/)*
+
+- [**Macroeconomía Internacional**](https://catalogo.uc.cl/index.php?tmpl=component&option=com_catalogo&view=programa&sigla=EAE3210) (EAE3210)  
+  *Prof. [Alberto Naudón](https://www.bcentral.cl/el-banco/gobierno-corporativo/personas/alberto-naudon), [Alejandro Vicondoa](https://www.economia.uc.cl/profesor/alejandro-vicondoa/)*
+
+---
+
+### 📊 Econometría
+[→ Ver temario completo](metrics/index.qmd)
+
+**Cursos base:**
+
+- [**Econometría I**](https://catalogo.uc.cl/index.php?tmpl=component&option=com_catalogo&view=programa&sigla=EAE2510) (EAE2510)  
+  *Prof. [Jeanne Lafortune](https://www.economia.uc.cl/profesor/jeanne-lafortune/), [Juan Urquiza](https://www.economia.uc.cl/profesor/juan-urquiza/)*
+
+*El curso de pregrado está muy enfocado en microeconometría por lo que el apunte fue complementado con:*
+
+- [**Microeconometría Aplicada**](https://catalogo.uc.cl/index.php?tmpl=component&option=com_catalogo&view=programa&sigla=EAE3101) (EAE3101)  
+  *Prof. [Miriam Artiles](https://www.economia.uc.cl/profesor/miriam-artiles/)*
+
+---
+
+## 🧮 Ejercicios Aplicados
+
+Colección de problemas resueltos organizados temáticamente para reforzar la comprensión teórica.
+
+::: {style="text-align: center; margin: 2rem 0;"}
+[🎯 Ver ejercicios resueltos](#category=Ejercicios){.btn .btn-primary .btn-lg role="button"}
+:::
+
+---
+
+## 🔍 Explorador de contenido
+
+*Usa el buscador o filtros por categoría para navegar el material:*

@@ -81,9 +81,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-categories','listing-reading-time',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-title','listing-categories','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
-      searchColumns: [],
+      searchColumns: ["listing-title","listing-author"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -164,10 +164,35 @@ window.Quarto = {
     <a class="nav-link" href="./projects.html"> 
 <span class="menu-text">Proyectos</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link active" href="./notes.html" aria-current="page"> 
-<span class="menu-text">Apuntes</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-apuntes" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Apuntes</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-apuntes">    
+        <li>
+    <a class="dropdown-item" href="./content/notes/library/index.html">
+ <span class="dropdown-text">Biblioteca de Apuntes del Grado</span></a>
   </li>  
+        <li><hr class="dropdown-divider"></li>
+        <li>
+    <a class="dropdown-item" href="./content/notes/micro/index.html">
+ <span class="dropdown-text">Microeconomía - Examen de Grado</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./content/notes/macro/index.html">
+ <span class="dropdown-text">Macroeconomía - Examen de Grado</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./content/notes/metrics/index.html">
+ <span class="dropdown-text">Econometría - Examen de Grado</span></a>
+  </li>  
+        <li><hr class="dropdown-divider"></li>
+        <li>
+    <a class="dropdown-item" href="./content/notes/aditional/index.qmd">
+ <span class="dropdown-text">Apuntes Generales de Economía y Negocios</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="./topics.html"> 
 <span class="menu-text">Tópicos</span></a>
@@ -200,7 +225,7 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(0)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(4)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -233,20 +258,93 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-table" id="listing-listing">
 <div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+    <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+      <option value="" disabled="" selected="" hidden="">Order By</option>
+      <option value="index" data-direction="asc">Default</option>
+      <option value="listing-title-sort" data-direction="asc">
+        Apunte
+      </option>
+    </select>
+  </div>
     <div class="input-group input-group-sm quarto-listing-filter">
       <span class="input-group-text"><i class="bi bi-search"></i></span>
       <input type="text" class="search form-control" placeholder="Filter">
     </div>
 </div>
-<table class="quarto-listing-table table caption-top">
+<table class="quarto-listing-table table">
 <thead>
-<tr class="header">
-<th data-quarto-table-cell-role="th">Apunte</th>
-<th data-quarto-table-cell-role="th">Tema</th>
-<th data-quarto-table-cell-role="th">Tiempo</th>
+<tr>
+
+<th>
+<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Apunte</a>
+</th>
+
+<th>
+Tema
+</th>
+
+<th>
+Tiempo
+</th>
+
 </tr>
 </thead>
 <tbody class="list">
+
+<tr data-index="0" data-listing-file-modified-sort="1766383625594" data-listing-reading-time-sort="2" data-listing-word-count-sort="280" data-listing-title-sort="Econometría" data-listing-filename-sort="index.qmd">
+<td>
+<a href="./content/notes/metrics/index.html" class="title listing-title">Econometría</a>
+</td>
+<td>
+<span class="listing-categories">&nbsp;</span>
+</td>
+<td>
+<span class="listing-reading-time">2 min</span>
+</td>
+
+</tr>
+
+<tr data-index="1" data-listing-file-modified-sort="1766385197013" data-listing-reading-time-sort="2" data-listing-word-count-sort="230" data-listing-title-sort="Knowledge Vault" data-listing-filename-sort="index.qmd">
+<td>
+<a href="./content/notes/library/index.html" class="title listing-title">Knowledge Vault</a>
+</td>
+<td>
+<span class="listing-categories">&nbsp;</span>
+</td>
+<td>
+<span class="listing-reading-time">2 min</span>
+</td>
+
+</tr>
+
+<tr data-index="2" data-listing-file-modified-sort="1766383956951" data-listing-reading-time-sort="3" data-listing-word-count-sort="567" data-listing-title-sort="Macroeconomía" data-listing-filename-sort="index.qmd">
+<td>
+<a href="./content/notes/macro/index.html" class="title listing-title">Macroeconomía</a>
+</td>
+<td>
+<span class="listing-categories">&nbsp;</span>
+</td>
+<td>
+<span class="listing-reading-time">3 min</span>
+</td>
+
+</tr>
+
+<tr data-index="3" data-listing-file-modified-sort="1766383775267" data-listing-reading-time-sort="2" data-listing-word-count-sort="363" data-listing-title-sort="Microeconomía" data-listing-filename-sort="index.qmd">
+<td>
+<a href="./content/notes/micro/index.html" class="title listing-title">Microeconomía</a>
+</td>
+<td>
+<span class="listing-categories">&nbsp;</span>
+</td>
+<td>
+<span class="listing-reading-time">2 min</span>
+</td>
+
+</tr>
+
 </tbody>
 </table>
 <div class="listing-no-matching d-none">No matching items</div>
