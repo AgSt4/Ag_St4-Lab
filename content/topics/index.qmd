@@ -1,0 +1,107 @@
+---
+title: "Tópicos de Investigación"
+subtitle: "Modelos canónicos, revisiones de literatura y curiosidades teóricas."
+page-layout: full
+title-block-banner: true
+listing:
+  id: listing-topics       # <--- ESTO FALTABA (El ID que conecta con el final)
+  contents: content/topics # <--- Busca los artículos en esta carpeta
+  sort: "date desc"
+  type: grid               # Formato de tarjetas para los artículos
+  categories: true
+  fields: [image, title, description, categories]
+---
+
+```{=html}
+<style>
+  /* Contenedor de Grid Manual para las tarjetas de arriba */
+  .topics-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+  }
+
+  /* Diseño de las Tarjetas */
+  .topic-card {
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 1.5rem;
+    height: 100%;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  }
+  
+  .topic-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    background-color: rgba(255, 255, 255, 0.08);
+    border-color: var(--bs-primary);
+  }
+
+  .topic-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: var(--bs-primary);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 0.5rem;
+  }
+
+  .topic-list {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+  }
+
+  .topic-list li {
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+    opacity: 0.9;
+  }
+</style>
+
+<div class="topics-grid">
+
+  <div class="topic-card">
+    <div class="topic-title">Microeconomía Aplicada</div>
+    <ul class="topic-list">
+      <li>👷‍♂️ Economía Laboral</li>
+      <li>🎓 Economía de la Educación</li>
+      <li>⚖️ Economía del Bienestar</li>
+      <li>ℹ️ Information Economics</li>
+      <li>🤝 Agency Theory</li>
+    </ul>
+  </div>
+
+  <div class="topic-card">
+    <div class="topic-title">Finanzas & Inversiones</div>
+    <ul class="topic-list">
+      <li>💰 Economía Financiera</li>
+      <li>🏦 Asset Management</li>
+      <li>📉 Portfolio Theory</li>
+      <li>💵 Investments</li>
+      <li>🧠 Behavioral Finance</li>
+    </ul>
+  </div>
+
+  <div class="topic-card">
+    <div class="topic-title">Sustentabilidad</div>
+    <ul class="topic-list">
+      <li>🏗️ Desarrollo Económico</li>
+      <li>🌍 Sustentabilidad y Desarrollo</li>
+      <li>🌱 Sustainable Finance</li>
+      <li>🌿 Sustainable Investing</li>
+      <li>♻️ ESG Metrics</li>
+    </ul>
+  </div>
+
+</div>
+
+<br>
+
+## 🔍 Explorar Artículos
+*Selecciona un artículo de la lista completa a continuación.*
+
+::: {#listing-topics}
+:::

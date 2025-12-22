@@ -6,6 +6,9 @@
       "metrics/*.qmd",
       "!*/index.qmd"
     ],
+    "content\\topics\\index.qmd": [
+      "content/topics"
+    ],
     "notes.qmd": [
       "content/notes"
     ],

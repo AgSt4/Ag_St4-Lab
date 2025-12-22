@@ -192,10 +192,10 @@
     "docs/assets",
     "docs/site_libs/quarto-html/tabsets/tabsets.js",
     "docs/site_libs/quarto-html/axe/axe-check.js",
-    "docs/site_libs/quarto-nav/quarto-nav.js",
-    "docs/site_libs/quarto-nav/headroom.min.js",
     "docs/site_libs/quarto-search/quarto-search.js",
     "docs/site_libs/quarto-search/fuse.min.js",
+    "docs/site_libs/quarto-search/autocomplete.umd.js",
+    "docs/site_libs/quarto-nav/quarto-nav.js",
     "assets/logo.svg"
   ]
 }
