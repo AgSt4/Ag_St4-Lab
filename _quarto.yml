@@ -29,11 +29,11 @@ website:
             href: content/notes/library/index.qmd
           - text: "---"          # (Separador visual)
           - text: "Microeconomía - Examen de Grado"
-            href: content/notes/micro/index.qmd
+            href: content/notes/library/micro/index.qmd
           - text: "Macroeconomía - Examen de Grado"
-            href: content/notes/macro/index.qmd
+            href: content/notes/library/macro/index.qmd
           - text: "Econometría - Examen de Grado"
-            href: content/notes/metrics/index.qmd
+            href: content/notes/library/metrics/index.qmd
           - text: "---"          # (Separador visual)
           - text: "Apuntes Generales de Economía y Negocios"
             href: content/notes/aditional/index.qmd

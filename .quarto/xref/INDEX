@@ -43,5 +43,14 @@
   },
   "content/notes/library/index.qmd": {
     "index.html": "0401f84a"
+  },
+  "content/notes/library/macro/index.qmd": {
+    "index.html": "a96fb136"
+  },
+  "content/notes/library/metrics/index.qmd": {
+    "index.html": "56921e79"
+  },
+  "content/notes/library/micro/index.qmd": {
+    "index.html": "00e8dd46"
   }
 }
