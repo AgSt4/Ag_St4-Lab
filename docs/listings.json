@@ -2,7 +2,7 @@
   {
     "listing": "/topics.html",
     "items": [
-      "/content/topics/esg-investing.html",
+      "/content/topics/sustainability/esg-investing.html",
       "/content/topics/index.html"
     ]
   },
@@ -16,11 +16,11 @@
     ]
   },
   {
-    "listing": "/content/notes/library/index.html",
+    "listing": "/content/topics/index.html",
     "items": []
   },
   {
-    "listing": "/content/topics/index.html",
+    "listing": "/content/notes/library/index.html",
     "items": []
   },
   {

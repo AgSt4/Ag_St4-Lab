@@ -55,5 +55,8 @@
   },
   "content/topics/index.qmd": {
     "index.html": "97f8167c"
+  },
+  "content/topics/sustainability/esg-investing.qmd": {
+    "esg-investing.html": "052b9b4c"
   }
 }

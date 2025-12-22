@@ -38,7 +38,16 @@ website:
           - text: "Apuntes Generales de Economía y Negocios"
             href: content/notes/aditional/index.qmd
       - text: "Tópicos"
-        href: content/topics/index.qmd
+        menu:
+          - text: "Microeconomía Aplicada"
+            href: content/topics/micro_applied/index.qmd
+          - text: "Finanzas & Inversiones"
+            href: content/topics/finance_investments/index.qmd
+          - text: "Sustentabilidad"
+            href: content/topics/sustainability/index.qmd
+          - text: "---"
+          - text: "Últimas Revisiones"
+            href: topics.qmd
       - text: "CV"
         href: cv.qmd
     
