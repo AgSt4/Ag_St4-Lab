@@ -1,0 +1,10 @@
+---
+title: "Optimización de Portafolios (Markowitz)"
+description: "Implementación de frontera eficiente en Python con datos del IPSA."
+date: "2024-12-22"
+categories: [Finance, Python]
+image: "cover.jpg" # Pon cualquier imagen jpg en esta misma carpeta
+---
+
+## Introducción
+Este es un proyecto de prueba para verificar que la galería funciona.

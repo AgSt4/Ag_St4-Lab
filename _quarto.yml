@@ -1,0 +1,48 @@
+# ============================================
+# CONFIGURACIÓN QUARTO - PORTFOLIO
+# ============================================
+
+project:
+  type: website
+  output-dir: docs
+
+# ============================================
+# CONFIGURACIÓN DEL SITIO
+# ============================================
+website:
+  title: "Ag_St4"
+  favicon: assets/favicon.ico
+  
+  # Navegación
+  navbar:
+    background: primary
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Proyectos"
+        href: projects.qmd
+      - text: "Apuntes"
+        href: notes.qmd
+      - text: "Tópicos"
+        href: topics.qmd
+      - text: "CV"
+        href: cv.qmd
+    
+    right:
+      - icon: github
+        href: https://github.com/AgSt4
+      - icon: linkedin
+        href: https://www.linkedin.com/in/agustinsandovaltapia/
+
+# ============================================
+# FORMATO HTML
+# ============================================
+format:
+  html:
+    theme: slate
+    css: styles.css
+    mainfont: "Outfit"
+    monofont: "Space Grotesk"
+    toc: false
+    smooth-scroll: true
+    link-external-newwindow: true

@@ -1,0 +1,16 @@
+---
+title: "Tópicos de Investigación"
+subtitle: "Áreas de interés y notas temáticas"
+listing:
+  contents: content/topics   # <--- Buscará aquí
+  type: grid                 # <--- Tarjetas visuales
+  sort: "title asc"
+  categories: true
+  fields: [image, title, description]
+page-layout: full
+title-block-banner: true
+---
+
+## 💡 Áreas de Foco
+
+Exploraciones teóricas y revisiones de literatura sobre mis temas principales.

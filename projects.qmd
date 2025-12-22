@@ -1,0 +1,18 @@
+---
+title: "Proyectos"
+subtitle: "Modelos Econométricos & Data Science"
+listing:
+  contents: content/projects  # <--- Aquí es donde busca los proyectos
+  sort: "date desc"
+  type: grid                  # <--- Formato de tarjetas (Grid)
+  categories: true
+  sort-ui: false
+  filter-ui: true
+  fields: [image, date, title, description, categories]
+page-layout: full
+title-block-banner: false
+---
+
+## 🏗️ Portfolio
+
+Investigación aplicada y código desplegado.

@@ -1,0 +1,104 @@
+---
+title: "Curriculum Vitae"
+format:
+  html:
+    toc: true
+    css: styles.css
+---
+
+::: {style="text-align: center; margin: 2rem 0 3rem 0;"}
+[📥 Descargar PDF Oficial](assets/CV_Agustin.pdf){.btn .btn-primary style="padding: 0.8rem 2rem; border-radius: 8px; font-size: 1.1rem;"}
+:::
+
+## 👤 Perfil Profesional
+
+Economista con enfoque cuantitativo y estudiante de **Magíster en Economía Aplicada (Economía Financiera)**. Mi formación integra la microeconomía aplicada y las finanzas con herramientas avanzadas de análisis de datos.
+
+Me interesa particularmente la **Inversión Sostenible (ESG)** y el modelamiento econométrico, buscando la convergencia entre eficiencia de mercado y responsabilidad social. Mi enfoque profesional combina rigor empírico, consistencia analítica y una perspectiva ética orientada al impacto económico y social.
+
+---
+
+## 🎓 Educación
+
+### Magíster en Economía Aplicada
+**Mención en Economía Financiera · Pontificia Universidad Católica de Chile** | *Actualidad*
+
+- Foco en econometría aplicada, finanzas y análisis de datos.
+
+### Ingeniería Comercial, Mención Economía
+**Pontificia Universidad Católica de Chile** | *2021 - 2025*
+
+- **Minor:** Macroeconomía y Finanzas.
+
+### College en Ciencias Naturales y Matemáticas
+**Pontificia Universidad Católica de Chile** | *2020 - 2021*
+
+### Educación Media Científico-Humanista
+**Instituto Nacional José Miguel Carrera** | *2014 - 2019*
+
+---
+
+## 💼 Experiencia Profesional
+
+### Pasante de Formación
+**IdeaPaís (Centro de Estudios)** | *Ene 2023 · 2024-1 · Nov 2025*
+
+
+- Gestión de estrategia de datos para formación y unificación de bases de datos.
+- Análisis del "customer journey".
+- Colaboración con la dirección de estudios para el mapeo de encuestas sobre juventud.
+
+### Pasante - Área de Contenidos
+**Aptus Potenciadora Educacional** | *Semestre 2022-2*
+
+- Elaboración de contenido de difusión para acercar la investigación educativa al aula.
+
+---
+
+## 📚 Experiencia Académica (Ayudantías)
+
+He ejercido docencia de apoyo en múltiples cátedras de la Facultad de Economía y Administración PUC:
+
+```{=html}
+<div class="badges-container" style="margin: 1.5rem 0;">
+  <span class="badge-item">Desarrollo Sustentable (2025)</span>
+  <span class="badge-item">Historia del Pensamiento Económico (2025)</span>
+  <span class="badge-item">Macroeconomía I (2024)</span>
+  <span class="badge-item">Teoría Financiera (2024)</span>
+  <span class="badge-item">Introducción a la Microeconomía (2024-25)</span>
+  <span class="badge-item">Introducción a la Economía (2022-25)</span>
+  <span class="badge-item">Filosofía ¿Para qué? (2023-24)</span>
+</div>
+```
+
+---
+
+## 🛠️ Stack & Idiomas
+
+::: {layout-ncol=2}
+
+### Herramientas
+- **Avanzado:** Microsoft Office, Stata, LaTeX, Google Workspace
+- **Intermedio:** R
+- **Básico:** SQL, Python
+
+### Idiomas
+- **Español:** Nativo
+- **Inglés:** B2 (Intermedio Avanzado)
+- **Alemán:** A1
+- **Francés:** A1
+
+:::
+
+---
+
+## 🤝 Voluntariado
+
+### Profesor de Matemáticas
+**Belén UC, PreU Pastoral** | *2023-1*
+
+### Tutor de Matemáticas
+**Fundación Conectado Aprendo** | *2022*
+
+### Voluntario OH! Stgo
+**Open House Santiago** | *2017 - Presente*

@@ -1,0 +1,198 @@
+---
+title: "Agustín Sandoval Tapia"
+subtitle: "B.Sc. Economics & Business | M.Sc. (c) Applied Economics PUC"
+image: assets/profile.jpg
+about:
+  template: trestles
+  image-shape: round
+  image-width: 15em
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com/in/agustinsandovaltapia
+    - icon: github
+      text: GitHub
+      href: https://github.com/AgSt4
+    - icon: envelope
+      text: Email
+      href: mailto:a.sandovaltapia@uc.cl
+---
+
+## Sobre mí
+
+::: {style="text-align: justify;"}
+Economista con enfoque cuantitativo, actualmente cursando el **Magíster en Economía Aplicada (Economía Financiera)** en la Pontificia Universidad Católica de Chile. Mi formación se centra en la aplicación de métodos empíricos y herramientas cuantitativas para el análisis de fenómenos económicos, con experiencia en **microeconomía aplicada**, **finanzas** y análisis de datos.
+
+Trabajo principalmente con **econometría aplicada**, análisis estadístico y modelos empíricos orientados a la **evaluación y diseño de decisiones económicas**, abarcando desde técnicas clásicas de estimación hasta enfoques predictivos.
+:::
+
+| 📊 Applied Economics | 💸 Finance & Investments |
+|----------------------|--------------------------|
+| 📈 Data Science      | 🌱 Sustainability        |
+| 💼 Public Policy & Politics     | 🌍 Socioeconomics        |
+
+::: {style="text-align: justify;"}
+Mis principales intereses se encuentran en la **economía de la sostenibilidad** y en el rol de los **mercados financieros** como herramientas para el desarrollo económico de largo plazo. En particular, me interesa el análisis de **inversión responsable (ESG)** como un punto de convergencia entre eficiencia económica, estabilidad financiera y responsabilidad social.
+
+Mi aproximación está informada por una perspectiva de **economía política aplicada**, influida por el pensamiento socialcristiano: la centralidad de la dignidad humana, la función social de los bienes económicos y la relevancia de las instituciones para el buen funcionamiento de los mercados. Estos principios orientan mi interés por políticas públicas basadas en evidencia y por estrategias de inversión con impacto económico y social.
+
+Desde una perspectiva profesional, distingo cuidadosamente entre el análisis empírico positivo y los fundamentos normativos que orientan mis intereses, privilegiando siempre la evidencia y la consistencia analítica en el diseño de políticas y decisiones económicas.
+:::
+
+
+## Tech Stack
+
+```{=html}
+<div class="tech-section">
+  <span class="category-label">Core Analytics & Programming</span>
+  
+  <div class="skills-grid">
+    <div class="skill-item">
+      <div class="skill-label">
+        <span>Python</span>
+        <span class="skill-percent">90%</span>
+      </div>
+      <div class="progress-track">
+        <div class="progress-fill" style="width: 90%;"></div>
+      </div>
+    </div>
+
+    <div class="skill-item">
+      <div class="skill-label">
+        <span>R</span>
+        <span class="skill-percent">85%</span>
+      </div>
+      <div class="progress-track">
+        <div class="progress-fill" style="width: 85%;"></div>
+      </div>
+    </div>
+
+    <div class="skill-item">
+      <div class="skill-label">
+        <span>Stata</span>
+        <span class="skill-percent">80%</span>
+      </div>
+      <div class="progress-track">
+        <div class="progress-fill" style="width: 80%;"></div>
+      </div>
+    </div>
+
+    <div class="skill-item">
+      <div class="skill-label">
+        <span>SQL</span>
+        <span class="skill-percent">75%</span>
+      </div>
+      <div class="progress-track">
+        <div class="progress-fill" style="width: 75%;"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="tech-section">
+  <span class="category-label">Quantitative Finance & Tools</span>
+  
+  <div class="skills-grid">
+    <div class="skill-item">
+      <div class="skill-label">
+        <span>Bloomberg Terminal</span>
+        <span class="skill-percent">Expert</span>
+      </div>
+      <div class="progress-track">
+        <div class="progress-fill" style="width: 95%;"></div>
+      </div>
+    </div>
+
+    <div class="skill-item">
+      <div class="skill-label">
+        <span>QuantLib</span>
+        <span class="skill-percent">75%</span>
+      </div>
+      <div class="progress-track">
+        <div class="progress-fill" style="width: 75%;"></div>
+      </div>
+    </div>
+
+    <div class="skill-item">
+      <div class="skill-label">
+        <span>Portfolio Optimization</span>
+        <span class="skill-percent">85%</span>
+      </div>
+      <div class="progress-track">
+        <div class="progress-fill" style="width: 85%;"></div>
+      </div>
+    </div>
+
+    <div class="skill-item">
+      <div class="skill-label">
+        <span>Time Series Analysis</span>
+        <span class="skill-percent">80%</span>
+      </div>
+      <div class="progress-track">
+        <div class="progress-fill" style="width: 80%;"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="tech-section">
+  <span class="category-label">Libraries & Frameworks</span>
+  
+  <div class="badges-container">
+    <span class="badge-item">Pandas</span>
+    <span class="badge-item">NumPy</span>
+    <span class="badge-item">Scikit-learn</span>
+    <span class="badge-item">Tidyverse</span>
+    <span class="badge-item">ggplot2</span>
+    <span class="badge-item">Plotly</span>
+    <span class="badge-item">Statsmodels</span>
+    <span class="badge-item">PyPortfolioOpt</span>
+    <span class="badge-item">yfinance</span>
+    <span class="badge-item">Quarto</span>
+  </div>
+</div>
+```
+
+---
+
+## Research Interests
+
+- **Sustainable Finance** → Integración de factores ESG en estrategias de inversión
+- **Asset Pricing** → Modelos de riesgo y retorno en mercados emergentes
+- **Econometría Aplicada** → Causalidad y métodos cuantitativos avanzados
+- **Machine Learning** → Predicción de series financieras y clasificación de riesgo
+
+---
+
+## Explorar
+
+---
+
+```{=html}
+<div class="quick-links-grid">
+  
+  <a href="projects.qmd" class="quick-link-card">
+    <span class="card-icon">📂</span>
+    <span class="card-title">Proyectos</span>
+    <span class="card-desc">Modelos, análisis y aplicaciones prácticas.</span>
+  </a>
+
+  <a href="cv.qmd" class="quick-link-card">
+    <span class="card-icon">📄</span>
+    <span class="card-title">Curriculum Vitae</span>
+    <span class="card-desc">Trayectoria profesional y académica.</span>
+  </a>
+
+  <a href="notes.qmd" class="quick-link-card">
+    <span class="card-icon">📚</span>
+    <span class="card-title">Apuntes</span>
+    <span class="card-desc">Wiki personal y recursos de estudio.</span>
+  </a>
+
+  <a href="topics.qmd" class="quick-link-card">
+    <span class="card-icon">💡</span>
+    <span class="card-title">Tópicos</span>
+    <span class="card-desc">Áreas de investigación y notas breves.</span>
+  </a>
+
+</div>

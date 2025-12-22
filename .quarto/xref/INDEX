@@ -1,0 +1,35 @@
+{
+  "index.qmd": {
+    "index.html": "4626493c"
+  },
+  "about.qmd": {
+    "about.html": "2b03b5d4"
+  },
+  "projects.qmd": {
+    "projects.html": "b10ef538"
+  },
+  "content/projects/demo-portfolio/index.qmd": {
+    "index.html": "c0b1bb69"
+  },
+  "cv.qmd": {
+    "cv.html": "de0a74ad"
+  },
+  "docs/cv.qmd": {
+    "cv.html": "6a0e94ba"
+  },
+  "docs/notes.qmd": {
+    "notes.html": "de4fd5de"
+  },
+  "docs/topics.qmd": {
+    "topics.html": "b35fc0f5"
+  },
+  "notes.qmd": {
+    "notes.html": "18f03ed0"
+  },
+  "topics.qmd": {
+    "topics.html": "de4a8c9d"
+  },
+  "content/topics/esg-investing.qmd": {
+    "esg-investing.html": "5c9796b2"
+  }
+}

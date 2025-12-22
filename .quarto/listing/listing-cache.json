@@ -1,0 +1,13 @@
+{
+  "listingMap": {
+    "notes.qmd": [
+      "content/notes"
+    ],
+    "projects.qmd": [
+      "content/projects"
+    ],
+    "topics.qmd": [
+      "content/topics"
+    ]
+  }
+}
