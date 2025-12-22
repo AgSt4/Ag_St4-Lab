@@ -11,11 +11,13 @@ project:
 # ============================================
 website:
   title: "Ag_St4"
-  favicon: assets/favicon.ico
+  favicon: assets/logo.svg
+  description: "Mi Portafolio personal sobre economía y carta de presentación."
   
   # Navegación
   navbar:
-    background: primary
+    logo: assets/logo.svg       # <--- CAMBIADO A .svg
+    background: "#0b0c15"
     left:
       - text: "Home"
         href: index.qmd
