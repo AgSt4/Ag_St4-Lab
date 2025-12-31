@@ -1,190 +1,208 @@
+/*-- scss:rules --*/
+
 /* ============================================
-   PORTFOLIO CSS - ESTRUCTURA ORGANIZADA
+   1. TIPOGRAFÍA "ACADEMIC MODERN"
    ============================================ */
-
-/* --- IMPORTACIÓN DE FUENTES --- */
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700;800&family=Space+Grotesk:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Lora:ital,wght@0,400;0,600;0,700;1,400&display=swap');
 
 /* ============================================
-   VARIABLES CSS
+   2. SISTEMA DE VARIABLES (LIGHT/DARK)
    ============================================ */
 :root {
-    color-scheme: light dark;
-
-    /* Dark (default) */
-    --bg-color: #0a1020;
-    --bg-secondary: #0f172a;
-    --text-main: #e5eaf2;
-    --text-muted: #9aa6bd;
-    --text-soft: #64748b;
-
-    /* Light override */
-    --bg-light: #ffffff;
-    --bg-secondary-light: #f8fafc;
-    --text-main-light: #020617;
-    --text-muted-light: #475569;
-    --text-soft-light: #64748b;
-
-    /* Acento */
-    --accent: #6366f1;
-    --accent-soft: rgba(99,102,241,.12);
-
-    --accent-green: #22d3ee;
-    --accent-amber: #fbbf24;
-
-    --border: #1e293b;
-    --border-soft: #334155;
+    /* --- MODO CLARO (Default - Estilo "Paper & Ink") --- */
+    --bg-body: #F9FAFB;
+    --bg-card: #FFFFFF;
+    --text-main: #1F2937;
+    --text-muted: #6B7280;
+    --border-color: #E5E7EB;
+    
+    /* Acentos "ESG" (Tonos Bosque y Tierra) */
+    --accent: #059669;         /* Verde Esmeralda Corporativo */
+    --accent-hover: #047857;
+    --accent-soft: rgba(5, 150, 105, 0.1);
+    
+    /* Acentos Secundarios */
+    --corporate-blue: #3B82F6;
+    
+    /* Sombras Suaves */
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    --shadow-hover: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
 }
 
-/* ================== AUTO LIGHT MODE ================== */
-@media(prefers-color-scheme:light){
-:root{
-    --bg-color: var(--bg-light);
-    --bg-secondary: var(--bg-secondary-light);
-    --text-main: var(--text-main-light);
-    --text-muted: var(--text-muted-light);
-    --text-soft: var(--text-soft-light);
-    --border: #e2e8f0;
-    --border-soft:#cbd5f5;
-}}
+/* --- MODO OSCURO (Overrides - Estilo "Deep Slate") --- */
+html[data-theme="dark"] {
+    --bg-body: #0f172a;
+    --bg-card: #1e293b;
+    --text-main: #F3F4F6;
+    --text-muted: #94A3B8;
+    --border-color: #334155;
+    
+    /* Acentos más luminosos para contraste */
+    --accent: #34D399;
+    --accent-hover: #10B981;
+    --accent-soft: rgba(52, 211, 153, 0.15);
+}
 
 /* ============================================
-   BASE
+   3. ESTILOS GENERALES
    ============================================ */
 body {
-    background-color: var(--bg-color) !important;
+    background-color: var(--bg-body) !important;
     color: var(--text-main) !important;
-    font-family: 'Space Grotesk', sans-serif !important;
-    font-size: 1.05rem;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.7;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-/* ============================================
-   TIPOGRAFÍA
-   ============================================ */
-h1, h2, h3, .navbar-brand {
-    font-family: 'Outfit', sans-serif !important;
-    letter-spacing: -0.02em;
+h1, h2, h3, h4, .navbar-brand {
+    font-family: 'Lora', serif;
+    font-weight: 600;
+    letter-spacing: -0.01em;
     color: var(--text-main) !important;
 }
 
-/* 🔴 FIX: se elimina degradado ilegible */
+/* Título principal con gradiente sutil */
 h1.title {
-    font-weight: 800;
-    color: var(--text-main) !important;
-    background: none !important;
-    -webkit-text-fill-color: unset !important;
+    background: linear-gradient(120deg, var(--text-main), var(--accent));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+a {
+    color: var(--accent);
+    text-decoration: none;
+    font-weight: 500;
+    border-bottom: 1px solid transparent;
+    transition: all 0.2s;
+}
+
+a:hover {
+    color: var(--accent-hover);
+    border-bottom-color: var(--accent-hover);
 }
 
 /* ============================================
-   NAVEGACIÓN
+   4. COMPONENTES DE UI
+   ============================================ */
+
+/* Tarjetas Genéricas */
+.topic-card, .project-card, .quick-link-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 1.5rem;
+    height: 100%;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    box-shadow: var(--shadow-sm);
+}
+
+.topic-card:hover, .quick-link-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-hover);
+    border-color: var(--accent);
+}
+
+.topic-card h3, .quick-link-card h3 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.topic-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.topic-card ul li {
+    padding: 0.4rem 0;
+    color: var(--text-muted);
+    font-size: 0.95rem;
+    border-bottom: 1px solid transparent;
+}
+
+/* ============================================
+   5. NAVEGACIÓN
    ============================================ */
 .navbar {
-    background: rgba(11, 12, 21, 0.9) !important;
+    background: var(--bg-card) !important;
+    border-bottom: 1px solid var(--border-color);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+html[data-theme="dark"] .navbar {
+    background: rgba(30, 41, 59, 0.85) !important;
     backdrop-filter: blur(12px);
-    border-bottom: 1px solid var(--border);
 }
 
 /* ============================================
-   ENLACES
+   6. OTROS ELEMENTOS
    ============================================ */
-a {
-    color: var(--accent) !important;
-    text-decoration: none;
-    font-weight: 600;
-    transition: color .2s ease;
-}
 
-/* 🔴 FIX: glow viejo eliminado */
-a:hover {
-    color: color-mix(in srgb, var(--accent), #fff 25%) !important;
-}
-
-/* ============================================
-   LAYOUT RESPONSIVE
-   ============================================ */
-@media (min-width: 992px) {
-    .quarto-about-trestles .about-entity { flex-basis: 20% !important; }
-    .quarto-about-trestles .about-contents { flex-basis: 80% !important; }
-}
-
-/* ============================================
-   BADGES
-   ============================================ */
-.tech-section { margin-bottom: 2rem; }
-
-.category-label {
-    font-family: 'Outfit', sans-serif;
-    font-size: 0.75rem;
-    color: var(--text-muted);
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    border-bottom: 1px solid var(--border);
-    padding-bottom: 6px;
-}
-
-.badges-container { display: flex; flex-wrap: wrap; gap: 10px; }
-
+/* Badges */
 .badge-item {
-    background-color: rgba(255, 255, 255, 0.03);
-    border: 1px solid var(--border);
-    color: var(--text-main);
-    padding: 6px 14px;
-    border-radius: 6px;
-    font-size: 0.9rem;
-    transition: transform .25s ease, border-color .25s ease, background .25s ease;
-}
-
-.badge-item:hover {
-    border-color: var(--accent);
     background-color: var(--accent-soft);
-    transform: translateY(-2px);
+    color: var(--accent);
+    border: 1px solid transparent;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 5px;
 }
 
-/* ============================================
-   SOCIAL
-   ============================================ */
+/* Redes Sociales */
 .about-link {
-    border-radius: 999px !important;
-    background: var(--border) !important;
-    border: 1px solid var(--border-soft) !important;
-    transition: transform .25s ease, background .25s ease;
+    color: var(--text-muted) !important;
+    border: 1px solid var(--border-color) !important;
+    border-radius: 8px !important;
+    background: transparent !important;
+    transition: all 0.2s;
 }
+
 .about-link:hover {
-    background: var(--accent) !important;
-    color: #fff !important;
-    transform: translateY(-2px);
+    border-color: var(--accent) !important;
+    color: var(--accent) !important;
+    background: var(--accent-soft) !important;
 }
 
-/* ============================================
-   CARDS
-   ============================================ */
-.quick-link-card,
-.topic-card {
-    background: rgba(255,255,255,.035);
-    border: 1px solid var(--border);
-    border-radius: 12px;
-    transition: transform .35s ease, border-color .35s ease, background .35s ease;
+/* Skills */
+.skill-label {
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: space-between;
 }
-.quick-link-card:hover,
-.topic-card:hover {
-    transform: translateY(-5px);
-    border-color: var(--accent);
-    background: rgba(255,255,255,.06);
-}
-
-/* ============================================
-   SKILLS
-   ============================================ */
-.skills-grid { display: grid; grid-template-columns: repeat(2,1fr); gap:20px 40px; }
-@media(max-width:768px){ .skills-grid { grid-template-columns:1fr; } }
-
-.skill-label { color: var(--text-muted); }
 
 .progress-track {
-    background-color: rgba(255,255,255,.08);
+    background: var(--border-color);
+    height: 6px;
+    border-radius: 3px;
+    overflow: hidden;
 }
+
 .progress-fill {
-    background-color: var(--accent);
-    box-shadow: none;
-    transition: width 1s ease;
+    background: var(--accent);
+    height: 100%;
+    border-radius: 3px;
+}
+
+/* Código */
+pre, code {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.9em;
+}
+
+div.sourceCode {
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    background-color: var(--bg-card) !important;
 }

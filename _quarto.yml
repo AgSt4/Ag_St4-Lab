@@ -65,10 +65,10 @@ website:
 # ============================================
 format:
   html:
-    theme: slate
+    theme:
+      light: [flatly, styles.css] # Base limpia para día
+      dark: [darkly, styles.css]  # Base sólida para noche
     css: styles.css
-    mainfont: "Outfit"
-    monofont: "Space Grotesk"
-    toc: false
+    toc: true
     smooth-scroll: true
     link-external-newwindow: true
