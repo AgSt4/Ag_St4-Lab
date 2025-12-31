@@ -191,8 +191,7 @@ Desde una perspectiva profesional, distingo cuidadosamente entre el análisis em
 
   <a href="topics.qmd" class="quick-link-card">
     <span class="card-icon">💡</span>
-    <span class="card-title">Tópicos</span>
-    <span class="card-desc">Áreas de investigación y notas breves.</span>
+    <span class="card-title">Tópicos de (mi) Interés</span>
   </a>
 
 </div>
