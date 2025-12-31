@@ -1,7 +1,7 @@
 ---
 title: "Teoría del Crecimiento"
 description: "Crecimiento Económico en Economía Cerrada."
-date: 29-12-2025
+date: 2025-12-29
 categories: [Macroeconomía, Economía del Crecimiento]
 ---
 
