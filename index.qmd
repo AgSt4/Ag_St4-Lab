@@ -1,6 +1,6 @@
 ---
 title: "Agustín Sandoval Tapia"
-subtitle: "B.Sc. Economics & Business | M.Sc. (c) Applied Economics PUC"
+subtitle: "B.Sc. Economics & Business PUC M.Sc. (c) Applied Economics PUC"
 image: assets/profile.jpg
 about:
   template: trestles
@@ -26,142 +26,106 @@ Economista con enfoque cuantitativo, actualmente cursando el **Magíster en Econ
 Trabajo principalmente con **econometría aplicada**, análisis estadístico y modelos empíricos orientados a la **evaluación y diseño de decisiones económicas**, abarcando desde técnicas clásicas de estimación hasta enfoques predictivos.
 :::
 
-| 📊 Applied Economics | 💸 Finance & Investments |
-|----------------------|--------------------------|
-| 📈 Data Science      | 🌱 Sustainability        |
-| 💼 Public Policy & Politics     | 🌍 Socioeconomics        |
+
+<table class="table table-borderless table-sm" style="margin: 2rem 0; width: 100%;">
+  <tbody>
+    <tr>
+      <td style="width: 50%; padding-bottom: 10px;">📊 <strong>Applied Economics</strong></td>
+      <td style="width: 50%; padding-bottom: 10px;">💸 <strong>Finance & Investments</strong></td>
+    </tr>
+    <tr>
+      <td style="padding-bottom: 10px;">📈 <strong>Data Science</strong></td>
+      <td style="padding-bottom: 10px;">🌱 <strong>Sustainability</strong></td>
+    </tr>
+    <tr>
+      <td style="padding-bottom: 10px;">💼 <strong>Public Policy & Politics</strong></td>
+      <td style="padding-bottom: 10px;">🌍 <strong>Socioeconomics</strong></td>
+    </tr>
+  </tbody>
+</table>
 
 ::: {style="text-align: justify;"}
-Mis principales intereses se encuentran en la **economía de la sostenibilidad** y en el rol de los **mercados financieros** como herramientas para el desarrollo económico de largo plazo. En particular, me interesa el análisis de **inversión responsable (ESG)** como un punto de convergencia entre eficiencia económica, estabilidad financiera y responsabilidad social.
+Mis intereses convergen en la **economía de la sostenibilidad** y el rol de los **mercados financieros** en el desarrollo de largo plazo, analizando la **inversión responsable (ESG)** como punto de encuentro entre eficiencia y responsabilidad social.
 
-Mi aproximación está informada por una perspectiva de **economía política aplicada**, influida por el pensamiento socialcristiano: la centralidad de la dignidad humana, la función social de los bienes económicos y la relevancia de las instituciones para el buen funcionamiento de los mercados. Estos principios orientan mi interés por políticas públicas basadas en evidencia y por estrategias de inversión con impacto económico y social.
+Entiendo que la economía positiva, aunque indispensable por su rigor técnico, es insuficiente para definir los fines de la acción pública. Ante la necesidad de un marco normativo para la toma de decisiones, oriento mi criterio desde el **pensamiento socialcristiano** —con su énfasis en la dignidad humana, el bien común y el destino universal de los bienes—, asegurando que las decisiones basadas en evidencia persigan objetivos éticamente sustantivos.
+:::
 
-Desde una perspectiva profesional, distingo cuidadosamente entre el análisis empírico positivo y los fundamentos normativos que orientan mis intereses, privilegiando siempre la evidencia y la consistencia analítica en el diseño de políticas y decisiones económicas.
+---
+
 :::
 
 
-## Tech Stack
+## 🛠️ Tech Stack
 
-```{=html}
-<div class="tech-section">
-  <span class="category-label">Core Analytics & Programming</span>
-  
-  <div class="skills-grid">
-    <div class="skill-item">
-      <div class="skill-label">
-        <span>Stata</span>
-        <span class="skill-percent">Advanced</span>
-      </div>
-      <div class="progress-track">
-        <div class="progress-fill" style="width: 85%;"></div>
-      </div>
-    </div>
+::: {.grid}
 
-    <div class="skill-item">
-      <div class="skill-label">
-        <span>LaTeX</span>
-        <span class="skill-percent">Advanced</span>
-      </div>
-      <div class="progress-track">
-        <div class="progress-fill" style="width: 90%;"></div>
-      </div>
-    </div>
+::: {.g-col-12 .g-col-md-6 .skill-group}
+### Core Analytics & Programming
 
-    <div class="skill-item">
-      <div class="skill-label">
-        <span>R</span>
-        <span class="skill-percent">Basic–Intermediate</span>
-      </div>
-      <div class="progress-track">
-        <div class="progress-fill" style="width: 40%;"></div>
-      </div>
-    </div>
-
-    <div class="skill-item">
-      <div class="skill-label">
-        <span>Python</span>
-        <span class="skill-percent">Intermediate</span>
-      </div>
-      <div class="progress-track">
-        <div class="progress-fill" style="width: 60%;"></div>
-      </div>
-    </div>
-
-    <div class="skill-item">
-      <div class="skill-label">
-        <span>SQL</span>
-        <span class="skill-percent">Basic</span>
-      </div>
-      <div class="progress-track">
-        <div class="progress-fill" style="width: 20%;"></div>
-      </div>
-    </div>
-  </div>
+<div class="skill-item">
+  <div class="skill-info"><span>Stata</span> <span>Advanced</span></div>
+  <div class="progress"><div class="bar" style="width: 85%;"></div></div>
 </div>
 
-<div class="tech-section">
-  <span class="category-label">Applied Economics & Data Analysis</span>
-  
-  <div class="skills-grid">
-    <div class="skill-item">
-      <div class="skill-label">
-        <span>Applied Econometrics</span>
-        <span class="skill-percent">Strong Academic Background</span>
-      </div>
-      <div class="progress-track">
-        <div class="progress-fill" style="width: 80%;"></div>
-      </div>
-    </div>
-
-    <div class="skill-item">
-      <div class="skill-label">
-        <span>Data Visualization</span>
-        <span class="skill-percent">Intermediate</span>
-      </div>
-      <div class="progress-track">
-        <div class="progress-fill" style="width: 65%;"></div>
-      </div>
-    </div>
-
-    <div class="skill-item">
-      <div class="skill-label">
-        <span>Time Series Analysis</span>
-        <span class="skill-percent">Academic Exposure</span>
-      </div>
-      <div class="progress-track">
-        <div class="progress-fill" style="width: 60%;"></div>
-      </div>
-    </div>
-
-    <div class="skill-item">
-      <div class="skill-label">
-        <span>Quantitative Research</span>
-        <span class="skill-percent">Academic Projects</span>
-      </div>
-      <div class="progress-track">
-        <div class="progress-fill" style="width: 70%;"></div>
-      </div>
-    </div>
-  </div>
+<div class="skill-item">
+  <div class="skill-info"><span>LaTeX</span> <span>Advanced</span></div>
+  <div class="progress"><div class="bar" style="width: 90%;"></div></div>
 </div>
 
-<div class="tech-section">
-  <span class="category-label">Libraries & Tools</span>
-  
-  <div class="badges-container">
-    <span class="badge-item">Stata (Econometrics)</span>
-    <span class="badge-item">R (tidyverse)</span>
-    <span class="badge-item">ggplot2</span>
-    <span class="badge-item">Python (pandas, numpy)</span>
-    <span class="badge-item">Quarto</span>
-    <span class="badge-item">LaTeX</span>
-    <span class="badge-item">Looker Studio</span>
-    <span class="badge-item">Google Workspace</span>
-  </div>
+<div class="skill-item">
+  <div class="skill-info"><span>R</span> <span>Basic–Intermediate</span></div>
+  <div class="progress"><div class="bar" style="width: 40%;"></div></div>
 </div>
 
-```
+<div class="skill-item">
+  <div class="skill-info"><span>Python</span> <span>Intermediate</span></div>
+  <div class="progress"><div class="bar" style="width: 60%;"></div></div>
+</div>
 
+<div class="skill-item">
+  <div class="skill-info"><span>SQL</span> <span>Basic</span></div>
+  <div class="progress"><div class="bar" style="width: 20%;"></div></div>
+</div>
+:::
+
+::: {.g-col-12 .g-col-md-6 .skill-group}
+### Applied Economics & Data Analysis
+
+<div class="skill-item">
+  <div class="skill-info"><span>Applied Econometrics</span> <span>Strong Background</span></div>
+  <div class="progress"><div class="bar" style="width: 80%;"></div></div>
+</div>
+
+<div class="skill-item">
+  <div class="skill-info"><span>Data Visualization</span> <span>Intermediate</span></div>
+  <div class="progress"><div class="bar" style="width: 65%;"></div></div>
+</div>
+
+<div class="skill-item">
+  <div class="skill-info"><span>Time Series</span> <span>Academic Exposure</span></div>
+  <div class="progress"><div class="bar" style="width: 60%;"></div></div>
+</div>
+
+<div class="skill-item">
+  <div class="skill-info"><span>Quant Research</span> <span>Academic Projects</span></div>
+  <div class="progress"><div class="bar" style="width: 70%;"></div></div>
+</div>
+:::
+
+::: {.g-col-12 .skill-group}
+### Libraries & Tools
+
+[Stata (Econometrics)]{.badge-soft}
+[R (tidyverse)]{.badge-soft}
+[ggplot2]{.badge-soft}
+[Python (pandas, numpy)]{.badge-soft}
+[Quarto]{.badge-soft}
+[LaTeX]{.badge-soft}
+[Looker Studio]{.badge-soft}
+[Google Workspace]{.badge-soft}
+:::
+
+:::
 ---
 
 ## Research Interests
@@ -182,39 +146,27 @@ Desde una perspectiva profesional, distingo cuidadosamente entre el análisis em
   Aplicación de herramientas estadísticas y de programación para análisis económico aplicado, visualización de datos y apoyo a decisiones estratégicas.
 
 
----
+## 🚀 Explorar
 
-## Explorar
+::: {.grid}
 
----
+::: {.g-col-12 .g-col-md-6}
+[<span class="icon">📂</span> <span class="title">Proyectos Aplicados</span> <span class="desc">Economía, Datos y otros...</span>](projects.qmd){.card-link}
+:::
 
-```{=html}
-<div class="quick-links-grid">
-  
-  <a href="projects.qmd" class="quick-link-card">
-    <span class="card-icon">📂</span>
-    <span class="card-title">Proyectos Aplicados:</span>
-    <span class="card-desc">Economía, Datos y otros insumos...</span>
-  </a>
+::: {.g-col-12 .g-col-md-6}
+[<span class="icon">📄</span> <span class="title">Curriculum Vitae</span> <span class="desc">Trayectoria académica</span>](cv.qmd){.card-link}
+:::
 
-  <a href="cv.qmd" class="quick-link-card">
-    <span class="card-icon">📄</span>
-    <span class="card-title">Curriculum Vitae</span>
-  </a>
+::: {.g-col-12 .g-col-md-4}
+[<span class="icon">📚</span> <span class="title">Examen de Grado</span>](notes.qmd){.card-link}
+:::
 
-  <a href="notes.qmd" class="quick-link-card">
-    <span class="card-icon">📚</span>
-    <span class="card-title">Apuntes del Examen de Grado</span>
-  </a>
+::: {.g-col-12 .g-col-md-4}
+[<span class="icon">🔖</span> <span class="title">Otros Apuntes</span>](notes2.qmd){.card-link}
+:::
 
-  <a href="notes2.qmd" class="quick-link-card">
-    <span class="card-icon">📚</span>
-    <span class="card-title">Otros Apuntes</span>
-  </a>
-
-  <a href="topics.qmd" class="quick-link-card">
-    <span class="card-icon">💡</span>
-    <span class="card-title">Tópicos de (mi) Interés</span>
-  </a>
-
-</div>
+::: {.g-col-12 .g-col-md-4}
+[<span class="icon">💡</span> <span class="title">Tópicos de Interés</span>](topics.qmd){.card-link}
+:::
+:::

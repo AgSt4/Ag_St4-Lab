@@ -17,8 +17,8 @@ website:
   # Navegación
   navbar:
     logo: assets/logo.svg       # <--- CAMBIADO A .svg
-    background: "#0b0c15"
-    left:
+    background: gray
+    right:
       - text: "Home"
         href: index.qmd
       - text: "Proyectos"
@@ -53,8 +53,6 @@ website:
             href: topics.qmd
       - text: "CV"
         href: cv.qmd
-    
-    right:
       - icon: github
         href: https://github.com/AgSt4
       - icon: linkedin
@@ -66,9 +64,10 @@ website:
 format:
   html:
     theme:
-      light: [flatly, styles.css] # Base limpia para día
-      dark: [darkly, styles.css]  # Base sólida para noche
-    css: styles.css
+      light: [flatly, custom.scss]  # Flatly es blanco/gris (Día)
+      dark: [darkly, custom.scss]   # Darkly es negro/azul (Noche)
     toc: true
-    smooth-scroll: true
-    link-external-newwindow: true
+    grid:
+      sidebar-width: 0px     # Diseño ancho completo
+      body-width: 1000px     # Contenido centrado y legible
+      margin-width: 0px
