@@ -58,5 +58,11 @@
   },
   "content/topics/sustainability/esg-investing.qmd": {
     "esg-investing.html": "052b9b4c"
+  },
+  "content/notes/library/macro/teoria-crecimiento.qmd.md": {
+    "teoria-crecimiento.qmd.html": "3d53599d"
+  },
+  "content/notes/library/macro/teoria-crecimiento.md": {
+    "teoria-crecimiento.html": "e3955203"
   }
 }

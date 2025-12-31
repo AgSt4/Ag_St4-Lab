@@ -18,7 +18,7 @@
     "href": "notes.html",
     "title": "Knowledge Vault",
     "section": "",
-    "text": "[!tip] Buscador Escribe palabras clave (ej: “Lagrange”, “GARCH”) para filtrar los apuntes.\n\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Apunte\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nApunte\n\n\n\nTema\n\n\n\nTiempo\n\n\n\n\n\n\n\n\nEconometría\n\n\n \n\n\n2 min\n\n\n\n\n\n\nKnowledge Vault\n\n\n \n\n\n2 min\n\n\n\n\n\n\nMacroeconomía\n\n\n \n\n\n3 min\n\n\n\n\n\n\nMicroeconomía\n\n\n \n\n\n2 min\n\n\n\n\n\n\nNo matching items"
+    "text": "[!tip] Buscador Escribe palabras clave (ej: “Lagrange”, “GARCH”) para filtrar los apuntes.\n\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Apunte\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nApunte\n\n\n\nTema\n\n\n\nTiempo\n\n\n\n\n\n\n\n\nEconometría\n\n\n \n\n\n2 min\n\n\n\n\n\n\nKnowledge Vault\n\n\n \n\n\n2 min\n\n\n\n\n\n\nMacroeconomía\n\n\n \n\n\n3 min\n\n\n\n\n\n\nMicroeconomía\n\n\n \n\n\n2 min\n\n\n\n\n\n\nTeoría del Crecimiento\n\n\nMacroeconomía, Economía del Crecimiento\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "cv.html",
@@ -126,39 +126,11 @@
     "text": "IV. Organización Industrial\n\n9. Poder de Mercado y Monopolio\n👉 Apunte maestro: Monopolio y Discriminación\n\nMonopolio básico, monopolio natural y pérdida irrecuperable.\nDemandas relacionadas: sustitutos y complementos.\nDiscriminación de precios: primer, segundo y tercer grado.\n\n\n\n10. Oligopolio\n👉 Apunte maestro: Modelos de Oligopolio\n\nModelos de Cournot y Bertrand.\nDiferenciación de productos: horizontal y vertical."
   },
   {
-    "objectID": "content/notes/library/macro/index.html",
-    "href": "content/notes/library/macro/index.html",
-    "title": "Macroeconomía",
+    "objectID": "content/notes/library/macro/teoria-crecimiento.html",
+    "href": "content/notes/library/macro/teoria-crecimiento.html",
+    "title": "Teoría del Crecimiento",
     "section": "",
-    "text": "Tip📚 Bibliografía de Referencia\n\n\n\n\nBarro, R., Grilli, V. y Febrero, R. (1997). Macroeconomía: Teoría y Política. McGraw-Hill.\nDe Gregorio, J. (2007). Macroeconomía: Teoría y Políticas. Pearson.\nBlanchard, O. (2017). Macroeconomics, 7th edition. Pearson.\nSchmitt-Grohe, S., M. Uribe y M. Woodford (2022). International Macroeconomics. Princeton University Press.\nKrugman, P., M. Melitz, y M. Obstfeld (2015). International Finance: Theory and Policy, 10th Edition.\nReferencias adicionales en los programas de los cursos específicos."
-  },
-  {
-    "objectID": "content/notes/library/macro/index.html#i.-economía-real",
-    "href": "content/notes/library/macro/index.html#i.-economía-real",
-    "title": "Macroeconomía",
-    "section": "I. Economía Real",
-    "text": "I. Economía Real\n\n1. Crecimiento Económico\n👉 Apunte maestro: Teoría del Crecimiento\n\nModelo neoclásico, cambio tecnológico exógeno (modelo de Solow).\nCrecimiento endógeno. Aplicaciones: Modelo AK, Modelo con externalidades basado en conocimiento.\nContabilidad del crecimiento.\n\n\n\n2. Trabajo\n👉 Apunte maestro: Mercado del Trabajo\n\nDemanda por trabajo.\nOferta de trabajo.\nEquilibrio en el mercado del trabajo: salarios reales y empleo. Aplicaciones: Explicaciones del desempleo.\n\n\n\n3. Consumo y Ahorro\n👉 Apunte maestro: Consumo y Ahorro\n\nConsumo bajo certidumbre. Aplicaciones: Consumo intertemporal, Función de consumo keynesiana, Modelo de ciclo de vida, Hipótesis de ingreso permanente, Rol del mercado financiero y restricciones de liquidez.\nConsumo bajo incertidumbre y ahorro precautorio.\n\n\n\n4. Inversión\n👉 Apunte maestro: Teoría de la Inversión\n\nLa demanda por capital e inversión. Aplicaciones: Capital óptimo, Modelo costo de capital, Modelo de la q de Tobin, Modelos de costos de ajuste, Incertidumbre e irreversibilidad de la inversión.\n\n\n\n5. Política Fiscal\n👉 Apunte maestro: Gasto Público e Impuestos\n\nGasto público e impuestos. Aplicaciones: Restricción presupuestaria del gobierno (intertemporal y por período), Sostenibilidad de la deuda pública, Equivalencia Ricadiana, Efectos de la política fiscal sobre consumo/inversión y equilibrio macro (producto real y tasa real).\n\n\n\n6. Equilibrio Macroeconómico (Economía Cerrada)\n👉 Apunte maestro: Equilibrio General Cerrado\n\nEquilibrio en el mercado de bienes: equilibrio ahorro e inversión.\nDeterminación de la tasa de interés real."
-  },
-  {
-    "objectID": "content/notes/library/macro/index.html#ii.-economía-real-y-monetaria",
-    "href": "content/notes/library/macro/index.html#ii.-economía-real-y-monetaria",
-    "title": "Macroeconomía",
-    "section": "II. Economía Real y Monetaria",
-    "text": "II. Economía Real y Monetaria\n\n7. Dinero\n👉 Apunte maestro: Mercados Monetarios\n\nDemanda por dinero. Aplicaciones: Modelo de Baumol-Tobin, Dinero en la función de utilidad.\nOferta de dinero. Aplicaciones: Señoreaje, Multiplicadores monetarios, Hojas de Balance del Banco Central.\n\n\n\n8. Oferta Agregada, Demanda Agregada y Ciclos\n👉 Apunte maestro: Modelo AD-AS y Ciclos\n\nOferta agregada y curva de Phillips (corto y largo plazo): rol de las expectativas (racionales y adaptativas). Aplicaciones: Ciclos clásicos y keynesianos, Rol de distintas rigideces, Equilibrio de corto y largo plazo.\nModelo IS-LM.\n\n\n\n9. Nivel de Precios e Inflación\n👉 Apunte maestro: Precios y Política Monetaria\n\nEquilibrio en el mercado monetario. Aplicaciones: Rol de las expectativas, Teoría cuantitativa del dinero.\nConducción de la política monetaria en la práctica. Aplicaciones: Reglas versus discreción, Metas de inflación.\nMecanismos de transmisión de la política monetaria."
-  },
-  {
-    "objectID": "content/notes/library/macro/index.html#iii.-economías-abiertas",
-    "href": "content/notes/library/macro/index.html#iii.-economías-abiertas",
-    "title": "Macroeconomía",
-    "section": "III. Economías Abiertas",
-    "text": "III. Economías Abiertas\n\n10. Cuentas Externas y Balanza de Pagos\n👉 Apunte maestro: Balanza de Pagos\n\nBalanza de pagos. Aplicaciones: Componentes de la cuenta corriente y cuenta de capitales, Relación entre ambas cuentas.\nDeterminación de la cuenta corriente. Aplicaciones: Efectos de shocks transitorios y permanentes.\n\n\n\n11. Dinero, Tipo de Cambio y Tasas\n👉 Apunte maestro: Tipo de Cambio Nominal\n\nRegímenes cambiarios.\nDeterminación del tipo de cambio con precios rígidos. Aplicaciones: Paridad descubierta de tasas de interés, Equilibrio monetario y enfoque de portafolio.\nDeterminación del tipo de cambio con precios flexibles. Aplicaciones: Paridad descubierta, Paridad del poder de compra (PPP), Equilibrio monetario y enfoque monetario.\nEfectos de la política monetaria, fiscal y cambiaria. Aplicaciones: Modelo de Mundell-Fleming, Modelo de equilibrio con precios flexibles.\n\n\n\n12. Tipo de Cambio Real\n👉 Apunte maestro: Tipo de Cambio Real\n\nDeterminantes del tipo de cambio real en el corto y largo plazo. Aplicaciones: Modelo de Balassa-Samuelson, Modelo de bienes transables y no transables."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
+    "text": "Notas sobre el modelo de Solow"
   },
   {
     "objectID": "content/notes/library/index.html",
@@ -194,6 +166,41 @@
     "title": "Knowledge Vault",
     "section": "🔍 Explorador de contenido",
     "text": "🔍 Explorador de contenido\nUsa el buscador o filtros por categoría para navegar el material:"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "content/notes/library/macro/index.html",
+    "href": "content/notes/library/macro/index.html",
+    "title": "Macroeconomía",
+    "section": "",
+    "text": "Tip📚 Bibliografía de Referencia\n\n\n\n\nBarro, R., Grilli, V. y Febrero, R. (1997). Macroeconomía: Teoría y Política. McGraw-Hill.\nDe Gregorio, J. (2007). Macroeconomía: Teoría y Políticas. Pearson.\nBlanchard, O. (2017). Macroeconomics, 7th edition. Pearson.\nSchmitt-Grohe, S., M. Uribe y M. Woodford (2022). International Macroeconomics. Princeton University Press.\nKrugman, P., M. Melitz, y M. Obstfeld (2015). International Finance: Theory and Policy, 10th Edition.\nReferencias adicionales en los programas de los cursos específicos."
+  },
+  {
+    "objectID": "content/notes/library/macro/index.html#i.-economía-real",
+    "href": "content/notes/library/macro/index.html#i.-economía-real",
+    "title": "Macroeconomía",
+    "section": "I. Economía Real",
+    "text": "I. Economía Real\n\n1. Crecimiento Económico\n👉 Apunte maestro: Teoría del Crecimiento\n\nModelo neoclásico, cambio tecnológico exógeno (modelo de Solow).\nCrecimiento endógeno. Aplicaciones: Modelo AK, Modelo con externalidades basado en conocimiento.\nContabilidad del crecimiento.\n\n\n\n2. Trabajo\n👉 Apunte maestro: Mercado del Trabajo\n\nDemanda por trabajo.\nOferta de trabajo.\nEquilibrio en el mercado del trabajo: salarios reales y empleo. Aplicaciones: Explicaciones del desempleo.\n\n\n\n3. Consumo y Ahorro\n👉 Apunte maestro: Consumo y Ahorro\n\nConsumo bajo certidumbre. Aplicaciones: Consumo intertemporal, Función de consumo keynesiana, Modelo de ciclo de vida, Hipótesis de ingreso permanente, Rol del mercado financiero y restricciones de liquidez.\nConsumo bajo incertidumbre y ahorro precautorio.\n\n\n\n4. Inversión\n👉 Apunte maestro: Teoría de la Inversión\n\nLa demanda por capital e inversión. Aplicaciones: Capital óptimo, Modelo costo de capital, Modelo de la q de Tobin, Modelos de costos de ajuste, Incertidumbre e irreversibilidad de la inversión.\n\n\n\n5. Política Fiscal\n👉 Apunte maestro: Gasto Público e Impuestos\n\nGasto público e impuestos. Aplicaciones: Restricción presupuestaria del gobierno (intertemporal y por período), Sostenibilidad de la deuda pública, Equivalencia Ricadiana, Efectos de la política fiscal sobre consumo/inversión y equilibrio macro (producto real y tasa real).\n\n\n\n6. Equilibrio Macroeconómico (Economía Cerrada)\n👉 Apunte maestro: Equilibrio General Cerrado\n\nEquilibrio en el mercado de bienes: equilibrio ahorro e inversión.\nDeterminación de la tasa de interés real."
+  },
+  {
+    "objectID": "content/notes/library/macro/index.html#ii.-economía-real-y-monetaria",
+    "href": "content/notes/library/macro/index.html#ii.-economía-real-y-monetaria",
+    "title": "Macroeconomía",
+    "section": "II. Economía Real y Monetaria",
+    "text": "II. Economía Real y Monetaria\n\n7. Dinero\n👉 Apunte maestro: Mercados Monetarios\n\nDemanda por dinero. Aplicaciones: Modelo de Baumol-Tobin, Dinero en la función de utilidad.\nOferta de dinero. Aplicaciones: Señoreaje, Multiplicadores monetarios, Hojas de Balance del Banco Central.\n\n\n\n8. Oferta Agregada, Demanda Agregada y Ciclos\n👉 Apunte maestro: Modelo AD-AS y Ciclos\n\nOferta agregada y curva de Phillips (corto y largo plazo): rol de las expectativas (racionales y adaptativas). Aplicaciones: Ciclos clásicos y keynesianos, Rol de distintas rigideces, Equilibrio de corto y largo plazo.\nModelo IS-LM.\n\n\n\n9. Nivel de Precios e Inflación\n👉 Apunte maestro: Precios y Política Monetaria\n\nEquilibrio en el mercado monetario. Aplicaciones: Rol de las expectativas, Teoría cuantitativa del dinero.\nConducción de la política monetaria en la práctica. Aplicaciones: Reglas versus discreción, Metas de inflación.\nMecanismos de transmisión de la política monetaria."
+  },
+  {
+    "objectID": "content/notes/library/macro/index.html#iii.-economías-abiertas",
+    "href": "content/notes/library/macro/index.html#iii.-economías-abiertas",
+    "title": "Macroeconomía",
+    "section": "III. Economías Abiertas",
+    "text": "III. Economías Abiertas\n\n10. Cuentas Externas y Balanza de Pagos\n👉 Apunte maestro: Balanza de Pagos\n\nBalanza de pagos. Aplicaciones: Componentes de la cuenta corriente y cuenta de capitales, Relación entre ambas cuentas.\nDeterminación de la cuenta corriente. Aplicaciones: Efectos de shocks transitorios y permanentes.\n\n\n\n11. Dinero, Tipo de Cambio y Tasas\n👉 Apunte maestro: Tipo de Cambio Nominal\n\nRegímenes cambiarios.\nDeterminación del tipo de cambio con precios rígidos. Aplicaciones: Paridad descubierta de tasas de interés, Equilibrio monetario y enfoque de portafolio.\nDeterminación del tipo de cambio con precios flexibles. Aplicaciones: Paridad descubierta, Paridad del poder de compra (PPP), Equilibrio monetario y enfoque monetario.\nEfectos de la política monetaria, fiscal y cambiaria. Aplicaciones: Modelo de Mundell-Fleming, Modelo de equilibrio con precios flexibles.\n\n\n\n12. Tipo de Cambio Real\n👉 Apunte maestro: Tipo de Cambio Real\n\nDeterminantes del tipo de cambio real en el corto y largo plazo. Aplicaciones: Modelo de Balassa-Samuelson, Modelo de bienes transables y no transables."
   },
   {
     "objectID": "content/notes/library/metrics/index.html",

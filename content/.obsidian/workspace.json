@@ -1,20 +1,24 @@
 {
   "main": {
-    "id": "1ca9623c9d9825a5",
+    "id": "9502a1e789dcd211",
     "type": "split",
     "children": [
       {
-        "id": "ec068f033a064ced",
+        "id": "85a7058a56fad36b",
         "type": "tabs",
         "children": [
           {
-            "id": "226f4db67fa22ba9",
+            "id": "5300ea5c7483dd03",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "notes/library/macro/teoria-crecimiento.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "teoria-crecimiento"
             }
           }
         ]
@@ -23,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "aa4b9f897928d640",
+    "id": "5c8d14e9db95b735",
     "type": "split",
     "children": [
       {
-        "id": "3f28d6733573952a",
+        "id": "ac299e08d099d374",
         "type": "tabs",
         "children": [
           {
-            "id": "e131d3e9574537a9",
+            "id": "7cdf86c6190a5602",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -40,11 +44,11 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Explorador de archivos"
             }
           },
           {
-            "id": "590cad986c253fd8",
+            "id": "aa616423228997a5",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -57,17 +61,17 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Search"
+              "title": "Buscar"
             }
           },
           {
-            "id": "70a2a00a4254cf21",
+            "id": "29e61f7c0c99287c",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-              "title": "Bookmarks"
+              "title": "Marcadores"
             }
           }
         ]
@@ -77,20 +81,20 @@
     "width": 300
   },
   "right": {
-    "id": "f74e274cb03e7950",
+    "id": "9b8d0b8fbe868c48",
     "type": "split",
     "children": [
       {
-        "id": "3f92c9dba0918499",
+        "id": "d647259af0929417",
         "type": "tabs",
         "children": [
           {
-            "id": "f5227d88e32f23f1",
+            "id": "9f8efaa8255fe4d0",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "profile.jpg",
+                "file": "notes/library/macro/teoria-crecimiento.qmd.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,25 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for profile"
+              "title": "Enlaces entrantes de teoria-crecimiento.qmd"
             }
           },
           {
-            "id": "75d5b23a8c45645f",
+            "id": "a5b70d36f4a9a0ca",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "profile.jpg",
+                "file": "notes/library/macro/teoria-crecimiento.qmd.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from profile"
+              "title": "Enlaces salientes de teoria-crecimiento.qmd"
             }
           },
           {
-            "id": "73e65302d5a6b884",
+            "id": "eb6aea14c1f55172",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -129,11 +133,11 @@
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Tags"
+              "title": "Etiquetas"
             }
           },
           {
-            "id": "f1283c59f60d721b",
+            "id": "e1d9a83a04ad60dc",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -143,22 +147,22 @@
                 "searchQuery": ""
               },
               "icon": "lucide-archive",
-              "title": "All properties"
+              "title": "Todas las propiedades"
             }
           },
           {
-            "id": "794f278d5c4c92f0",
+            "id": "04ed4e1c10856a55",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "profile.jpg",
+                "file": "notes/library/macro/teoria-crecimiento.qmd.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of profile"
+              "title": "Esquema de teoria-crecimiento.qmd"
             }
           }
         ]
@@ -170,33 +174,15 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false
     }
   },
-  "active": "226f4db67fa22ba9",
-  "lastOpenFiles": [
-    "docs/assets/logo.svg",
-    "assets/logo.svg",
-    "content/notes/library/macro/Untitled.md",
-    "content/notes/library/macro/Untitled.canvas",
-    "docs/styles.css",
-    "docs/assets/CV_Agustin.pdf",
-    "docs/assets",
-    "docs/site_libs/quarto-html/tabsets/tabsets.js",
-    "docs/site_libs/quarto-html/axe/axe-check.js",
-    "docs/site_libs/clipboard/clipboard.min.js",
-    "docs/site_libs/quarto-nav/quarto-nav.js",
-    "docs/site_libs/quarto-nav/headroom.min.js",
-    "docs/site_libs/quarto-search/quarto-search.js",
-    "docs/site_libs/quarto-search/fuse.min.js",
-    "docs/content/notes/library/macro/IS-LM.md",
-    "profile.jpg",
-    "docs/assets/profile.jpg"
-  ]
+  "active": "5300ea5c7483dd03",
+  "lastOpenFiles": []
 }

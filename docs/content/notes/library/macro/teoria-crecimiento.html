@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2027-05-12">
+<meta name="description" content="Crecimiento Económico en Economía Cerrada.">
 
-<title>Knowledge Vault – Ag_St4</title>
+<title>Teoría del Crecimiento – Ag_St4</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,27 +25,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./assets/logo.svg" rel="icon" type="image/svg+xml">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b758ccaa5987ceb1b75504551e579abf.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-5e9e84458628fff8eaf4db1d5d7c7e10.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<script src="../../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../../">
+<link href="../../../../assets/logo.svg" rel="icon" type="image/svg+xml">
+<script src="../../../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../../site_libs/quarto-html/quarto-syntax-highlighting-dark-b758ccaa5987ceb1b75504551e579abf.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../../site_libs/bootstrap/bootstrap-5e9e84458628fff8eaf4db1d5d7c7e10.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,82 +71,24 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-categories','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <style>html{ scroll-behavior: smooth; }</style>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../../../styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./assets/logo.svg" alt="" class="navbar-logo light-content">
-    <img src="./assets/logo.svg" alt="" class="navbar-logo dark-content">
+    <a href="../../../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../../../assets/logo.svg" alt="" class="navbar-logo light-content">
+    <img src="../../../../assets/logo.svg" alt="" class="navbar-logo dark-content">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../../../index.html">
     <span class="navbar-title">Ag_St4</span>
     </a>
   </div>
@@ -157,11 +99,11 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../../../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects.html"> 
+    <a class="nav-link" href="../../../../projects.html"> 
 <span class="menu-text">Proyectos</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -170,25 +112,25 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-apuntes">    
         <li>
-    <a class="dropdown-item" href="./content/notes/library/index.html">
+    <a class="dropdown-item" href="../../../../content/notes/library/index.html">
  <span class="dropdown-text">Biblioteca de Apuntes del Grado</span></a>
   </li>  
         <li><hr class="dropdown-divider"></li>
         <li>
-    <a class="dropdown-item" href="./content/notes/library/micro/index.html">
+    <a class="dropdown-item" href="../../../../content/notes/library/micro/index.html">
  <span class="dropdown-text">Microeconomía - Examen de Grado</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./content/notes/library/macro/index.html">
+    <a class="dropdown-item" href="../../../../content/notes/library/macro/index.html">
  <span class="dropdown-text">Macroeconomía - Examen de Grado</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./content/notes/library/metrics/index.html">
+    <a class="dropdown-item" href="../../../../content/notes/library/metrics/index.html">
  <span class="dropdown-text">Econometría - Examen de Grado</span></a>
   </li>  
         <li><hr class="dropdown-divider"></li>
         <li>
-    <a class="dropdown-item" href="./content/notes/aditional/index.qmd">
+    <a class="dropdown-item" href="../../../../content/notes/aditional/index.qmd">
  <span class="dropdown-text">Apuntes Generales de Economía y Negocios</span></a>
   </li>  
     </ul>
@@ -199,31 +141,31 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-tópicos">    
         <li>
-    <a class="dropdown-item" href="./content/topics/index.html">
+    <a class="dropdown-item" href="../../../../content/topics/index.html">
  <span class="dropdown-text">Índice de Tópicos</span></a>
   </li>  
         <li><hr class="dropdown-divider"></li>
         <li>
-    <a class="dropdown-item" href="./content/topics/micro_applied/index.qmd">
+    <a class="dropdown-item" href="../../../../content/topics/micro_applied/index.qmd">
  <span class="dropdown-text">Microeconomía Aplicada</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./content/topics/finance_investments/index.qmd">
+    <a class="dropdown-item" href="../../../../content/topics/finance_investments/index.qmd">
  <span class="dropdown-text">Finanzas &amp; Inversiones</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./content/topics/sustainability/index.qmd">
+    <a class="dropdown-item" href="../../../../content/topics/sustainability/index.qmd">
  <span class="dropdown-text">Sustentabilidad</span></a>
   </li>  
         <li><hr class="dropdown-divider"></li>
         <li>
-    <a class="dropdown-item" href="./topics.html">
+    <a class="dropdown-item" href="../../../../topics.html">
  <span class="dropdown-text">Últimas Revisiones</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./cv.html"> 
+    <a class="nav-link" href="../../../../cv.html"> 
 <span class="menu-text">CV</span></a>
   </li>  
 </ul>
@@ -249,22 +191,35 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(5)</span></div><div class="category" data-category="RWNvbm9tJUMzJUFEYSUyMGRlbCUyMENyZWNpbWllbnRv">Economía del Crecimiento <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TWFjcm9lY29ub20lQzMlQURh">Macroeconomía <span class="quarto-category-count">(1)</span></div></div></div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Knowledge Vault</h1>
-<p class="subtitle lead">Microeconomía, Macroeconomía y Econometría</p>
-</div>
+<h1 class="title">Teoría del Crecimiento</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Macroeconomía</div>
+    <div class="quarto-category">Economía del Crecimiento</div>
+  </div>
+  </div>
 
+<div>
+  <div class="description">
+    Crecimiento Económico en Economía Cerrada.
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">May 12, 2027</p>
+    </div>
+  </div>
   
     
   </div>
@@ -274,119 +229,11 @@ window.Quarto = {
 </header>
 
 
-<blockquote class="blockquote">
-<p>[!tip] Buscador Escribe palabras clave (ej: “Lagrange”, “GARCH”) para filtrar los apuntes.</p>
-</blockquote>
+<p>Notas sobre el modelo de Solow</p>
 
 
 
-
-<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-    <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-      <option value="" disabled="" selected="" hidden="">Order By</option>
-      <option value="index" data-direction="asc">Default</option>
-      <option value="listing-title-sort" data-direction="asc">
-        Apunte
-      </option>
-    </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-
-<th>
-<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Apunte</a>
-</th>
-
-<th>
-Tema
-</th>
-
-<th>
-Tiempo
-</th>
-
-</tr>
-</thead>
-<tbody class="list">
-
-<tr data-index="0" data-listing-file-modified-sort="1766383625594" data-listing-reading-time-sort="2" data-listing-word-count-sort="280" data-listing-title-sort="Econometría" data-listing-filename-sort="index.qmd">
-<td>
-<a href="./content/notes/library/metrics/index.html" class="title listing-title">Econometría</a>
-</td>
-<td>
-<span class="listing-categories">&nbsp;</span>
-</td>
-<td>
-<span class="listing-reading-time">2 min</span>
-</td>
-
-</tr>
-
-<tr data-index="1" data-listing-file-modified-sort="1766387127080" data-listing-reading-time-sort="2" data-listing-word-count-sort="230" data-listing-title-sort="Knowledge Vault" data-listing-filename-sort="index.qmd">
-<td>
-<a href="./content/notes/library/index.html" class="title listing-title">Knowledge Vault</a>
-</td>
-<td>
-<span class="listing-categories">&nbsp;</span>
-</td>
-<td>
-<span class="listing-reading-time">2 min</span>
-</td>
-
-</tr>
-
-<tr data-index="2" data-listing-file-modified-sort="1766386891536" data-listing-reading-time-sort="3" data-listing-word-count-sort="567" data-listing-title-sort="Macroeconomía" data-listing-filename-sort="index.qmd">
-<td>
-<a href="./content/notes/library/macro/index.html" class="title listing-title">Macroeconomía</a>
-</td>
-<td>
-<span class="listing-categories">&nbsp;</span>
-</td>
-<td>
-<span class="listing-reading-time">3 min</span>
-</td>
-
-</tr>
-
-<tr data-index="3" data-listing-file-modified-sort="1766383775267" data-listing-reading-time-sort="2" data-listing-word-count-sort="363" data-listing-title-sort="Microeconomía" data-listing-filename-sort="index.qmd">
-<td>
-<a href="./content/notes/library/micro/index.html" class="title listing-title">Microeconomía</a>
-</td>
-<td>
-<span class="listing-categories">&nbsp;</span>
-</td>
-<td>
-<span class="listing-reading-time">2 min</span>
-</td>
-
-</tr>
-
-<tr data-index="4" data-categories="TWFjcm9lY29ub20lQzMlQURhJTJDRWNvbm9tJUMzJUFEYSUyMGRlbCUyMENyZWNpbWllbnRv" data-listing-date-sort="1810094400000" data-listing-file-modified-sort="1767152046636" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6" data-listing-title-sort="Teoría del Crecimiento" data-listing-filename-sort="teoria-crecimiento.md">
-<td>
-<a href="./content/notes/library/macro/teoria-crecimiento.html" class="title listing-title">Teoría del Crecimiento</a>
-</td>
-<td>
-<span class="listing-categories">Macroeconomía, Economía del Crecimiento</span>
-</td>
-<td>
-<span class="listing-reading-time">1 min</span>
-</td>
-
-</tr>
-
-</tbody>
-</table>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -797,5 +644,5 @@ Tiempo
 
 
 
-<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+<script src="../../../../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>
