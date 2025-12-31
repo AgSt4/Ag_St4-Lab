@@ -7,6 +7,18 @@
     ]
   },
   {
+    "listing": "/notes2.html",
+    "items": []
+  },
+  {
+    "listing": "/content/notes/library/index.html",
+    "items": []
+  },
+  {
+    "listing": "/content/topics/index.html",
+    "items": []
+  },
+  {
     "listing": "/notes.html",
     "items": [
       "/content/notes/library/metrics/index.html",
@@ -15,14 +27,6 @@
       "/content/notes/library/micro/index.html",
       "/content/notes/library/macro/teoria-crecimiento.html"
     ]
-  },
-  {
-    "listing": "/content/topics/index.html",
-    "items": []
-  },
-  {
-    "listing": "/content/notes/library/index.html",
-    "items": []
   },
   {
     "listing": "/projects.html",

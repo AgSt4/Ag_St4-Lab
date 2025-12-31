@@ -12,6 +12,9 @@
     "notes.qmd": [
       "content/notes"
     ],
+    "notes2.qmd": [
+      "content/notes/aditional"
+    ],
     "projects.qmd": [
       "content/projects"
     ],
