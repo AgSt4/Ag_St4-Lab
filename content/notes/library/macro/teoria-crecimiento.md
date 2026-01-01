@@ -8,3 +8,5 @@ categories: [Macroeconomía, Economía del Crecimiento]
 
 Notas sobre el modelo de Solow
 Necesito seguir probando algunas otras configuraciones.
+
+Si sigo escribiendo mis notas en este lugar, qué crees que va a pasar??
