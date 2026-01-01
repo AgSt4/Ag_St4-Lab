@@ -6,7 +6,7 @@ name: Render and Publish
 
 jobs:
   build-deploy:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest  # <--- AQUÍ ESTÁ EL CAMBIO CLAVE
     permissions:
       contents: write
     steps:
@@ -16,7 +16,7 @@ jobs:
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
         with:
-          tinytex: true # ¡Importante para tus PDFs!
+          tinytex: true 
 
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
