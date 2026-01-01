@@ -7,3 +7,4 @@ categories: [Macroeconomía, Economía del Crecimiento]
 
 
 Notas sobre el modelo de Solow
+Necesito seguir probando algunas otras configuraciones.

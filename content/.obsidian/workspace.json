@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "85a7058a56fad36b",
+        "id": "5e3409a1a2c3c2e8",
         "type": "tabs",
         "children": [
           {
-            "id": "5300ea5c7483dd03",
+            "id": "a0017709e3550e22",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/library/macro/teoria-crecimiento.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "teoria-crecimiento"
+              "title": "Nueva pestaña"
             }
           }
         ]
@@ -183,6 +179,9 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "5300ea5c7483dd03",
-  "lastOpenFiles": []
+  "active": "a0017709e3550e22",
+  "lastOpenFiles": [
+    "2026-01-01.md",
+    "notes/library/macro/teoria-crecimiento.md"
+  ]
 }
