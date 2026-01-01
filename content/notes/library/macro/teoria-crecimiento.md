@@ -22,7 +22,7 @@ format:
   # 2. SALIDA DOCUMENTO (Paper/Apunte)
   pdf:
     output-file: "apunte_solow.pdf" # Nombre específico para que no sobrescriba al otro
-    include-in-header: Ag_St4-Lab/templates/notes_style.tex
+    include-in-header: ../../../../templates/notes_style.tex
     keep-tex: true
     pdf-engine: xelatex
     geometry:
@@ -34,12 +34,13 @@ format:
   # 3. SALIDA PRESENTACIÓN (Slides)
   beamer:
     output-file: "slides_solow.pdf" # Nombre específico
-    include-in-header: Ag_St4-Lab/templates/slides_style.tex
+    include-in-header: ../../../../templates/slides_style.tex
     aspectratio: 169
     theme: metropolis
     classoption: "allowframebreaks"
     latex-clean: true # Limpia archivos temporales basura
 ---
+
 
 \maketitle
 

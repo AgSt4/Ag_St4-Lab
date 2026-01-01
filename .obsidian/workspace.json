@@ -186,6 +186,8 @@
   },
   "active": "226f4db67fa22ba9",
   "lastOpenFiles": [
+    "templates/notes_style.synctex(busy)",
+    "templates/notes_style.log",
     "templates/slides_style.log",
     "templates/slides_style.synctex(busy)",
     "templates/slides_style.tex",
@@ -202,8 +204,6 @@
     "content/notes/library/macro/Untitled.canvas",
     "docs/styles.css",
     "docs/assets/CV_Agustin.pdf",
-    "docs/assets",
-    "docs/site_libs/quarto-html/tabsets/tabsets.js",
     "docs/content/notes/library/macro/IS-LM.md",
     "profile.jpg",
     "docs/assets/profile.jpg"
