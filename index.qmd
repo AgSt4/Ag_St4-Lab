@@ -1,6 +1,6 @@
 ---
 title: "Agustín Sandoval Tapia"
-subtitle: "B.Sc. Economics & Business PUC M.Sc. (c) Applied Economics PUC"
+subtitle: "B.Sc. Economics & Business PUC <br> M.Sc. (c) Applied Economics PUC"
 image: assets/profile.jpg
 about:
   template: trestles
