@@ -186,6 +186,8 @@
   },
   "active": "226f4db67fa22ba9",
   "lastOpenFiles": [
+    "topics.qmd",
+    "content/topics/topics.qmd",
     "docs/assets/logo.svg",
     "assets/logo.svg",
     "content/notes/library/macro/Untitled.md",
@@ -199,7 +201,6 @@
     "docs/site_libs/quarto-nav/quarto-nav.js",
     "docs/site_libs/quarto-nav/headroom.min.js",
     "docs/site_libs/quarto-search/quarto-search.js",
-    "docs/site_libs/quarto-search/fuse.min.js",
     "docs/content/notes/library/macro/IS-LM.md",
     "profile.jpg",
     "docs/assets/profile.jpg"
