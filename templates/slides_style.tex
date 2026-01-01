@@ -1,3 +1,7 @@
+% --- VARIABLES POR DEFECTO (Para que VS Code no llore) ---
+\providecommand{\myEmail}{correo@ejemplo.com} 
+\providecommand{\insertauthor}{Nombre del Autor}
+
 % --- TEMA METROPOLIS ---
 \usetheme[numbering=fraction]{metropolis}
 \usepackage{xcolor, calligra, graphicx, tcolorbox, pgfplots, multicol, ragged2e, cancel, amsmath}
@@ -17,6 +21,7 @@
 \newtcolorbox{respuesta}[1]{colback=black!5, colframe=Pantone108, title=\textcolor{black}{\textbf{Respuesta:} \textit{#1}}, fontupper=\small}
 
 % --- LOGO Y FIRMA ---
+% Asegúrate de que esta imagen exista en la ruta correcta relativa al .qmd
 \titlegraphic{\hfill\includegraphics[height=1cm]{templates/UC COLOR-01.png}}
 \newcommand{\firma}{\calligra AgustínST}
 
