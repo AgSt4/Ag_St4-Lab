@@ -36,7 +36,6 @@ format:
     output-file: "slides_solow.pdf" # Nombre específico
     include-in-header: ../../../../templates/slides_style.tex
     aspectratio: 169
-    theme: metropolis
     classoption: "allowframebreaks"
     latex-clean: true # Limpia archivos temporales basura
 ---

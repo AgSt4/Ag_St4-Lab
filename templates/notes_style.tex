@@ -20,16 +20,7 @@
 % En local (PC) funcionará si tienes Lato y STIX.
 % En GitHub Actions, si no subes las fuentes, esto podría dar error.
 % Si da error, comenta estas dos líneas:
-\usepackage{iftex}
-\iftex
-  \IfFontExistsTF{Lato}{
-    \setmainfont{Lato}
-  }{
-    \usepackage{lmodern} % Fuente estándar de respaldo para GitHub
-  }
-\else
-  \usepackage{lmodern}
-\fi
+\setmainfont{Lato}
 \setmathfont{STIX Two Math}
 
 % --- CAJAS PERSONALIZADAS ---
