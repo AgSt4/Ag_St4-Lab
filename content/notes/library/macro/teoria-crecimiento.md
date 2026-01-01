@@ -21,7 +21,7 @@ format:
   
   # 2. SALIDA DOCUMENTO (Paper/Apunte)
   pdf:
-    output-file: "apunte_solow.pdf" # Nombre específico para que no sobrescriba al otro
+    output-file: "Teoría_Crecimiento.pdf" # Nombre específico para que no sobrescriba al otro
     include-in-header: ../../../../templates/notes_style.tex
     keep-tex: true
     pdf-engine: xelatex
