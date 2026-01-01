@@ -41,6 +41,7 @@ format:
 ---
 
 
+
 \maketitle
 
 # Introducción al Modelo de Solow
