@@ -76,7 +76,7 @@ format:
 * Juegos dinámicos con información perfecta y perfección en sub-juegos.
 
 ### 8. Información Asimétrica
-👉 **[Apunte maestro: Información Asimétrica](informacion-asimetrica.qmd)**
+👉 **[Apunte maestro: Información Asimétrica](informacion-asimetrica.md)**
 
 * Equilibrio bayesiano perfecto.
 * El problema del riesgo moral, teoría de contratos.
