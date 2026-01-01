@@ -4,11 +4,13 @@ on:
 
 name: Render and Publish
 
+permissions:
+  contents: write
+  pages: write
+
 jobs:
   build-deploy:
-    runs-on: windows-latest  # <--- AQUÍ ESTÁ EL CAMBIO CLAVE
-    permissions:
-      contents: write
+    runs-on: ubuntu-latest
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -16,7 +18,7 @@ jobs:
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
         with:
-          tinytex: true 
+          tinytex: true
 
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
