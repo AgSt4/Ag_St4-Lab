@@ -1,0 +1,32 @@
+% --- TEMA METROPOLIS ---
+\usetheme[numbering=fraction]{metropolis}
+\usepackage{xcolor, calligra, graphicx, tcolorbox, pgfplots, multicol, ragged2e, cancel, amsmath}
+\usepackage[dvipsnames]{xcolor}
+\pgfplotsset{compat=1.18}
+\justifying
+
+% --- COLORES ---
+\definecolor{Pantone2727}{RGB}{0, 118, 192}
+\definecolor{Pantone108}{RGB}{255, 209, 0}
+\setbeamercolor{frametitle}{bg=Pantone2727, fg=white}
+\setbeamercolor{block title}{bg=Pantone108, fg=black}
+\setbeamercolor{block body}{bg=black!15, fg=black}
+
+% --- CAJAS ---
+\newtcolorbox{ejemplo}[1]{colback=black!5, colframe=Pantone108, title=\textcolor{black}{\textbf{Ejemplo:} \textit{#1}}}
+\newtcolorbox{respuesta}[1]{colback=black!5, colframe=Pantone108, title=\textcolor{black}{\textbf{Respuesta:} \textit{#1}}, fontupper=\small}
+
+% --- LOGO Y FIRMA ---
+\titlegraphic{\hfill\includegraphics[height=1cm]{templates/UC COLOR-01.png}}
+\newcommand{\firma}{\calligra AgustínST}
+
+% --- FOOTER DINÁMICO ---
+\setbeamertemplate{footline}{%
+    \colorbox{Pantone108}{%
+        \begin{minipage}{0.98\paperwidth}
+            \textbf{Nombre: } \textcolor{Pantone2727}{\insertauthor} \quad
+            \textbf{Correo: } \href{mailto:\myEmail}{\textcolor{blue}{\myEmail}} \quad
+            {\firma} \hfill \insertframenumber{} / \inserttotalframenumber
+        \end{minipage}
+    }
+}
