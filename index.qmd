@@ -142,8 +142,8 @@ Entiendo que la economía positiva, aunque indispensable por su rigor técnico, 
 - **Applied Microeconomics**  
   Uso de microdatos y métodos empíricos para el análisis de comportamiento económico, mercados y toma de decisiones.
 
-- **Development Studies**  
-  Uso de microdatos y métodos empíricos para el análisis de comportamiento económico, mercados y toma de decisiones.
+- **Economic Development (Growth, Inequality & Institutions)**  
+  Desarrollo económico y crecimiento de largo plazo, pobreza y desigualdad, con enfoques multidisciplinarios del desarrollo que incorporan dimensiones sociales e institucionales.
 
 - **Data & Quantitative Analysis**  
   Aplicación de herramientas estadísticas y de programación para análisis económico aplicado, visualización de datos y apoyo a decisiones estratégicas.
