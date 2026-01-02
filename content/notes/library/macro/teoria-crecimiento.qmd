@@ -5,8 +5,6 @@ date: 2025-12-29
 author: "Agustín Sandoval Tapia"
 categories: [Macroeconomía, Economía del Crecimiento]
 
-# --- VARIABLES PARA TUS PLANTILLAS ---
-# Definimos aquí los datos que usarán tus archivos .tex
 include-before-body:
   text: |
     \newcommand{\myCourse}{EAE2210: Macroeconomía 1 (Economía Real Cerrada)}
@@ -14,16 +12,15 @@ include-before-body:
     \newcommand{\myEmail}{a.sandovaltapia@uc.cl}
 
 format:
-  # 1. SALIDA WEB (HTML)
   html: 
     theme: cosmo
     toc: true
   
   # 2. SALIDA DOCUMENTO (Paper/Apunte)
-  pdf:
-    output-file: "Teoría_Crecimiento_doc.pdf" # Nombre específico para que no sobrescriba al otro
+  pdf:    
     include-in-header: ../../../../templates/notes_style.tex
     pdf-engine: xelatex
+    keep-tex: true # Dejamos esto por seguridad para el debug
     geometry:
       - top=0.85in
       - bottom=1in
@@ -32,7 +29,7 @@ format:
   
   # 3. SALIDA PRESENTACIÓN (Slides)
   beamer:
-    output-file: "Teoría_Crecimiento_slides.pdf" # Nombre específico
+    output-file: "Teoria_Crecimiento_slides.pdf" 
     include-in-header: ../../../../templates/slides_style.tex
     aspectratio: 169
     classoption: "allowframebreaks"
