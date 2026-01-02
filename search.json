@@ -196,6 +196,13 @@
     "text": "🚀 Explorar\n\n\n📂 Proyectos Aplicados Economía, Datos y otros…\n\n\n📄 Curriculum Vitae Trayectoria académica\n\n\n📚 Examen de Grado\n\n\n🔖 Otros Apuntes\n\n\n💡 Tópicos de Interés"
   },
   {
+    "objectID": "conflict-files-obsidian-git.html",
+    "href": "conflict-files-obsidian-git.html",
+    "title": "Conflicts",
+    "section": "",
+    "text": "Conflicts\nPlease resolve them and commit them using the commands Git: Commit all changes followed by Git: Push (This file will automatically be deleted before commit) [[#Additional Instructions]] available below file list\n\n[[notes_style.tex]]\n[[slides_style.tex]]\n\n\n\nAdditional Instructions\nI strongly recommend to use “Source mode” for viewing the conflicted files. For simple conflicts, in each file listed above replace every occurrence of the following text blocks with the desired text.\n&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD\n    File changes in local repository\n=======\n    File changes in remote repository\n&gt;&gt;&gt;&gt;&gt;&gt;&gt; origin/main"
+  },
+  {
     "objectID": "notes.html",
     "href": "notes.html",
     "title": "Knowledge Vault",
