@@ -36,8 +36,6 @@ format:
 ---
 
 
-\maketitle
-
 # Introducción al Modelo de Solow
 
 Notas sobre el modelo de Solow. Necesito seguir probando algunas otras configuraciones.
