@@ -23,7 +23,6 @@ format:
   pdf:
     output-file: "Teoría_Crecimiento_doc.pdf" # Nombre específico para que no sobrescriba al otro
     include-in-header: ../../../../templates/notes_style.tex
-    keep-tex: true
     pdf-engine: xelatex
     geometry:
       - top=0.85in
@@ -37,7 +36,6 @@ format:
     include-in-header: ../../../../templates/slides_style.tex
     aspectratio: 169
     classoption: "allowframebreaks"
-    latex-clean: true # Limpia archivos temporales basura
 ---
 
 \maketitle
