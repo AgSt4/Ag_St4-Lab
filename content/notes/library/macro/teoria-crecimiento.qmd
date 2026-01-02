@@ -59,4 +59,3 @@ $$ Y_t = F(K_t, A_t L_t) $$
 \begin{respuesta}
     Este cuadro de respuesta se renderiza en los 3 formatos (en HTML será un borde simple, en PDF y Beamer tendrá tus colores definidos).
 \end{respuesta}
-
