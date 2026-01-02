@@ -11,10 +11,12 @@
             "id": "226f4db67fa22ba9",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "codeview",
+              "state": {
+                "file": "content/notes/library/macro/index.qmd"
+              },
               "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "title": "index"
             }
           }
         ]

@@ -23,7 +23,7 @@ format:
 ## I. Economía Real
 
 ### 1. Crecimiento Económico
-👉 **[Apunte maestro: Teoría del Crecimiento](teoria-crecimiento.md)**
+👉 **[Apunte maestro: Teoría del Crecimiento](teoria-crecimiento.qmd)**
 
 * Modelo neoclásico, cambio tecnológico exógeno (modelo de Solow).
 * Crecimiento endógeno. Aplicaciones: Modelo AK, Modelo con externalidades basado en conocimiento.
