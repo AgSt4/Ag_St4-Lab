@@ -1,6 +1,6 @@
 % --- 1. TEMA Y PAQUETES ---
 \usetheme[numbering=fraction]{metropolis}
-\usepackage{calligra, graphicx, tcolorbox, pgfplots, multicol, ragged2e, cancel, amsmath, tikz, booktabs, threeparttable, caption, array, dcolumn, pgfplotstable}
+\usepackage{graphicx, tcolorbox, pgfplots, multicol, ragged2e, cancel, amsmath, tikz, booktabs, threeparttable, caption, array, dcolumn, pgfplotstable}
 \usepackage[spanish]{babel}
 
 % Librerías de TikZ y Plots
@@ -68,7 +68,7 @@
 \setbeamerfont{subtitle}{size=\large}
 \setbeamerfont{author}{size=\normalsize}
 
-% --- 8. HOJA DE RUTA AUTOMÁTICA ---y
+% --- 8. HOJA DE RUTA ---
 \AtBeginDocument{%
   \begin{frame}{Nuestra Hoja de Ruta}
     \begin{multicols}{2}
@@ -77,14 +77,16 @@
   \end{frame}
 }
 
-% --- 9. CIERRE AUTOMÁTICO ---
+% --- 9. CIERRE AUTOMÁTICO (CORREGIDO) ---
 \AtEndDocument{%
   \begin{frame}{¡Terminamos!}
     \begin{center}
-        \myName\\
-        Cualquier consulta pueden escribir a:\\
-        \correo{\myEmail}\\[0.5cm] % Usamos [0.5cm] en vez de \vspace
-        \hrule \vspace{0.5cm}
+        \myName \par \vspace{0.2cm}
+        Cualquier consulta pueden escribir a: \par
+        \correo{\myEmail} \par 
+        \vspace{0.5cm}
+        \hrule 
+        \vspace{0.5cm}
         {\Huge \textit{\mySignature}}
     \end{center}
   \end{frame}
