@@ -16,23 +16,21 @@ format:
     theme: cosmo
     toc: true
   
-  # 2. SALIDA DOCUMENTO (Paper/Apunte)
-  pdf:    
+  pdf:
     include-in-header: ../../../../templates/notes_style.tex
     pdf-engine: xelatex
-    keep-tex: true # Dejamos esto por seguridad para el debug
     geometry:
       - top=0.85in
       - bottom=1in
       - left=0.7in
       - right=0.7in
   
-  # 3. SALIDA PRESENTACIÓN (Slides)
   beamer:
     output-file: "Teoria_Crecimiento_slides.pdf" 
     include-in-header: ../../../../templates/slides_style.tex
     aspectratio: 169
     classoption: "allowframebreaks"
+
 ---
 
 \maketitle
