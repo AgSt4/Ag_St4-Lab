@@ -34,7 +34,7 @@ format:
     include-in-header: ../../../../templates/slides_style.tex
     pdf-engine: xelatex
     aspectratio: 169
-    classoption: "allowframebreaks"
+    classoption: "allowframebreaks, dvipsnames"
     keep-tex: true
 ---
 
