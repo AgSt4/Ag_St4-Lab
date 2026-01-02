@@ -40,8 +40,6 @@ format:
     latex-clean: true # Limpia archivos temporales basura
 ---
 
-
-
 \maketitle
 
 # Introducción al Modelo de Solow
