@@ -10,6 +10,9 @@ include-before-body:
     \newcommand{\myCourse}{EAE2210: Macroeconomía 1 (Economía Real Cerrada)}
     \newcommand{\mySemester}{Primer Semestre 2026}
     \newcommand{\myEmail}{a.sandovaltapia@uc.cl}
+    \newcommand{\myName}{Agustín Sandoval Tapia}
+    \newcommand{\myInstitution}{Instituto de Economía - PUC}
+    \newcommand{\mySignature}{\calligra AgustínST}
 
 format:
   html: 
@@ -34,7 +37,6 @@ format:
     classoption: "allowframebreaks"
     keep-tex: true
 ---
-
 
 # Introducción al Modelo de Solow
 

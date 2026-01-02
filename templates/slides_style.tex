@@ -1,37 +1,108 @@
-% --- VARIABLES POR DEFECTO (Para que VS Code no llore) ---
-\providecommand{\myEmail}{correo@ejemplo.com} 
-\providecommand{\insertauthor}{Nombre del Autor}
+% Plantilla para Slides UC - Compatible con Quarto/Beamer
+% Creada por Ag_St4
 
-% --- TEMA METROPOLIS ---
 \usetheme[numbering=fraction]{metropolis}
-\usepackage{xcolor, calligra, graphicx, tcolorbox, pgfplots, multicol, ragged2e, cancel, amsmath}
+\usepackage{xcolor,calligra,graphicx,hyperref, tcolorbox, pgfplots, multicol, ragged2e, cancel, amsmath, tikz, booktabs, threeparttable, caption, array, dcolumn, pgfplotstable} 
+\usetikzlibrary{shapes, arrows.meta, positioning}
 \usepackage[dvipsnames]{xcolor}
+\usepackage[svgnames]{xcolor}
+\usepackage[spanish]{babel}
 \pgfplotsset{compat=1.18}
 \justifying
 
-% --- COLORES ---
-\definecolor{Pantone2727}{RGB}{0, 118, 192}
-\definecolor{Pantone108}{RGB}{255, 209, 0}
+% Definición de los colores institucionales
+\definecolor{Pantone2727}{RGB}{0, 118, 192} % Pantone 2727
+\definecolor{Pantone2727Light}{RGB}{192, 223, 242} % Pantone 2727 al 25%
+\definecolor{Pantone108}{RGB}{255, 209, 0} % Pantone 108
+
+% Configuración del tema y colores
+\setbeamercolor{background canvas}{bg=white}
+\setbeamercolor{normal text}{fg=black}
+\setbeamercolor{title}{fg=black}
 \setbeamercolor{frametitle}{bg=Pantone2727, fg=white}
+
+% Bloques personalizados
 \setbeamercolor{block title}{bg=Pantone108, fg=black}
 \setbeamercolor{block body}{bg=black!15, fg=black}
 
-% --- CAJAS ---
-\newtcolorbox{ejemplo}[1]{colback=black!5, colframe=Pantone108, title=\textcolor{black}{\textbf{Ejemplo:} \textit{#1}}}
-\newtcolorbox{respuesta}[1]{colback=black!5, colframe=Pantone108, title=\textcolor{black}{\textbf{Respuesta:} \textit{#1}}, fontupper=\small}
+% Definir el entorno "respuesta"
+\newtcolorbox{respuesta}[1][Respuesta]{%
+  colback=black!5,
+  colframe=Pantone108,
+  title=\textcolor{black}{\textit{#1}},
+  fontupper=\small
+}
 
-% --- LOGO Y FIRMA ---
-% Asegúrate de que esta imagen exista en la ruta correcta relativa al .qmd
-\titlegraphic{\hfill\includegraphics[height=1cm]{../../../../templates/UC COLOR-01.png}}
-\newcommand{\firma}{\calligra AgustínST}
+% Definir el entorno "ejemplo"
+\newtcolorbox{ejemplo}[1][Ejemplo]{%
+  colback=black!5,
+  colframe=Pantone2727,
+  title=\textcolor{white}{\textit{#1}},
+  fontupper=\small
+}
 
-% --- FOOTER DINÁMICO ---
+% Placeholders para variables del documento
+\providecommand{\myCourse}{Curso por Definir}
+\providecommand{\mySemester}{Semestre por Definir}
+\providecommand{\myEmail}{email@uc.cl}
+\providecommand{\myName}{Autor}
+\providecommand{\myInstitution}{Instituto de Economía - PUC}
+\providecommand{\mySignature}{\calligra Firma}
+
+% Comando para correo
+\newcommand{\correo}[1]{\href{mailto:#1}{\textcolor{blue}{#1}}}
+
+% Footer personalizado
 \setbeamertemplate{footline}{%
-    \colorbox{Pantone108}{%
-        \begin{minipage}{0.98\paperwidth}
-            \textbf{Nombre: } \textcolor{Pantone2727}{\insertauthor} \quad
-            \textbf{Correo: } \href{mailto:\myEmail}{\textcolor{blue}{\myEmail}} \quad
-            {\firma} \hfill \insertframenumber{} / \inserttotalframenumber
-        \end{minipage}
-    }
+    \hbox{%
+    \begin{beamercolorbox}[wd=\paperwidth,ht=2.5ex,dp=1.125ex,leftskip=.3cm,rightskip=.3cm plus1fil]{author in head/foot}%
+        \colorbox{Pantone108}{%
+            \textbf{Nombre: } \textcolor{Pantone2727}{\myName} \quad
+            \textbf{Correo: } \correo{\myEmail} \quad
+            {\mySignature}
+            \hfill
+            \insertframenumber{} / \inserttotalframenumber
+        }
+    \end{beamercolorbox}}%
+    \vskip0pt%
+}
+
+% Logo institucional en portada
+\titlegraphic{\hfill\includegraphics[height=1cm]{../../../../templates/UC_COLOR.png}}
+
+% Redefinir información del documento usando metadatos de Quarto
+\makeatletter
+\AtBeginDocument{%
+  \title{\huge \textbf{\@title}}
+  \subtitle{\myCourse}
+  \date{\@date}
+  \author{\textbf{Nombre: }\myName \quad | \quad \textbf{Correo: }\correo{\myEmail}}
+  \institute{\myInstitution}
+}
+\makeatother
+
+% Agregar automáticamente tabla de contenidos después del título
+\AtBeginDocument{%
+  \begin{frame}[plain,noframenumbering]
+    \maketitle
+  \end{frame}
+  
+  \begin{frame}{Nuestra Hoja de Ruta}
+    \begin{multicols}{2}
+      \tableofcontents
+    \end{multicols}
+  \end{frame}
+}
+
+% Frame de cierre automático al final
+\AtEndDocument{%
+  \begin{frame}{¡Terminamos!}
+    \begin{center}
+        \myName\\
+        Cualquier consulta pueden escribir a:\\
+        \correo{\myEmail}\\\vspace{0.5cm} 
+        \hrule \vspace{0.5cm}
+        {\Huge\mySignature}\\ 
+    \end{center}
+  \end{frame}
 }
