@@ -1,65 +1,67 @@
-% Plantilla para Slides UC - Compatible con Quarto/Beamer
-% Creada por Ag_St4
-
+% --- 1. TEMA Y PAQUETES ---
 \usetheme[numbering=fraction]{metropolis}
-\usepackage{xcolor,calligra,graphicx,hyperref, tcolorbox, pgfplots, multicol, ragged2e, cancel, amsmath, tikz, booktabs, threeparttable, caption, array, dcolumn, pgfplotstable} 
-\usetikzlibrary{shapes, arrows.meta, positioning}
-\usepackage[dvipsnames]{xcolor}
-\usepackage[svgnames]{xcolor}
+
+% Quitamos 'xcolor' de aquí porque Beamer ya lo carga.
+% Quitamos 'hyperref' porque Quarto ya lo carga.
+\usepackage{calligra, graphicx, tcolorbox, pgfplots, multicol, ragged2e, cancel, amsmath, tikz, booktabs, threeparttable, caption, array, dcolumn, pgfplotstable}
 \usepackage[spanish]{babel}
+
+% Librerías de TikZ y Plots
+\usetikzlibrary{shapes, arrows.meta, positioning}
 \pgfplotsset{compat=1.18}
 \justifying
 
-% Definición de los colores institucionales
-\definecolor{Pantone2727}{RGB}{0, 118, 192} % Pantone 2727
-\definecolor{Pantone2727Light}{RGB}{192, 223, 242} % Pantone 2727 al 25%
-\definecolor{Pantone108}{RGB}{255, 209, 0} % Pantone 108
+% --- 2. CONFIGURACIÓN DE COLORES ---
+% Definimos los colores institucionales
+\definecolor{Pantone2727}{RGB}{0, 118, 192}
+\definecolor{Pantone2727Light}{RGB}{192, 223, 242}
+\definecolor{Pantone108}{RGB}{255, 209, 0}
 
-% Configuración del tema y colores
+% Asignamos colores al tema Metropolis
 \setbeamercolor{background canvas}{bg=white}
 \setbeamercolor{normal text}{fg=black}
 \setbeamercolor{title}{fg=black}
 \setbeamercolor{frametitle}{bg=Pantone2727, fg=white}
-
-% Bloques personalizados
 \setbeamercolor{block title}{bg=Pantone108, fg=black}
 \setbeamercolor{block body}{bg=black!15, fg=black}
 
-% Definir el entorno "respuesta"
-\newtcolorbox{respuesta}[1][Respuesta]{%
-  colback=black!5,
-  colframe=Pantone108,
-  title=\textcolor{black}{\textit{#1}},
-  fontupper=\small
+% --- 3. CAJAS PERSONALIZADAS ---
+\newtcolorbox{respuesta}[1][Respuesta]{
+  colback=black!5, colframe=Pantone108,
+  title=\textcolor{black}{\textit{#1}}, fontupper=\small
 }
 
-% Definir el entorno "ejemplo"
-\newtcolorbox{ejemplo}[1][Ejemplo]{%
-  colback=black!5,
-  colframe=Pantone2727,
-  title=\textcolor{white}{\textit{#1}},
-  fontupper=\small
+\newtcolorbox{ejemplo}[1][Ejemplo]{
+  colback=black!5, colframe=Pantone2727,
+  title=\textcolor{white}{\textit{#1}}, fontupper=\small
 }
 
-% Placeholders para variables del documento
-\providecommand{\myCourse}{Curso por Definir}
-\providecommand{\mySemester}{Semestre por Definir}
-\providecommand{\myEmail}{email@uc.cl}
-\providecommand{\myName}{Autor}
+% --- 4. VARIABLES "PUENTE" ---
+% Estas variables se llenarán desde el YAML de Quarto
+\providecommand{\myCourse}{}
+\providecommand{\mySemester}{}
+\providecommand{\myEmail}{}
+\providecommand{\myName}{}
 \providecommand{\myInstitution}{Instituto de Economía - PUC}
-\providecommand{\mySignature}{\calligra Firma}
-
-% Comando para correo
+% Si calligra falla en GitHub, usaremos texto normal como respaldo
+\providecommand{\mySignature}{%
+  \IfFontExistsTF{Calligra}{\calligra Firma}{\textit{Firma}}%
+}
 \newcommand{\correo}[1]{\href{mailto:#1}{\textcolor{blue}{#1}}}
 
-% Footer personalizado
+% --- 5. LOGO INTELIGENTE (Graphicspath) ---
+% Esto busca la imagen en todas las carpetas posibles automáticamente
+\graphicspath{{templates/}{../templates/}{../../templates/}{../../../templates/}{../../../../templates/}}
+\titlegraphic{\hfill\includegraphics[height=1cm]{UC COLOR-01.png}}
+
+% --- 6. FOOTER PERSONALIZADO ---
 \setbeamertemplate{footline}{%
     \hbox{%
     \begin{beamercolorbox}[wd=\paperwidth,ht=2.5ex,dp=1.125ex,leftskip=.3cm,rightskip=.3cm plus1fil]{author in head/foot}%
         \colorbox{Pantone108}{%
             \textbf{Nombre: } \textcolor{Pantone2727}{\myName} \quad
             \textbf{Correo: } \correo{\myEmail} \quad
-            {\mySignature}
+            {\calligra \mySignature} % Intenta usar Calligra
             \hfill
             \insertframenumber{} / \inserttotalframenumber
         }
@@ -67,23 +69,15 @@
     \vskip0pt%
 }
 
-
-% Logo institucional en portada
-\titlegraphic{\hfill\includegraphics[height=1cm]{../../../../templates/UC COLOR-01.png}}
-
-% Personalizar el formato de la información
+% --- 7. CONFIGURACIÓN DE FUENTES DE TÍTULOS ---
 \setbeamerfont{title}{size=\huge, series=\bfseries}
 \setbeamerfont{subtitle}{size=\large}
 \setbeamerfont{author}{size=\normalsize}
-\setbeamerfont{institute}{size=\small}
-\setbeamerfont{date}{size=\small}
 
-% Agregar automáticamente portada y tabla de contenidos
+% --- 8. HOJA DE RUTA AUTOMÁTICA ---
+% OJO: Quarto ya genera el título por defecto. 
+% Usamos esto solo para la Tabla de Contenidos.
 \AtBeginDocument{%
-  \begin{frame}[plain,noframenumbering]
-    \maketitle
-  \end{frame}
-  
   \begin{frame}{Nuestra Hoja de Ruta}
     \begin{multicols}{2}
       \tableofcontents
@@ -91,7 +85,7 @@
   \end{frame}
 }
 
-% Frame de cierre automático al final
+% --- 9. CIERRE AUTOMÁTICO ---
 \AtEndDocument{%
   \begin{frame}{¡Terminamos!}
     \begin{center}
@@ -99,7 +93,7 @@
         Cualquier consulta pueden escribir a:\\
         \correo{\myEmail}\\\vspace{0.5cm} 
         \hrule \vspace{0.5cm}
-        {\Huge\mySignature}\\ 
+        {\Huge \calligra \mySignature}\\ 
     \end{center}
   \end{frame}
 }
