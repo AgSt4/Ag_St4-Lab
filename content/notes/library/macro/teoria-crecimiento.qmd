@@ -19,8 +19,7 @@ format:
   pdf:
     include-in-header: ../../../../templates/notes_style.tex
     pdf-engine: xelatex
-    keep-tex: true  # Add this line
-    latex-auto-install: true
+    keep-tex: true
     geometry:
       - top=0.85in
       - bottom=1in
@@ -30,9 +29,12 @@ format:
   beamer:
     output-file: "Teoria_Crecimiento_slides.pdf" 
     include-in-header: ../../../../templates/slides_style.tex
+    pdf-engine: xelatex
     aspectratio: 169
     classoption: "allowframebreaks"
+    keep-tex: true
 ---
+
 
 \maketitle
 
