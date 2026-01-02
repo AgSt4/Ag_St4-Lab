@@ -1,41 +1,22 @@
 ---
 title: "Teoría del Crecimiento"
-description: "Crecimiento Económico en Economía Cerrada."
+description: "Modelo de Solow y Crecimiento Exógeno."
 date: 2025-12-29
 author: "Agustín Sandoval Tapia"
 categories: [Macroeconomía, Economía del Crecimiento]
 
-include-before-body:
-  text: |
-    \newcommand{\myCourse}{EAE2210: Macroeconomía 1 (Economía Real Cerrada)}
-    \newcommand{\mySemester}{Primer Semestre 2026}
-    \newcommand{\myEmail}{a.sandovaltapia@uc.cl}
-    \newcommand{\myName}{Agustín Sandoval Tapia}
-    \newcommand{\myInstitution}{Instituto de Economía - PUC}
-    \newcommand{\mySignature}{AgustinST}
+# --- VARIABLES GLOBALES ---
+author-meta: "Agustín Sandoval Tapia"
+email: "a.sandovaltapia@uc.cl"
+
+metadata-files: 
+   - ../../../../templates/config_uc.yml
+  #- ../../../../templates/config_personal.yml
 
 format:
   html: 
     theme: cosmo
     toc: true
-  
-  pdf:
-    include-in-header: ../../../../templates/notes_style.tex
-    pdf-engine: xelatex
-    keep-tex: true
-    geometry:
-      - top=0.85in
-      - bottom=1in
-      - left=0.7in
-      - right=0.7in
-  
-  beamer:
-    output-file: "Teoria_Crecimiento_slides.pdf" 
-    include-in-header: ../../../../templates/slides_style.tex
-    pdf-engine: xelatex
-    aspectratio: 169
-    classoption: "allowframebreaks, dvipsnames"
-    keep-tex: true
 ---
 
 # Introducción al Modelo de Solow
