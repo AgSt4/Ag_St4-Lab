@@ -11,10 +11,12 @@
             "id": "226f4db67fa22ba9",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "codeview",
+              "state": {
+                "file": "content/notes/library/macro/teoria-crecimiento.qmd"
+              },
               "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "title": "teoria-crecimiento"
             }
           }
         ]
@@ -193,8 +195,8 @@
   },
   "active": "226f4db67fa22ba9",
   "lastOpenFiles": [
-    "content/notes/library/macro/teoria-crecimiento.qmd",
     "content/notes/library/macro/index.qmd",
+    "content/notes/library/macro/teoria-crecimiento.qmd",
     "content/notes/library/macro/teoria-crecimiento.md",
     "templates/notes_style.synctex(busy)",
     "templates/notes_style.log",
