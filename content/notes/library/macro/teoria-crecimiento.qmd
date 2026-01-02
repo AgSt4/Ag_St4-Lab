@@ -12,7 +12,7 @@ include-before-body:
     \newcommand{\myEmail}{a.sandovaltapia@uc.cl}
     \newcommand{\myName}{Agustín Sandoval Tapia}
     \newcommand{\myInstitution}{Instituto de Economía - PUC}
-    \newcommand{\mySignature}{\calligra AgustínST}
+    \newcommand{\mySignature}{AgustinST}
 
 format:
   html: 

@@ -58,7 +58,7 @@
         \colorbox{Pantone108}{%
             \textbf{Nombre: } \textcolor{Pantone2727}{\myName} \quad
             \textbf{Correo: } \correo{\myEmail} \quad
-            {\calligra \mySignature} % Intenta usar Calligra
+            \textit{\mySignature} % <--- CAMBIO: Solo itálica estándar
             \hfill
             \insertframenumber{} / \inserttotalframenumber
         }
@@ -71,9 +71,7 @@
 \setbeamerfont{subtitle}{size=\large}
 \setbeamerfont{author}{size=\normalsize}
 
-% --- 8. HOJA DE RUTA AUTOMÁTICA ---
-% OJO: Quarto ya genera el título por defecto. 
-% Usamos esto solo para la Tabla de Contenidos.
+% --- 8. HOJA DE RUTA AUTOMÁTICA ---y
 \AtBeginDocument{%
   \begin{frame}{Nuestra Hoja de Ruta}
     \begin{multicols}{2}
@@ -88,9 +86,9 @@
     \begin{center}
         \myName\\
         Cualquier consulta pueden escribir a:\\
-        \correo{\myEmail}\\\vspace{0.5cm} 
+        \correo{\myEmail}\\[0.5cm] % Usamos [0.5cm] en vez de \vspace
         \hrule \vspace{0.5cm}
-        {\Huge \calligra \mySignature}\\ 
+        {\Huge \textit{\mySignature}} % <--- CAMBIO: Sin Calligra y SIN DOBLE SLASH (\\) AL FINAL
     \end{center}
   \end{frame}
 }
