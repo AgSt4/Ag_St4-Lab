@@ -1,10 +1,10 @@
 {
   "markdown_overcharge": false,
-  "extensions": "txt>qmd>",
+  "extensions": "txt>qmd>>qmd",
   "is_case_insensitive": false,
   "is_onload": false,
   "is_onload_unsafe": false,
-  "forced_extensions": "",
+  "forced_extensions": "txt> ",
   "is_ignore": false,
   "ignore_extensions": "",
   "ignore_masks": "",
@@ -18,6 +18,7 @@
   "barefiling": true,
   "stable": true,
   "errors": {
+    "txt": "Error from UNITADE plugin: Error: Attempting to register an existing view type \"txt\"",
     "": "Error from UNITADE plugin: Error: Attempting to register an existing view type \"\""
   },
   "debug_mode": false,
