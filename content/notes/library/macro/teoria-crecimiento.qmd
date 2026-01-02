@@ -20,6 +20,7 @@ format:
     include-in-header: ../../../../templates/notes_style.tex
     pdf-engine: xelatex
     keep-tex: true  # Add this line
+    latex-auto-install: true
     geometry:
       - top=0.85in
       - bottom=1in

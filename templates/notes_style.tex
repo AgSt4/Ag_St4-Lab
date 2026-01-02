@@ -20,8 +20,16 @@
 % En local (PC) funcionará si tienes Lato y STIX.
 % En GitHub Actions, si no subes las fuentes, esto podría dar error.
 % Si da error, comenta estas dos líneas:
-\setmainfont{Lato}
-\setmathfont{STIX Two Math}
+% Font fallback
+\usepackage{ifluatex}
+\ifluatex
+  \usepackage{fontspec}
+  \IfFontExistsTF{Fira Sans}{
+    \setsansfont{Fira Sans}
+  }{
+    \setsansfont{Latin Modern Sans}
+  }
+\fi
 
 % --- CAJAS PERSONALIZADAS ---
 \newtcolorbox[auto counter, number within=section]{respuesta}{
