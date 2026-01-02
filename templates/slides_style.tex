@@ -71,18 +71,14 @@
 % Logo institucional en portada
 \titlegraphic{\hfill\includegraphics[height=1cm]{../../../../templates/UC COLOR-01.png}}
 
-% Redefinir información del documento usando metadatos de Quarto
-\makeatletter
-\AtBeginDocument{%
-  \title{\huge \textbf{\@title}}
-  \subtitle{\myCourse}
-  \date{\@date}
-  \author{\textbf{Nombre: }\myName \quad | \quad \textbf{Correo: }\correo{\myEmail}}
-  \institute{\myInstitution}
-}
-\makeatother
+% Personalizar el formato de la información
+\setbeamerfont{title}{size=\huge, series=\bfseries}
+\setbeamerfont{subtitle}{size=\large}
+\setbeamerfont{author}{size=\normalsize}
+\setbeamerfont{institute}{size=\small}
+\setbeamerfont{date}{size=\small}
 
-% Agregar automáticamente tabla de contenidos después del título
+% Agregar automáticamente portada y tabla de contenidos
 \AtBeginDocument{%
   \begin{frame}[plain,noframenumbering]
     \maketitle
