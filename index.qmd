@@ -128,7 +128,7 @@ Entiendo que la economía positiva, aunque indispensable por su rigor técnico, 
 :::
 ---
 
-## Research Interests
+## Study Interests
 
 - **Sustainable Finance**  
   Análisis de la integración de factores ESG en mercados financieros, con foco en evaluación de riesgos, incentivos e implicancias institucionales.
@@ -140,6 +140,9 @@ Entiendo que la economía positiva, aunque indispensable por su rigor técnico, 
   Interacción entre instituciones, mercados y actores económicos, con énfasis en desigualdad, poder económico y diseño institucional.
 
 - **Applied Microeconomics**  
+  Uso de microdatos y métodos empíricos para el análisis de comportamiento económico, mercados y toma de decisiones.
+
+- **Development Studies**  
   Uso de microdatos y métodos empíricos para el análisis de comportamiento económico, mercados y toma de decisiones.
 
 - **Data & Quantitative Analysis**  
