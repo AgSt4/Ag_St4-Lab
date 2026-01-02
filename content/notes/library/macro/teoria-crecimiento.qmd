@@ -21,7 +21,7 @@ format:
   
   # 2. SALIDA DOCUMENTO (Paper/Apunte)
   pdf:
-    output-file: "Teoría_Crecimiento.pdf" # Nombre específico para que no sobrescriba al otro
+    output-file: "Teoría_Crecimiento_doc.pdf" # Nombre específico para que no sobrescriba al otro
     include-in-header: ../../../../templates/notes_style.tex
     keep-tex: true
     pdf-engine: xelatex
@@ -33,7 +33,7 @@ format:
   
   # 3. SALIDA PRESENTACIÓN (Slides)
   beamer:
-    output-file: "slides_solow.pdf" # Nombre específico
+    output-file: "Teoría_Crecimiento_slides.pdf" # Nombre específico
     include-in-header: ../../../../templates/slides_style.tex
     aspectratio: 169
     classoption: "allowframebreaks"

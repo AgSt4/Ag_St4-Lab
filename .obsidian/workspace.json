@@ -13,10 +13,10 @@
             "state": {
               "type": "codeview",
               "state": {
-                "file": "content/notes/library/macro/index.qmd"
+                "file": "content/notes/library/macro/teoria-crecimiento.qmd"
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "teoria-crecimiento"
             }
           }
         ]
@@ -184,6 +184,7 @@
   },
   "active": "226f4db67fa22ba9",
   "lastOpenFiles": [
+    "content/notes/library/macro/index.qmd",
     "content/notes/library/macro/teoria-crecimiento.md",
     "content/notes/library/macro/teoria-crecimiento.qmd",
     "templates/notes_style.synctex(busy)",
