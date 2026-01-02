@@ -1,0 +1,93 @@
+% --- 1. TEMA Y PAQUETES ---
+\usetheme[numbering=fraction]{metropolis}
+\usepackage{graphicx, tcolorbox, pgfplots, multicol, ragged2e, cancel, amsmath, tikz, booktabs, threeparttable, caption, array, dcolumn, pgfplotstable}
+\usepackage[spanish]{babel}
+
+% Librerías de TikZ y Plots
+\usetikzlibrary{shapes, arrows.meta, positioning}
+\pgfplotsset{compat=1.18}
+\justifying
+
+% --- 2. CONFIGURACIÓN DE COLORES ---
+% Definimos los colores institucionales
+\definecolor{Pantone2727}{RGB}{0, 118, 192}
+\definecolor{Pantone2727Light}{RGB}{192, 223, 242}
+\definecolor{Pantone108}{RGB}{255, 209, 0}
+
+% Asignamos colores al tema Metropolis
+\setbeamercolor{background canvas}{bg=white}
+\setbeamercolor{normal text}{fg=black}
+\setbeamercolor{title}{fg=black}
+\setbeamercolor{frametitle}{bg=Pantone2727, fg=white}
+\setbeamercolor{block title}{bg=Pantone108, fg=black}
+\setbeamercolor{block body}{bg=black!15, fg=black}
+
+% --- 3. CAJAS PERSONALIZADAS ---
+\newtcolorbox{respuesta}[1][Respuesta]{
+  colback=black!5, colframe=Pantone108,
+  title=\textcolor{black}{\textit{#1}}, fontupper=\small
+}
+
+\newtcolorbox{ejemplo}[1][Ejemplo]{
+  colback=black!5, colframe=Pantone2727,
+  title=\textcolor{white}{\textit{#1}}, fontupper=\small
+}
+
+% --- 4. VARIABLES "PUENTE" ---
+% Estas variables se llenarán desde el YAML de Quarto
+\providecommand{\myCourse}{}
+\providecommand{\mySemester}{}
+\providecommand{\myEmail}{}
+\providecommand{\myName}{}
+\providecommand{\myInstitution}{Instituto de Economía - PUC}
+\providecommand{\mySignature}{\textit{Firma}}
+\newcommand{\correo}[1]{\href{mailto:#1}{\textcolor{blue}{#1}}}
+
+% --- 5. LOGO INTELIGENTE (Graphicspath) ---
+% Esto busca la imagen en todas las carpetas posibles automáticamente
+\graphicspath{{templates/}{../templates/}{../../templates/}{../../../templates/}{../../../../templates/}}
+\titlegraphic{\hfill\includegraphics[height=1cm]{UC COLOR-01.png}}
+
+% --- 6. FOOTER PERSONALIZADO ---
+\setbeamertemplate{footline}{%
+    \hbox{%
+    \begin{beamercolorbox}[wd=\paperwidth,ht=2.5ex,dp=1.125ex,leftskip=.3cm,rightskip=.3cm plus1fil]{author in head/foot}%
+        \colorbox{Pantone108}{%
+            \textbf{Nombre: } \textcolor{Pantone2727}{\myName} \quad
+            \textbf{Correo: } \correo{\myEmail} \quad
+            \textit{\mySignature} % <--- CAMBIO: Solo itálica estándar
+            \hfill
+            \insertframenumber{} / \inserttotalframenumber
+        }
+    \end{beamercolorbox}}%
+    \vskip0pt%
+}
+
+% --- 7. CONFIGURACIÓN DE FUENTES DE TÍTULOS ---
+\setbeamerfont{title}{size=\huge, series=\bfseries}
+\setbeamerfont{subtitle}{size=\large}
+\setbeamerfont{author}{size=\normalsize}
+
+% --- 8. HOJA DE RUTA ---
+\AtBeginDocument{%
+  \begin{frame}{Nuestra Hoja de Ruta}
+    \begin{multicols}{2}
+      \tableofcontents
+    \end{multicols}
+  \end{frame}
+}
+
+% --- 9. CIERRE AUTOMÁTICO (CORREGIDO) ---
+\AtEndDocument{%
+  \begin{frame}{¡Terminamos!}
+    \begin{center}
+        \myName \par \vspace{0.2cm}
+        Cualquier consulta pueden escribir a: \par
+        \correo{\myEmail} \par 
+        \vspace{0.5cm}
+        \hrule 
+        \vspace{0.5cm}
+        {\Huge \textit{\mySignature}}
+    \end{center}
+  \end{frame}
+}
