@@ -182,11 +182,11 @@
     "text": "🛠️ Tech Stack\n\n\nCore Analytics & Programming\n\n\nStata Advanced\n\n\n\n\n\n\n\n\nLaTeX Advanced\n\n\n\n\n\n\n\n\nR Basic–Intermediate\n\n\n\n\n\n\n\n\nPython Intermediate\n\n\n\n\n\n\n\n\nSQL Basic\n\n\n\n\n\n\n\n\nApplied Economics & Data Analysis\n\n\nApplied Econometrics Strong Background\n\n\n\n\n\n\n\n\nData Visualization Intermediate\n\n\n\n\n\n\n\n\nTime Series Academic Exposure\n\n\n\n\n\n\n\n\nQuant Research Academic Projects\n\n\n\n\n\n\n\n\nLibraries & Tools\nStata (Econometrics) R (tidyverse) ggplot2 Python (pandas, numpy) Quarto LaTeX Looker Studio Google Workspace"
   },
   {
-    "objectID": "index.html#research-interests",
-    "href": "index.html#research-interests",
+    "objectID": "index.html#study-interests",
+    "href": "index.html#study-interests",
     "title": "Agustín Sandoval Tapia",
-    "section": "Research Interests",
-    "text": "Research Interests\n\nSustainable Finance\nAnálisis de la integración de factores ESG en mercados financieros, con foco en evaluación de riesgos, incentivos e implicancias institucionales.\nSustainability Economics\nEconomía del desarrollo sostenible, regulación ambiental y el rol de los mercados financieros en la asignación de capital de largo plazo.\nPolitical Economy & Economic Sociology\nInteracción entre instituciones, mercados y actores económicos, con énfasis en desigualdad, poder económico y diseño institucional.\nApplied Microeconomics\nUso de microdatos y métodos empíricos para el análisis de comportamiento económico, mercados y toma de decisiones.\nData & Quantitative Analysis\nAplicación de herramientas estadísticas y de programación para análisis económico aplicado, visualización de datos y apoyo a decisiones estratégicas."
+    "section": "Study Interests",
+    "text": "Study Interests\n\nSustainable Finance\nAnálisis de la integración de factores ESG en mercados financieros, con foco en evaluación de riesgos, incentivos e implicancias institucionales.\nSustainability Economics\nEconomía del desarrollo sostenible, regulación ambiental y el rol de los mercados financieros en la asignación de capital de largo plazo.\nPolitical Economy & Economic Sociology\nInteracción entre instituciones, mercados y actores económicos, con énfasis en desigualdad, poder económico y diseño institucional.\nApplied Microeconomics\nUso de microdatos y métodos empíricos para el análisis de comportamiento económico, mercados y toma de decisiones.\nEconomic Development (Growth, Inequality & Institutions)\nDesarrollo económico y crecimiento de largo plazo, pobreza y desigualdad, con enfoques multidisciplinarios del desarrollo que incorporan dimensiones sociales e institucionales.\nData & Quantitative Analysis\nAplicación de herramientas estadísticas y de programación para análisis económico aplicado, visualización de datos y apoyo a decisiones estratégicas."
   },
   {
     "objectID": "index.html#explorar",
@@ -312,6 +312,20 @@
     "href": "content/notes/library/macro/teoria-crecimiento.html",
     "title": "Teoría del Crecimiento",
     "section": "",
-    "text": "Notas sobre el modelo de Solow Necesito seguir probando algunas otras configuraciones.\nSi sigo escribiendo mis notas en este lugar, qué crees que va a pasar??"
+    "text": "Notas sobre el modelo de Solow. Necesito seguir probando algunas otras configuraciones.\n\n\nSi sigo escribiendo mis notas en este lugar, pasará lo siguiente:\n\nEn la Web: Se verá como un post de blog normal, scrolleable.\nEn el Apunte: Se verá como un documento A4 formal con tu encabezado UC.\nEn las Slides: Cada título ## creará una diapositiva nueva.\n\n\n\n\n\n\\[ Y_t = F(K_t, A_t L_t) \\]"
+  },
+  {
+    "objectID": "content/notes/library/macro/teoria-crecimiento.html#supuestos-fundamentales",
+    "href": "content/notes/library/macro/teoria-crecimiento.html#supuestos-fundamentales",
+    "title": "Teoría del Crecimiento",
+    "section": "",
+    "text": "Si sigo escribiendo mis notas en este lugar, pasará lo siguiente:\n\nEn la Web: Se verá como un post de blog normal, scrolleable.\nEn el Apunte: Se verá como un documento A4 formal con tu encabezado UC.\nEn las Slides: Cada título ## creará una diapositiva nueva."
+  },
+  {
+    "objectID": "content/notes/library/macro/teoria-crecimiento.html#la-función-de-producción",
+    "href": "content/notes/library/macro/teoria-crecimiento.html#la-función-de-producción",
+    "title": "Teoría del Crecimiento",
+    "section": "",
+    "text": "\\[ Y_t = F(K_t, A_t L_t) \\]"
   }
 ]
