@@ -19,6 +19,7 @@ format:
   pdf:
     include-in-header: ../../../../templates/notes_style.tex
     pdf-engine: xelatex
+    keep-tex: true  # Add this line
     geometry:
       - top=0.85in
       - bottom=1in
@@ -30,7 +31,6 @@ format:
     include-in-header: ../../../../templates/slides_style.tex
     aspectratio: 169
     classoption: "allowframebreaks"
-
 ---
 
 \maketitle
