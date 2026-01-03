@@ -58,16 +58,30 @@ website:
       - icon: linkedin
         href: https://www.linkedin.com/in/agustinsandovaltapia/
 
+
 # ============================================
-# FORMATO HTML
+# TU CONFIGURACIÓN HTML EXISTENTE (NO TOCAR)
 # ============================================
 format:
   html:
     theme:
-      light: [flatly, custom.scss]  # Flatly es blanco/gris (Día)
-      dark: [darkly, custom.scss]   # Darkly es negro/azul (Noche)
+      light: [flatly, custom.scss]
+      dark: [darkly, custom.scss]
     toc: true
     grid:
-      sidebar-width: 300px     # Diseño ancho completo
-      body-width: 1000px     # Contenido centrado y legible
+      sidebar-width: 300px
+      body-width: 1000px
       margin-width: 300px
+
+# ============================================
+# NUEVOS FORMATOS: TYPST Y BEAMER
+# ============================================
+  typst:
+    # Ruta al template relativa desde la raíz del proyecto
+    template: templates/doc_template.typ
+    toc: true
+    
+  beamer:
+    theme: metropolis
+    aspectratio: 169  # 16:9 para pantallas modernas
+    navigation: horizontal
