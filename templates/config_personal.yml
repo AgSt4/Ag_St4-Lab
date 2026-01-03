@@ -10,3 +10,4 @@ format:
       \setbeamercolor{frametitle}{bg=PrimaryColor, fg=white}
       \setbeamercolor{progress bar}{fg=PrimaryColor, bg=gray}
       \titlegraphic{\hfill\includegraphics[height=1.2cm]{../../../../templates/logo.png}}
+      

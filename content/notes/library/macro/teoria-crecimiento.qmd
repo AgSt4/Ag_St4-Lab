@@ -1,4 +1,29 @@
+---
+title: "Teoría del Crecimiento"
+description: "Crecimiento Económico en Economía Cerrada."
+date: 2025-12-29
+author: "Agustín Sandoval Tapia"
+categories: [Macroeconomía, Economía del Crecimiento]
 
+# 1. ESTO IMPORTA LA CONFIGURACIÓN BASE (Colores, fuentes, template)
+metadata-files: 
+  - ../../../../templates/config_personal.yml
+
+format:
+  html: 
+    theme: cosmo
+    toc: true
+
+  # 3. AQUÍ SE CONCRETA EL "LLAMADO" A TYPST
+  typst:
+    logo_file: "../../../../templates/logo.png" 
+    
+    output-file: "teoria-crecimiento_doc.pdf"
+  
+  beamer:
+    output-file: "teoria-crecimiento_slides.pdf"
+    classoption: "allowbreak"
+---
 
 # Introducción al Modelo de Solow
 
@@ -28,3 +53,20 @@ Este cuadro se adapta automáticamente:
  ---
 
 Y puedo seguir escribiendo nuevas cosas en este lugar
+
+Voy a seguir escribiendo porque necesito que colapste
+
+Así puedo pretender que se alcnace el líite
+
+Y probar el allow ...
+
+Seguido de esto, vamos a ver los resultados 
+
+::: {.callout-tip title="Ejemplo"}
+Este cuadro se adapta automáticamente:
+- **Web:** Caja de alerta estándar.
+
+- **Slides:** Bloque de color (Beamer).
+
+- **Apunte:** Recuadro destacado (Typst).
+:::
