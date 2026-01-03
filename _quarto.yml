@@ -68,6 +68,6 @@ format:
       dark: [darkly, custom.scss]   # Darkly es negro/azul (Noche)
     toc: true
     grid:
-      sidebar-width: 0px     # Diseño ancho completo
+      sidebar-width: 100px     # Diseño ancho completo
       body-width: 1000px     # Contenido centrado y legible
       margin-width: 0px
