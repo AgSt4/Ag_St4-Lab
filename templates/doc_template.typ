@@ -97,5 +97,5 @@
   v(1cm)
   
   // 8. CUERPO DEL CONTENIDO
-  body
+  doc
 }
