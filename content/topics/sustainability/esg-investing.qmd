@@ -4,5 +4,16 @@ description: "Estado del arte sobre el impacto de factores ESG en retornos finan
 image: "esg.jpg" # (Opcional)
 ---
 
+---
+title: "Teoría del Crecimiento"
+description: "Crecimiento Económico en Economía Cerrada."
+date: 2024-12-29
+categories: [Macroeconomía, Economía del Crecimiento]
+
+# Usa doc-brand en lugar de brand
+doc-brand: personal
+# doc-brand: uc
+---
+
 ## Definición
 La inversión sostenible integra factores ambientales, sociales y de gobernanza... (ESG) en las decisiones de inversión para generar beneficios a largo plazo tanto financieros como sociales.
