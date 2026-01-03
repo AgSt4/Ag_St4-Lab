@@ -9,10 +9,9 @@
   body
 ) = {
   
-  // 1. TRANSFORMACIÓN DE DATOS (Para evitar errores)
-  // Convertimos la lista de autores en un solo texto separado por comas
+// 1. TRANSFORMACIÓN DE DATOS (Robustez para objetos complejos)
   let author_str = if type(authors) == array { 
-    authors.join(", ") 
+    authors.map(a => if type(a) == dictionary { a.name } else { str(a) }).join(", ") 
   } else { 
     str(authors) 
   }

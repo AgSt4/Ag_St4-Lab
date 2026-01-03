@@ -2,6 +2,8 @@ brand: "uc"
 format:
   typst:
     template: ../../../../templates/doc_template.typ
+    # AGREGA ESTO (ajusta el nombre del archivo si es necesario):
+    logo_file: "../../../../templates/UC COLOR-01.png"
   beamer:
     theme: metropolis
     header-includes: |
