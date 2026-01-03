@@ -2,11 +2,10 @@
   title: "",
   authors: (),
   date: none,
-  brand: "personal",  // Default
+  doc-brand: "personal",  // Cambiado
   body
 ) = {
   
-  // Procesamiento robusto de autores
   let author_str = if type(authors) == array { 
     authors.map(a => {
       if type(a) == dictionary { a.name } else { str(a) }
@@ -15,26 +14,25 @@
     str(authors) 
   }
 
-  // Configuración por marca
-  let (primary, secondary, institution, faculty, logo) = if brand == "uc" {
+  // Configuración por marca (usando doc-brand)
+  let (primary, secondary, institution, faculty, logo) = if doc-brand == "uc" {
     (
-      rgb("#0076C0"),           // UC Blue
-      rgb("#FFD100"),           // UC Yellow
+      rgb("#0076C0"),
+      rgb("#FFD100"),
       "Pontificia Universidad Católica de Chile",
       "Facultad de Economía y Administración",
       "templates/UC COLOR-01.png"
     )
   } else {
     (
-      rgb("#0A2846"),           // Personal Navy
-      rgb("#E5E5E5"),           // Personal Gray
+      rgb("#0A2846"),
+      rgb("#E5E5E5"),
       "AgSt4 Lab",
       "Portafolio Personal",
       "templates/logo.png"
     )
   }
 
-  // Configuración de página
   set page(
     paper: "us-letter",
     margin: (x: 2cm, y: 2.5cm),
@@ -58,7 +56,6 @@
     ]
   )
 
-  // Estilos de texto
   set text(font: "New Computer Modern", size: 11pt, lang: "es")
   set par(justify: true, leading: 0.65em)
   set heading(numbering: "1.1")
@@ -71,7 +68,6 @@
   
   show link: it => text(fill: primary, it)
 
-  // Portada
   align(center)[
     #text(size: 22pt, weight: "bold", fill: primary)[#title] \
     #v(0.5em)

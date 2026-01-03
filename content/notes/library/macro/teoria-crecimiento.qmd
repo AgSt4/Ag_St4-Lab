@@ -4,9 +4,9 @@ description: "Crecimiento Económico en Economía Cerrada."
 date: 2024-12-29
 categories: [Macroeconomía, Economía del Crecimiento]
 
-# Solo cambia esto para alternar estilos
-brand: personal
-# brand: uc
+# Usa doc-brand en lugar de brand
+doc-brand: personal
+# doc-brand: uc
 ---
 
 # Introducción
