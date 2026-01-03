@@ -200,7 +200,7 @@
     "href": "notes.html",
     "title": "Knowledge Vault",
     "section": "",
-    "text": "[!tip] Buscador Escribe palabras clave (ej: “Lagrange”, “GARCH”) para filtrar los apuntes.\n\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Apunte\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nApunte\n\n\n\nTema\n\n\n\nTiempo\n\n\n\n\n\n\n\n\nEconometría\n\n\n \n\n\n2 min\n\n\n\n\n\n\nKnowledge Vault\n\n\n \n\n\n2 min\n\n\n\n\n\n\nMacroeconomía\n\n\n \n\n\n3 min\n\n\n\n\n\n\nMicroeconomía\n\n\n \n\n\n2 min\n\n\n\n\n\n\nTeoría del Crecimiento\n\n\n \n\n\n1 min\n\n\n\n\n\n\nNo matching items"
+    "text": "[!tip] Buscador Escribe palabras clave (ej: “Lagrange”, “GARCH”) para filtrar los apuntes.\n\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Apunte\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nApunte\n\n\n\nTema\n\n\n\nTiempo\n\n\n\n\n\n\n\n\nEconometría\n\n\n \n\n\n2 min\n\n\n\n\n\n\nKnowledge Vault\n\n\n \n\n\n2 min\n\n\n\n\n\n\nMacroeconomía\n\n\n \n\n\n3 min\n\n\n\n\n\n\nMicroeconomía\n\n\n \n\n\n2 min\n\n\n\n\n\n\n \n\n\n \n\n\n \n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "notes2.html",
@@ -306,26 +306,5 @@
     "title": "Knowledge Vault",
     "section": "🔍 Explorador de contenido",
     "text": "🔍 Explorador de contenido\nUsa el buscador o filtros por categoría para navegar el material:"
-  },
-  {
-    "objectID": "content/notes/library/macro/teoria-crecimiento.html",
-    "href": "content/notes/library/macro/teoria-crecimiento.html",
-    "title": "Teoría del Crecimiento",
-    "section": "",
-    "text": "Notas sobre el modelo de Solow. Necesito seguir probando algunas otras configuraciones.\n\n\nSi sigo escribiendo mis notas en este lugar, pasará lo siguiente:\n\nEn la Web: Se verá como un post de blog normal, scrolleable.\nEn el Apunte: Se verá como un documento A4 formal con tu encabezado UC.\nEn las Slides: Cada título ## creará una diapositiva nueva.\n\n\n\n\n\n\\[ Y_t = F(K_t, A_t L_t) \\]"
-  },
-  {
-    "objectID": "content/notes/library/macro/teoria-crecimiento.html#supuestos-fundamentales",
-    "href": "content/notes/library/macro/teoria-crecimiento.html#supuestos-fundamentales",
-    "title": "Teoría del Crecimiento",
-    "section": "",
-    "text": "Si sigo escribiendo mis notas en este lugar, pasará lo siguiente:\n\nEn la Web: Se verá como un post de blog normal, scrolleable.\nEn el Apunte: Se verá como un documento A4 formal con tu encabezado UC.\nEn las Slides: Cada título ## creará una diapositiva nueva."
-  },
-  {
-    "objectID": "content/notes/library/macro/teoria-crecimiento.html#la-función-de-producción",
-    "href": "content/notes/library/macro/teoria-crecimiento.html#la-función-de-producción",
-    "title": "Teoría del Crecimiento",
-    "section": "",
-    "text": "\\[ Y_t = F(K_t, A_t L_t) \\]"
   }
 ]
