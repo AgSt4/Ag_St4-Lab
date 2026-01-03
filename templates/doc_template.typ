@@ -22,13 +22,13 @@
   let institution_text = if brand == "personal" { "AgSt4 Lab" } else { "Pontificia Universidad Católica de Chile" }
   let faculty_text = if brand == "personal" { "Portafolio Personal" } else { "Facultad de Economía y Administración" }
 
-  // 3. LOGOS (Ruta 'assets' restaurada)
+  // 3. LOGOS
   let logo_path = if logo_file != none {
       logo_file
   } else if brand == "personal" {
-      "logo.png" // <--- RUTA REAL (Según tu estructura)
+      "../../../../templates/logo.png"      // <--- Ruta corregida
   } else {
-      "Logo UC.png"     // Default para UC (asumiendo que está en templates o root)
+      "../../../../templates/Logo UC.png"   // <--- Ruta corregida
   }
 
   // 4. CONFIGURACIÓN DE PÁGINA
