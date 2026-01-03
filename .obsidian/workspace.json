@@ -195,6 +195,8 @@
   },
   "active": "e131d3e9574537a9",
   "lastOpenFiles": [
+    "content/notes/library/_metadata.yml",
+    "content/_metadata.yml",
     "templates/logo.png",
     "templates/logo.svg",
     "conflict-files-obsidian-git.md",
@@ -211,7 +213,6 @@
     "templates/Logo UC (2).png",
     "templates/UC COLOR-01.png",
     "templates",
-    "topics.qmd",
     "docs/assets/logo.svg",
     "assets/logo.svg",
     "content/notes/library/macro/Untitled.md",

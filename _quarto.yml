@@ -85,3 +85,4 @@ format:
     theme: metropolis
     aspectratio: 169  # 16:9 para pantallas modernas
     navigation: horizontal
+    
