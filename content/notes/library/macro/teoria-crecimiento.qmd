@@ -1,4 +1,43 @@
+---
+title: "Teoría del Crecimiento"
+description: "Crecimiento Económico en Economía Cerrada."
+date: 2025-12-29
+author: "Agustín Sandoval Tapia"
+categories: [Macroeconomía, Economía del Crecimiento]
 
+brand: "personal" 
+# brand: "uc"
+
+format:
+  html: 
+    theme: cosmo
+    toc: true
+
+  typst:
+    output-file: "teoria-crecimiento_doc.pdf"
+    template: ../../../../templates/doc_template.typ
+    logo_file: "../../../../templates/logo.png"          # <--- PERSONAL
+    # logo_file: "../../../../templates/UC COLOR-01.png" # <--- UC
+
+  beamer:
+    output-file: "teoria-crecimiento_slides.pdf"
+    classoption: "allowbreak"
+    theme: metropolis
+    
+    # OPCIÓN PERSONAL:
+    header-includes: |
+      \definecolor{PrimaryColor}{RGB}{10, 40, 70}
+      \setbeamercolor{frametitle}{bg=PrimaryColor, fg=white}
+      \setbeamercolor{progress bar}{fg=PrimaryColor, bg=gray}
+      \titlegraphic{\hfill\includegraphics[height=1.2cm]{../../../../templates/logo.png}}
+
+    # OPCIÓN UC:
+    # header-includes: |
+    #   \definecolor{PrimaryColor}{RGB}{0, 118, 192}
+    #   \setbeamercolor{frametitle}{bg=PrimaryColor, fg=white}
+    #   \setbeamercolor{progress bar}{fg=PrimaryColor, bg=gray}
+    #   \titlegraphic{\hfill\includegraphics[height=1.2cm]{../../../../templates/UC COLOR-01.png}}
+---
 
 # Introducción al Modelo de Solow
 
@@ -24,8 +63,6 @@ Este cuadro se adapta automáticamente:
 - **Slides:** Bloque de color (Beamer).
 - **Apunte:** Recuadro destacado (Typst).
 :::
-
- ---
 
 Y puedo seguir escribiendo nuevas cosas en este lugar
 
