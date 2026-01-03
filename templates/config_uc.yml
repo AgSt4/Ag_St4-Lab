@@ -1,27 +1,20 @@
+# templates/config_uc.yml
 brand: "uc"
+logo_file: "Logo UC.png" # Para que Typst sepa qué imagen usar
 
 format:
-  html:
-    other-links:
-      - text: "📥 Apunte UC (PDF)"
-        href: "Apunte_UC.pdf"
-        icon: file-pdf
-      - text: "📊 Slides UC (PDF)"
-        href: "Slides_UC.pdf"
-        icon: file-slides
-
   typst:
-    output-file: "Apunte_UC.pdf"
+    # Solo indicamos CÓMO se ve, no cómo se llama
     template: ../../../../templates/doc_template.typ
   
   beamer:
-    output-file: "Slides_UC.pdf"
     theme: metropolis
-    # Inyectamos colores UC a LaTeX (Beamer)
+    # Estilos UC (Azul y Amarillo)
     header-includes: |
-      \definecolor{PrimaryColor}{RGB}{0, 118, 192}   % Azul UC
-      \definecolor{SecondaryColor}{RGB}{255, 209, 0} % Amarillo UC
+      \definecolor{PrimaryColor}{RGB}{0, 118, 192}
+      \definecolor{SecondaryColor}{RGB}{255, 209, 0}
       \setbeamercolor{frametitle}{bg=PrimaryColor, fg=white}
       \setbeamercolor{progress bar}{fg=SecondaryColor, bg=gray}
       \setbeamercolor{alerted text}{fg=PrimaryColor}
+      % Logo UC para Slides
       \titlegraphic{\hfill\includegraphics[height=1.2cm]{UC COLOR-01.png}}

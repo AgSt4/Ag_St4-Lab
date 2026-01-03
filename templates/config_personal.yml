@@ -1,25 +1,18 @@
+# templates/config_personal.yml
 brand: "personal"
 
 format:
-  html:
-    other-links:
-      - text: "📥 Apunte Personal (PDF)"
-        href: "Apunte_Personal.pdf"
-        icon: file-pdf
-      - text: "📊 Slides Personal (PDF)"
-        href: "Slides_Personal.pdf"
-        icon: file-slides
-
   typst:
-    output-file: "Apunte_Personal.pdf"
+    # Solo definimos la plantilla visual, NO el nombre del archivo
     template: ../../../../templates/doc_template.typ
   
   beamer:
-    output-file: "Slides_Personal.pdf"
     theme: metropolis
-    # Inyectamos colores de TU MARCA a LaTeX (Beamer)
+    # Estilos de color Personal
     header-includes: |
-      \definecolor{PrimaryColor}{RGB}{10, 40, 70} % Azul Oscuro Logo
+      \definecolor{PrimaryColor}{RGB}{10, 40, 70}
       \setbeamercolor{frametitle}{bg=PrimaryColor, fg=white}
       \setbeamercolor{progress bar}{fg=PrimaryColor, bg=gray}
       \setbeamercolor{alerted text}{fg=PrimaryColor}
+      % Logo Personal para Slides (Asegúrate que el archivo existe)
+      \titlegraphic{\hfill\includegraphics[height=1.2cm]{logo_personal.png}}

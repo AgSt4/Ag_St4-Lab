@@ -1,22 +1,31 @@
 ---
 title: "Teoría del Crecimiento"
-description: "Modelo de Solow y Crecimiento Exógeno."
-date: 2025-12-29
-author: "Agustín Sandoval Tapia"
-categories: [Macroeconomía, Economía del Crecimiento]
+# ... metadata ...
 
-# --- VARIABLES GLOBALES ---
-author-meta: "Agustín Sandoval Tapia"
-email: "a.sandovaltapia@uc.cl"
-
+# 1. CARGAMOS EL ESTILO (Aquí eliges UC o Personal)
 metadata-files: 
-   - ../../../../templates/config_uc.yml
-  #- ../../../../templates/config_personal.yml
+  - ../../../../templates/config_personal.yml
+  #- ../../../../templates/config_uc.yml
 
 format:
   html: 
     theme: cosmo
     toc: true
+    # 2. DEFINIMOS LOS LINKS ESPECÍFICOS DE ESTA NOTA
+    other-links:
+      - text: "📥 Descargar Apunte"
+        href: "teoria-crecimiento.pdf" # <--- Nombre específico
+        icon: file-pdf
+      - text: "📊 Descargar Slides"
+        href: "teoria-crecimiento.pdf" # <--- Nombre específico
+        icon: file-slides
+
+  # 3. DEFINIMOS LOS NOMBRES DE SALIDA (Para evitar colisiones)
+  typst:
+    output-file: "teoria-crecimiento_doc.pdf" # <--- Nombre específico
+  
+  beamer:
+    output-file: "teoria-crecimiento_slides.pdf" # <--- Nombre específico
 ---
 
 # Introducción al Modelo de Solow
