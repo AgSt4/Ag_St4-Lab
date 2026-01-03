@@ -1,19 +1,11 @@
-# templates/config_personal.yml
 brand: "personal"
-
 format:
   typst:
-    # Solo definimos la plantilla visual, NO el nombre del archivo
     template: ../../../../templates/doc_template.typ
-  
   beamer:
     theme: metropolis
-    # Estilos de color Personal
     header-includes: |
       \definecolor{PrimaryColor}{RGB}{10, 40, 70}
       \setbeamercolor{frametitle}{bg=PrimaryColor, fg=white}
       \setbeamercolor{progress bar}{fg=PrimaryColor, bg=gray}
-      \setbeamercolor{alerted text}{fg=PrimaryColor}
-      % Logo Personal para Slides (Asegúrate que el archivo existe)
       \titlegraphic{\hfill\includegraphics[height=1.2cm]{../../../../templates/logo.png}}
-      

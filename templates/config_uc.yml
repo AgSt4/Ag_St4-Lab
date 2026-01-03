@@ -1,21 +1,11 @@
-# templates/config_uc.yml
 brand: "uc"
-logo_file: "Logo UC.png" # Para que Typst sepa qué imagen usar
-
 format:
   typst:
-    # Solo indicamos CÓMO se ve, no cómo se llama
     template: ../../../../templates/doc_template.typ
-  
   beamer:
     theme: metropolis
-    # Estilos UC (Azul y Amarillo)
     header-includes: |
       \definecolor{PrimaryColor}{RGB}{0, 118, 192}
-      \definecolor{SecondaryColor}{RGB}{255, 209, 0}
       \setbeamercolor{frametitle}{bg=PrimaryColor, fg=white}
-      \setbeamercolor{progress bar}{fg=SecondaryColor, bg=gray}
-      \setbeamercolor{alerted text}{fg=PrimaryColor}
-      % Logo UC para Slides
+      \setbeamercolor{progress bar}{fg=PrimaryColor, bg=gray}
       \titlegraphic{\hfill\includegraphics[height=1.2cm]{../../../../templates/UC COLOR-01.png}}
-      

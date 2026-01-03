@@ -1,0 +1,57 @@
+---
+title: "Teoría del Crecimiento"
+description: "Crecimiento Económico en Economía Cerrada."
+date: 2025-12-29
+author: "Agustín Sandoval Tapia"
+categories: [Macroeconomía, Economía del Crecimiento]
+
+# 1. SELECTOR DE ESTILO (Descomenta el que quieras usar)
+metadata-files: 
+  - ../../../../templates/config_personal.yml
+  #- ../../../../templates/config_uc.yml
+
+format:
+  html: 
+    theme: cosmo
+    toc: true
+    # 2. BOTONES DE DESCARGA (Coinciden con los output-file de abajo)
+    other-links:
+      - text: "📥 Descargar Apunte"
+        href: "teoria-crecimiento_doc.pdf" 
+        icon: file-pdf
+      - text: "📊 Descargar Slides"
+        href: "teoria-crecimiento_slides.pdf"
+        icon: file-slides
+
+  # 3. NOMBRES DE SALIDA ESPECÍFICOS
+  typst:
+    output-file: "teoria-crecimiento_doc.pdf"
+  
+  beamer:
+    output-file: "teoria-crecimiento_slides.pdf"
+---
+
+# Introducción al Modelo de Solow
+
+Notas sobre el modelo de Solow. Esta versión usa sintaxis nativa para funcionar en los 3 formatos (Web, Doc y Slides).
+
+## Supuestos Fundamentales
+
+Si sigo escribiendo mis notas en este lugar, pasará lo siguiente:
+
+1.  **En la Web:** Se verá como un post de blog normal.
+2.  **En el Apunte:** Se verá con el formato que elijas arriba (UC o Personal).
+3.  **En las Slides:** Cada título `##` creará una nueva diapositiva.
+
+---
+
+## La Función de Producción
+
+$$Y_t = F(K_t, A_t L_t)$$
+
+::: {.callout-tip title="Ejemplo"}
+Este cuadro se adapta automáticamente:
+- **Web:** Caja de alerta estándar.
+- **Slides:** Bloque de color (Beamer).
+- **Apunte:** Recuadro destacado (Typst).
+:::
