@@ -193,8 +193,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "226f4db67fa22ba9",
+  "active": "e131d3e9574537a9",
   "lastOpenFiles": [
+    "templates/logo.svg",
     "conflict-files-obsidian-git.md",
     "content/notes/library/macro/teoria-crecimiento.qmd",
     "templates/slides_style.tex",

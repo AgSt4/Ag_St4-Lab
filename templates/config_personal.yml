@@ -15,5 +15,5 @@ format:
       \setbeamercolor{progress bar}{fg=PrimaryColor, bg=gray}
       \setbeamercolor{alerted text}{fg=PrimaryColor}
       % Logo Personal para Slides (Asegúrate que el archivo existe)
-      \titlegraphic{\hfill\includegraphics[height=1.2cm]{logo_personal.png}}
+      \titlegraphic{\hfill\includegraphics[height=1.2cm]{logo.svg}}
       

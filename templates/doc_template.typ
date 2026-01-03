@@ -26,7 +26,7 @@
   let logo_path = if logo_file != none {
       logo_file
   } else if brand == "personal" {
-      "assets/logo.svg" // <--- RUTA REAL (Según tu estructura)
+      "logo.svg" // <--- RUTA REAL (Según tu estructura)
   } else {
       "Logo UC.png"     // Default para UC (asumiendo que está en templates o root)
   }
