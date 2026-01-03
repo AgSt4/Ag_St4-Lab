@@ -47,6 +47,6 @@ Si sigo escribiendo mis notas en este lugar, pasará lo siguiente:
 
 $$ Y_t = F(K_t, A_t L_t) $$
 
-\begin{respuesta}
+\begin{example}
     Este cuadro de respuesta se renderiza en los 3 formatos (en HTML será un borde simple, en PDF y Beamer tendrá tus colores definidos).
-\end{respuesta}
+\end{example}
