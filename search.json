@@ -312,7 +312,7 @@
     "href": "content/notes/library/macro/teoria-crecimiento.html",
     "title": "Teoría del Crecimiento",
     "section": "",
-    "text": "Notas sobre el modelo de Solow. Esta versión usa sintaxis nativa para funcionar en los 3 formatos (Web, Doc y Slides).\n\n\nSi sigo escribiendo mis notas en este lugar, pasará lo siguiente:\n\nEn la Web: Se verá como un post de blog normal.\nEn el Apunte: Se verá con el formato que elijas arriba (UC o Personal).\nEn las Slides: Cada título ## creará una nueva diapositiva.\n\n\n\n\n\n\\[Y_t = F(K_t, A_t L_t)\\]\n\n\n\n\n\n\nTipEjemplo\n\n\n\nEste cuadro se adapta automáticamente: - Web: Caja de alerta estándar. - Slides: Bloque de color (Beamer). - Apunte: Recuadro destacado (Typst)."
+    "text": "Notas sobre el modelo de Solow. Esta versión usa sintaxis nativa para funcionar en los 3 formatos (Web, Doc y Slides).\n\n\nSi sigo escribiendo mis notas en este lugar, pasará lo siguiente:\n\nEn la Web: Se verá como un post de blog normal.\nEn el Apunte: Se verá con el formato que elijas arriba (UC o Personal).\nEn las Slides: Cada título ## creará una nueva diapositiva.\n\n\n\n\n\n\\[Y_t = F(K_t, A_t L_t)\\]\n\n\n\n\n\n\nTipEjemplo\n\n\n\nEste cuadro se adapta automáticamente: - Web: Caja de alerta estándar. - Slides: Bloque de color (Beamer). - Apunte: Recuadro destacado (Typst).\n\n\n\nY puedo seguir escribiendo nuevas cosas en este lugar"
   },
   {
     "objectID": "content/notes/library/macro/teoria-crecimiento.html#supuestos-fundamentales",
@@ -326,6 +326,6 @@
     "href": "content/notes/library/macro/teoria-crecimiento.html#la-función-de-producción",
     "title": "Teoría del Crecimiento",
     "section": "",
-    "text": "\\[Y_t = F(K_t, A_t L_t)\\]\n\n\n\n\n\n\nTipEjemplo\n\n\n\nEste cuadro se adapta automáticamente: - Web: Caja de alerta estándar. - Slides: Bloque de color (Beamer). - Apunte: Recuadro destacado (Typst)."
+    "text": "\\[Y_t = F(K_t, A_t L_t)\\]\n\n\n\n\n\n\nTipEjemplo\n\n\n\nEste cuadro se adapta automáticamente: - Web: Caja de alerta estándar. - Slides: Bloque de color (Beamer). - Apunte: Recuadro destacado (Typst).\n\n\n\nY puedo seguir escribiendo nuevas cosas en este lugar"
   }
 ]
