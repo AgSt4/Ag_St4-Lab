@@ -5,7 +5,7 @@
   author: "",
   date: "",
   brand: "uc",      // "uc" o "personal"
-  logo_file: none,  // <--- NUEVO: Recibe el nombre del archivo desde el YAML
+  logo_file: none,  // Recibe nombre específico si se desea
   body
 ) = {
   // 1. DEFINICIÓN DE COLORES
@@ -16,27 +16,22 @@
   let color_personal_gray = rgb("#E5E5E5") 
 
   // 2. LÓGICA DE SELECCIÓN DE ESTILO
-  
-  // Colores según marca
   let primary_color = if brand == "personal" { color_personal_navy } else { color_uc_blue }
   let secondary_color = if brand == "personal" { color_personal_gray } else { color_uc_yellow }
   
-  // Textos Institucionales
   let institution_text = if brand == "personal" { "AgSt4 Lab" } else { "Pontificia Universidad Católica de Chile" }
   let faculty_text = if brand == "personal" { "Portafolio Personal" } else { "Facultad de Economía y Administración" }
 
-  // LOGOS (Lógica Corregida)
-  // Prioridad 1: Si el YAML define 'logo_file', usamos ese.
-  // Prioridad 2: Si no, usamos el logo por defecto según la marca.
+  // 3. LOGOS (Ruta 'assets' restaurada)
   let logo_path = if logo_file != none {
       logo_file
   } else if brand == "personal" {
-      "assets/logo.svg"
+      "assets/logo.svg" // <--- RUTA REAL (Según tu estructura)
   } else {
-      "Logo UC.png" // Default correcto para documentos UC
+      "Logo UC.png"     // Default para UC (asumiendo que está en templates o root)
   }
 
-  // 3. CONFIGURACIÓN DE PÁGINA
+  // 4. CONFIGURACIÓN DE PÁGINA
   set page(
     paper: "us-letter",
     margin: (x: 2cm, y: 2.5cm),
@@ -47,7 +42,7 @@
           #text(fill: primary_color, weight: "bold", size: 10pt)[#institution_text] \
           #text(fill: black.lighten(40%), size: 9pt, style: "italic")[#faculty_text]
         ],
-        // Ajustamos la imagen con 'fit: "contain"' para que no se deforme
+        // Ajuste de imagen
         image(logo_path, height: 1.5cm, fit: "contain")
       )
       #v(0.2cm)
@@ -62,19 +57,18 @@
     ]
   )
 
-  // 4. ESTILOS DE TEXTO
+  // 5. ESTILOS DE TEXTO
   set text(font: "Lato", size: 11pt, lang: "es")
   set par(justify: true)
   set heading(numbering: "1.1")
 
-  // Los títulos se colorean automáticamente
   show heading: it => [
     #v(0.5em)
     #text(fill: primary_color)[#it]
     #v(0.2em)
   ]
 
-  // 5. TÍTULO DEL DOCUMENTO (Portada)
+  // 6. TÍTULO
   align(center)[
     #text(size: 22pt, weight: "bold", fill: primary_color)[#title] \
     #v(0.5em)
@@ -87,6 +81,5 @@
   
   v(1cm)
   
-  // 6. RENDERIZADO DEL CUERPO
   body
 }

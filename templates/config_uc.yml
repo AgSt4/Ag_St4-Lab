@@ -18,3 +18,4 @@ format:
       \setbeamercolor{alerted text}{fg=PrimaryColor}
       % Logo UC para Slides
       \titlegraphic{\hfill\includegraphics[height=1.2cm]{UC COLOR-01.png}}
+      
