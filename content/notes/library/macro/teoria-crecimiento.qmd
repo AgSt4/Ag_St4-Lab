@@ -21,6 +21,7 @@ format:
   
   beamer:
     output-file: "teoria-crecimiento_slides.pdf"
+    classoption: "allowbreak"
 ---
 
 # Introducción al Modelo de Solow
@@ -47,3 +48,7 @@ Este cuadro se adapta automáticamente:
 - **Slides:** Bloque de color (Beamer).
 - **Apunte:** Recuadro destacado (Typst).
 :::
+
+ ---
+
+Y puedo seguir escribiendo nuevas cosas en este lugar

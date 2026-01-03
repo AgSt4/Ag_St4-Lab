@@ -39,6 +39,7 @@
   } else {
       "Logo UC.png"
   }
+  
 
   // 5. CONFIGURACIÓN DE PÁGINA
   set page(
