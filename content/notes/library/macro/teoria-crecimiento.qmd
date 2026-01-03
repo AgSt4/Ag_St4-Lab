@@ -4,51 +4,45 @@ description: "Crecimiento Económico en Economía Cerrada."
 date: 2024-12-29
 categories: [Macroeconomía, Economía del Crecimiento]
 
-# Solo necesitas esto para cambiar de estilo
+# Solo cambia esto para alternar estilos
 brand: personal
 # brand: uc
 ---
 
-# Introducción al Modelo de Solow
+# Introducción
 
-Notas sobre el modelo de Solow. Esta versión usa sintaxis nativa para funcionar en los 3 formatos (Web, Doc y Slides).
-
-## Supuestos Fundamentales
-
-Si sigo escribiendo mis notas en este lugar, pasará lo siguiente:
-
-1.  **En la Web:** Se verá como un post de blog normal.
-2.  **En el Apunte:** Se verá con el formato que elijas arriba (UC o Personal).
-3.  **En las Slides:** Cada título `##` creará una nueva diapositiva.
+Contenido...
+```
 
 ---
 
-## La Función de Producción
+## Cómo funciona
 
-$$Y_t = F(K_t, A_t L_t)$$
+1. **GitHub Actions ejecuta `quarto render`** → Renderiza TODO automáticamente
+2. **Cualquier nota en cualquier subcarpeta** hereda la configuración de `_metadata.yml`
+3. **Solo 2 archivos de configuración** en la raíz
+4. **Cambiar de estilo** = cambiar 1 línea en el frontmatter (`brand: personal` o `brand: uc`)
+5. **Zero configuración por carpeta** → Escalable infinitamente
 
-::: {.callout-tip title="Ejemplo"}
-Este cuadro se adapta automáticamente:
-- **Web:** Caja de alerta estándar.
-- **Slides:** Bloque de color (Beamer).
-- **Apunte:** Recuadro destacado (Typst).
-:::
+---
 
-Y puedo seguir escribiendo nuevas cosas en este lugar
-
-Voy a seguir escribiendo porque necesito que colapste
-
-Así puedo pretender que se alcnace el líite
-
-Y probar el allow ...
-
-Seguido de esto, vamos a ver los resultados 
-
-::: {.callout-tip title="Ejemplo"}
-Este cuadro se adapta automáticamente:
-- **Web:** Caja de alerta estándar.
-
-- **Slides:** Bloque de color (Beamer).
-
-- **Apunte:** Recuadro destacado (Typst).
-:::
+## Estructura final
+```
+proyecto/
+├── _quarto.yml           # ← Formatos globales
+├── _metadata.yml         # ← Configuración global (1 solo archivo)
+├── custom.scss
+├── templates/
+│   ├── doc_template.typ
+│   ├── logo.png
+│   ├── Logo UC.png
+│   └── UC COLOR-01.png
+└── content/
+    └── notes/
+        ├── library/
+        │   └── macro/
+        │       └── teoria-crecimiento.qmd
+        ├── projects/
+        │   └── otra-nota.qmd
+        └── topics/
+            └── otra-mas.qmd

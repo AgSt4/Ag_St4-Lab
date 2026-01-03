@@ -1,0 +1,50 @@
+# ============================================
+# CONFIGURACIÓN GLOBAL PARA TODAS LAS NOTAS
+# ============================================
+author: "Agustín Sandoval Tapia"
+date-format: "D MMMM YYYY"
+lang: es
+
+# Brand por defecto (se puede sobrescribir en cada nota)
+brand: personal
+
+format:
+  html:
+    toc: true
+    
+  typst:
+    output-file: "{{< meta title >}}_doc.pdf"
+    
+  beamer:
+    output-file: "{{< meta title >}}_slides.pdf"
+    include-in-header:
+      text: |
+        \usepackage{xcolor}
+        \usepackage{graphicx}
+        
+        % Estilos condicionales según metadata
+        \makeatletter
+        \@ifundefined{brand}{
+          % Default: personal
+          \definecolor{PrimaryColor}{RGB}{10, 40, 70}
+          \def\brandlogo{templates/logo.png}
+        }{
+          % Si brand=uc
+          \ifthenelse{\equal{\brand}{uc}}{
+            \definecolor{PrimaryColor}{RGB}{0, 118, 192}
+            \def\brandlogo{templates/UC COLOR-01.png}
+          }{
+            % Si brand=personal
+            \definecolor{PrimaryColor}{RGB}{10, 40, 70}
+            \def\brandlogo{templates/logo.png}
+          }
+        }
+        \makeatother
+        
+        \setbeamercolor{frametitle}{bg=PrimaryColor, fg=white}
+        \setbeamercolor{progress bar}{fg=PrimaryColor, bg=gray}
+        \setbeamercolor{block title}{bg=PrimaryColor, fg=white}
+        
+        \titlegraphic{%
+          \includegraphics[height=1.2cm]{\brandlogo}
+        }
