@@ -2,24 +2,45 @@
 
 #let article(
   title: "",
-  authors: (), 
-  date: none, 
+  authors: (), // <--- CAMBIO 1: Quarto envía una lista (array)
+  date: none,  // <--- CAMBIO 2: El default debe ser none
   brand: "uc",
   logo_file: none,
   body
 ) = {
   
-  // 1. Convertir autores (Robustez)
+// 1. TRANSFORMACIÓN DE DATOS (Robustez para objetos complejos)
   let author_str = if type(authors) == array { 
-    authors.join(", ") 
+    authors.map(a => if type(a) == dictionary { a.name } else { str(a) }).join(", ") 
   } else { 
     str(authors) 
   }
 
-  // 2. Colores
-  let color_primary = if brand == "personal" { rgb("#0A2846") } else { rgb("#0076C0") }
+  // 2. DEFINICIÓN DE COLORES
+  let color_uc_blue = rgb("#0076C0")
+  let color_uc_yellow = rgb("#FFD100")
+  let color_personal_navy = rgb("#0A2846") 
+  let color_personal_gray = rgb("#E5E5E5") 
+
+  // 3. LÓGICA DE SELECCIÓN DE ESTILO
+  let primary_color = if brand == "personal" { color_personal_navy } else { color_uc_blue }
+  let secondary_color = if brand == "personal" { color_personal_gray } else { color_uc_yellow }
   
-  // 3. Configuración de Página
+  let institution_text = if brand == "personal" { "AgSt4 Lab" } else { "Pontificia Universidad Católica de Chile" }
+  let faculty_text = if brand == "personal" { "Portafolio Personal" } else { "Facultad de Economía y Administración" }
+
+  // 4. LOGOS
+  // Nota: Las rutas en Typst son relativas al archivo .qmd que se compila
+  let logo_path = if logo_file != none {
+      logo_file
+  } else if brand == "personal" {
+      "logo.png"
+  } else {
+      "Logo UC.png"
+  }
+  
+
+  // 5. CONFIGURACIÓN DE PÁGINA
   set page(
     paper: "us-letter",
     margin: (x: 2cm, y: 2.5cm),
@@ -27,36 +48,54 @@
       #grid(
         columns: (1fr, auto),
         align(left + horizon)[
-           #text(fill: color_primary, weight: "bold")[Título: #title]
+          #text(fill: primary_color, weight: "bold", size: 10pt)[#institution_text] \
+          #text(fill: black.lighten(40%), size: 9pt, style: "italic")[#faculty_text]
         ],
-        // --- AQUÍ ESTABA EL ERROR POTENCIAL ---
-        // Comentamos la imagen y ponemos un cuadro gris para probar
-        // image(logo_path) 
-        rect(width: 2cm, height: 1cm, fill: luma(200))
+        // Image usa la ruta calculada arriba
+        image(logo_path, height: 1.5cm, fit: "contain")
       )
-      #line(length: 100%, stroke: 1pt + color_primary)
+      #v(0.2cm)
+      #line(length: 100%, stroke: 1.5pt + primary_color)
+    ],
+    footer: [
+      #align(center)[
+        #text(size: 8pt, fill: gray)[
+           #title | #author_str | Pág. #counter(page).display()
+        ]
+      ]
     ]
   )
 
-  // 4. FUENTE SEGURA (Vital para Windows)
-  // Usamos una fuente que seguro tienes. Si esto funciona, luego instalas Lato.
-  set text(font: "Arial", size: 11pt, lang: "es") 
-  
+  // 6. ESTILOS DE TEXTO
+  // Si GitHub no tiene Lato, Typst usará una fuente default sin romper
+  set text(font: "Lato", size: 11pt, lang: "es") 
+  set par(justify: true)
   set heading(numbering: "1.1")
-  show heading: it => [
-    #text(fill: color_primary)[#it]
-    #v(0.5em)
-  ]
 
-  // 5. TÍTULO
-  align(center)[
-    #text(size: 18pt, weight: "bold", fill: color_primary)[#title] \
+  show heading: it => [
     #v(0.5em)
-    #text(style: "italic")[#author_str]
+    #text(fill: primary_color)[#it]
+    #v(0.2em)
+  ]
+  
+  // Estilo para enlaces (que hagan juego con la marca)
+  show link: it => text(fill: primary_color, it)
+
+  // 7. TÍTULO DEL DOCUMENTO
+  align(center)[
+    #text(size: 22pt, weight: "bold", fill: primary_color)[#title] \
+    #v(0.5em)
+    #text(size: 12pt, style: "italic")[#author_str] \
+    
+    // Solo mostramos la fecha si existe (distinto de none)
+    #if date != none [
+      #v(0.2em)
+      #text(size: 10pt, fill: gray)[#date]
+    ]
   ]
   
   v(1cm)
   
-  // 6. IMPRIMIR EL CONTENIDO
+  // 8. CUERPO DEL CONTENIDO
   body
 }
