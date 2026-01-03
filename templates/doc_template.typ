@@ -35,9 +35,9 @@
   let logo_path = if logo_file != none {
       logo_file
   } else if brand == "personal" {
-      "../../../../templates/logo.png"
+      "logo.png"
   } else {
-      "../../../../templates/Logo UC.png"
+      "Logo UC.png"
   }
 
   // 5. CONFIGURACIÓN DE PÁGINA

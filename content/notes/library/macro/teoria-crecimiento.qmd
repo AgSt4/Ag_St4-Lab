@@ -14,14 +14,6 @@ format:
   html: 
     theme: cosmo
     toc: true
-    # 2. BOTONES DE DESCARGA (Coinciden con los output-file de abajo)
-    other-links:
-      - text: "📥 Descargar Apunte"
-        href: "teoria-crecimiento_doc.pdf" 
-        icon: file-pdf
-      - text: "📊 Descargar Slides"
-        href: "teoria-crecimiento_slides.pdf"
-        icon: file-slides
 
   # 3. NOMBRES DE SALIDA ESPECÍFICOS
   typst:
