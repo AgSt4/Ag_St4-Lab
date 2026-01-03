@@ -60,7 +60,7 @@ website:
 
 
 # ============================================
-# TU CONFIGURACIÓN HTML EXISTENTE (NO TOCAR)
+# FORMATOS GLOBALES
 # ============================================
 format:
   html:
@@ -73,16 +73,10 @@ format:
       body-width: 1000px
       margin-width: 300px
 
-# ============================================
-# NUEVOS FORMATOS: TYPST Y BEAMER
-# ============================================
   typst:
-    # Ruta al template relativa desde la raíz del proyecto
     template: templates/doc_template.typ
     toc: true
     
   beamer:
     theme: metropolis
-    aspectratio: 169  # 16:9 para pantallas modernas
-    navigation: horizontal
-    
+    aspectratio: 169

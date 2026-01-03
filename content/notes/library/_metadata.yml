@@ -1,8 +1,0 @@
-# Hereda todo de content/notes/_metadata.yml
-# Aquí solo defines lo específico de esta sección
-
-categories: [Notas, Biblioteca]
-
-format:
-  html:
-    number-sections: true
