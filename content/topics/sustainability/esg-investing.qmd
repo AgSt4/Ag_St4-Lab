@@ -1,4 +1,11 @@
+---
+title: "Inversión Sostenible (ESG)"
+date: 2024-12-29
+categories: [Sustentabilidad, Inversiones]
 
+# ¡Solo necesitas esto!
+doc-brand: personal 
+---
 
 ## Definición
 La inversión sostenible integra factores ambientales, sociales y de gobernanza... (ESG) en las decisiones de inversión para generar beneficios a largo plazo tanto financieros como sociales.
