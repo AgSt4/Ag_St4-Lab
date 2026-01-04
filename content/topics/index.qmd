@@ -6,7 +6,7 @@ page-layout: full
 format:
   html:
     theme: cosmo
-    toc:
+    toc: true
 
 listing:
   id: listing-topics
