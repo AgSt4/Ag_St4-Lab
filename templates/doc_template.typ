@@ -2,7 +2,7 @@
   title: "",
   authors: (),
   date: none,
-  doc-brand: "personal",  // Cambiado
+  doc-brand: "personal",
   body
 ) = {
   
@@ -14,7 +14,6 @@
     str(authors) 
   }
 
-  // Configuración por marca (usando doc-brand)
   let (primary, secondary, institution, faculty, logo) = if doc-brand == "uc" {
     (
       rgb("#0076C0"),

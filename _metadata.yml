@@ -12,15 +12,17 @@ format:
     
   typst:
     toc: true
-    # SIN output-file - Quarto lo maneja automáticamente
     
   beamer:
-    # SIN output-file - Quarto lo maneja automáticamente
+    theme: metropolis
+    aspectratio: 169
     include-in-header:
       text: |
         \usepackage{xcolor}
+        \usepackage{graphicx}
+        \usepackage{ifthen}
         \definecolor{PrimaryColor}{RGB}{10, 40, 70}
         \setbeamercolor{frametitle}{bg=PrimaryColor, fg=white}
         \setbeamercolor{progress bar}{fg=PrimaryColor, bg=gray}
+        \setbeamercolor{block title}{bg=PrimaryColor, fg=white}
         \titlegraphic{\includegraphics[height=1.2cm]{templates/logo.png}}
-        
