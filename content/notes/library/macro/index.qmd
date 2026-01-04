@@ -2,7 +2,9 @@
 title: "Macroeconomía"
 subtitle: "Temario de Examen de Grado"
 description: "Crecimiento, ciclos económicos, política monetaria y macroeconomía internacional."
+page-layout: full
 
+# 1. BLINDAJE TOTAL: Corta la herencia para evitar errores de PDF
 metadata-files: []
 
 format:
@@ -11,6 +13,7 @@ format:
     toc-depth: 3
 
 listing:
+  # 2. SINTAXIS SEGURA: Incluye todo menos a sí mismo
   contents: 
     - "*.qmd"
     - "!index.qmd"
@@ -19,6 +22,10 @@ listing:
   sort: "title asc"
   categories: true
   fields: [title, description, categories]
+  field-display-names:
+    title: "Apunte"
+    description: "Contenido"
+    categories: "Temas"
 ---
 
 ::: {.callout-tip appearance="simple" icon=false}
