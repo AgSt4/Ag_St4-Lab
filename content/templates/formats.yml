@@ -1,0 +1,17 @@
+# templates/formats.yml
+# Este archivo contiene la configuración de SALIDA (PDF/Slides)
+format:
+  typst:
+    output-file: "documento.pdf" # Nombre genérico, Quarto lo ajusta
+    template: "_path_to_template_fix_" # Lo ajustaremos en el qmd si es necesario, o usa ruta absoluta
+    # TRUCO: Ruta absoluta desde la raíz del proyecto para evitar error de "../"
+    logo_file: "/templates/logo.png" 
+    
+  beamer:
+    theme: metropolis
+    classoption: "allowbreak"
+    header-includes: |
+      \definecolor{PrimaryColor}{RGB}{10, 40, 70}
+      \setbeamercolor{frametitle}{bg=PrimaryColor, fg=white}
+      \setbeamercolor{progress bar}{fg=PrimaryColor, bg=gray}
+      \titlegraphic{\hfill\includegraphics[height=1.2cm]{/templates/logo.png}}

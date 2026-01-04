@@ -195,6 +195,13 @@
   },
   "active": "e131d3e9574537a9",
   "lastOpenFiles": [
+    "content/templates/logo.png",
+    "content/templates/Logo UC.png",
+    "content/templates/UC COLOR-01.png",
+    "content/templates/formats.yml",
+    "content/templates/doc_template.typ",
+    "content/templates",
+    "templates/formats.yml",
     "content/_metadata.yml",
     "_metadata.yml",
     "content/notes/library/_metadata.yml",
@@ -204,12 +211,7 @@
     "content/notes/library/macro/teoria-crecimiento.qmd",
     "templates/slides_style.tex",
     "templates/notes_style.tex",
-    "templates/notes_style.synctex(busy)",
-    "content/notes/library/macro/index.qmd",
     "content/notes/library/macro/teoria-crecimiento.md",
-    "templates/notes_style.log",
-    "templates/slides_style.log",
-    "templates/slides_style.synctex(busy)",
     "templates/Logo UC.png",
     "templates/Logo UC (2).png",
     "templates/UC COLOR-01.png",
@@ -218,7 +220,6 @@
     "content/notes/library/macro/Untitled.md",
     "content/notes/library/macro/Untitled.canvas",
     "docs/content/notes/library/macro/IS-LM.md",
-    "profile.jpg",
-    "docs/assets/profile.jpg"
+    "profile.jpg"
   ]
 }

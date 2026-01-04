@@ -1,12 +1,17 @@
 ---
 title: "Inversión Sostenible (ESG)"
-description: "Estado del arte sobre el impacto de factores ESG en retornos financieros."
 date: 2024-12-29
-categories: [Sustentabilidad, Inversiones, ESG]
 
-# Usa doc-brand en lugar de brand
-doc-brand: personal
-# doc-brand: uc
+
+metadata-files: ["../../../../templates/formats.yml"]
+
+format:
+  html: 
+    toc: true
+  # Solo especificamos las rutas relativas específicas de este archivo
+  typst:
+    template: "../../../../templates/doc_template.typ"
+    logo_file: "../../../../templates/logo.png" 
 ---
 
 ## Definición

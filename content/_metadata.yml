@@ -1,28 +1,6 @@
-# ============================================
-# CONFIGURACIÓN GLOBAL PARA TODAS LAS NOTAS
-# ============================================
+# _metadata.yml (Global)
 author: "Agustín Sandoval Tapia"
 date-format: "D MMMM YYYY"
 lang: es
 doc-brand: personal
-
-format:
-  html:
-    toc: true
-    
-  typst:
-    toc: true
-    
-  beamer:
-    theme: metropolis
-    aspectratio: 169
-    include-in-header:
-      text: |
-        \usepackage{xcolor}
-        \usepackage{graphicx}
-        \usepackage{ifthen}
-        \definecolor{PrimaryColor}{RGB}{10, 40, 70}
-        \setbeamercolor{frametitle}{bg=PrimaryColor, fg=white}
-        \setbeamercolor{progress bar}{fg=PrimaryColor, bg=gray}
-        \setbeamercolor{block title}{bg=PrimaryColor, fg=white}
-        \titlegraphic{\includegraphics[height=1.2cm]{templates/logo.png}}
+# ¡SIN FORMATOS AQUÍ!
