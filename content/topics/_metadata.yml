@@ -1,3 +1,0 @@
-# En content/topics/_metadata.yml Y content/notes/_metadata.yml
-metadata-files:
-  - "../../templates/formats.yml"  # <--- CORRECCIÓN: Dos puntos atrás, no barra inicial

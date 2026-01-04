@@ -1,19 +1,16 @@
 ---
 title: "Tópicos de Investigación"
 page-layout: full
-
-# BLINDAJE CONTRA PDF (Recomendado)
-format:
-  html:
+format: 
+  html: 
     toc: true
-  typst: false   # Desactiva explícitamente
-  beamer: false  # Desactiva explícitamente
 
 listing:
   id: listing-topics
-  contents: "*.qmd"       # <--- CORRECCIÓN: Quita 'content/topics/'
-  exclude: 
-    - "index.qmd"         # Evita listarse a sí mismo
+  # "Busca todo lo que sea .qmd MENOS el index.qmd"
+  contents: 
+    - "**/*.qmd"
+    - "!index.qmd"
   sort: "date desc"
   type: grid
   categories: true
