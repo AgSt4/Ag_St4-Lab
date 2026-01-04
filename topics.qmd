@@ -1,14 +1,20 @@
 ---
 title: "Tópicos de Investigación"
 subtitle: "Áreas de interés y notas temáticas"
+page-layout: full
+title-block-banner: true
+
+format:
+  html:
+    toc: true
+
 listing:
-  contents: content/topics   # <--- Buscará aquí
-  type: grid                 # <--- Tarjetas visuales
+  contents: content/topics
+  
+  type: grid
   sort: "title asc"
   categories: true
   fields: [image, title, description]
-page-layout: full
-title-block-banner: true
 ---
 
 ## 💡 Áreas de Foco
