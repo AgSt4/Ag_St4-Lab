@@ -14,8 +14,21 @@ jobs:
       
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
-        with:
-          tinytex: true
+      
+      - name: Install TinyTeX
+        run: |
+          wget -qO- "https://yihui.org/tinytex/install-bin-unix.sh" | sh
+          echo "$HOME/.TinyTeX/bin/x86_64-linux" >> $GITHUB_PATH
+      
+      - name: Add TinyTeX to PATH for current session
+        run: |
+          export PATH="$HOME/.TinyTeX/bin/x86_64-linux:$PATH"
+          echo "PATH=$HOME/.TinyTeX/bin/x86_64-linux:$PATH" >> $GITHUB_ENV
+      
+      - name: Verify TinyTeX installation
+        run: |
+          which tlmgr
+          tlmgr --version
       
       - name: Install required LaTeX packages
         run: |
