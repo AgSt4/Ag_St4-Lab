@@ -15,7 +15,7 @@ format:
   # 2. SOBRESCRIBIMOS las rutas para corregir la profundidad (3 niveles: ../../../)
   typst:
     output-file: "esg-investing.pdf"
-    template: "../../../templates/doc_template.typ"
+    template: "/templates/doc_template.typ"
     logo_file: "../../../templates/logo.png"
   beamer:
     output-file: "esg-investing-slides.pdf"
