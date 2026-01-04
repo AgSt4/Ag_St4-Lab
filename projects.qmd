@@ -1,16 +1,21 @@
 ---
 title: "Proyectos"
 subtitle: "Modelos Econométricos & Data Science"
+page-layout: full
+title-block-banner: false
+
+format:
+  html:
+    toc: false # No suele ser necesario índice en una galería
+
 listing:
-  contents: content/projects  # <--- Aquí es donde busca los proyectos
+  contents: content/projects
   sort: "date desc"
-  type: grid                  # <--- Formato de tarjetas (Grid)
+  type: grid
   categories: true
   sort-ui: false
   filter-ui: true
   fields: [image, date, title, description, categories]
-page-layout: full
-title-block-banner: false
 ---
 
 ## 🏗️ Portfolio

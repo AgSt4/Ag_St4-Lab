@@ -1,9 +1,18 @@
 ---
-title: "Otros Apuntes generales"
-subtitle: "Microeconomía, Macroeconomía y Econometría"
+title: "Otros Apuntes Generales"
+subtitle: "Tópicos de otras disciplinas"
+page-layout: full
+
+format:
+  html:
+    toc: false 
+
 listing:
-  contents: content/notes/aditional     # <--- Busca en tu carpeta de Obsidian migrada
-  type: table                 # <--- Formato tabla (limpio y denso)
+  # Asegúrate que esta ruta sea correcta desde donde guardes este archivo.
+  # Si este archivo está en la raíz, esto está perfecto:
+  contents: content/notes/aditional
+  
+  type: table
   sort: "title asc"
   categories: true
   sort-ui: true
@@ -12,8 +21,12 @@ listing:
   field-display-names:
     title: "Apunte"
     categories: "Tema"
-    reading-time: "Tiempo"
+    reading-time: "Tiempo estimado"
 ---
 
-> [!tip] Buscador
-> Escribe palabras clave (ej: "Lagrange", "GARCH") para filtrar los apuntes.
+## Repositorio de Notas
+
+::: {.callout-tip appearance="simple"}
+## 🔍 Buscador Inteligente
+Utiliza la barra **"Filter"** de abajo para escribir palabras clave (ej: *"Lagrange"*, *"GARCH"*, *"Elasticidad"*) y encontrar apuntes específicos rápidamente.
+:::
