@@ -46,3 +46,7 @@ proyecto/
         │   └── otra-nota.qmd
         └── topics/
             └── otra-mas.qmd
+
+::: {.callout-note title="Definición: Capital Humano"}
+El capital humano se refiere al valor económico de las habilidades y experiencia de un trabajador.
+:::
