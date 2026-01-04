@@ -12,5 +12,5 @@ format:
       \setbeamercolor{frametitle}{bg=PrimaryColor, fg=white}
       \setbeamercolor{progress bar}{fg=PrimaryColor, bg=gray}
       \titlegraphic{\hfill\includegraphics[height=1.2cm]{../../templates/logo.png}}
-      \usepackage[sfdefault]{FiraSans} 
-      \usepackage[T1]{fontenc}
+      \usefonttheme{default}
+      \usepackage{lmodern}
