@@ -16,6 +16,10 @@ about:
     - icon: envelope
       text: Email
       href: mailto:a.sandovaltapia@uc.cl
+
+format:
+  html:
+    toc: false
 ---
 
 ## Sobre mí

@@ -1,9 +1,17 @@
 ---
 title: "Knowledge Vault"
 subtitle: "Microeconomía, Macroeconomía y Econometría"
+page-layout: full
+
+format:
+  html:
+    toc: false 
+
 listing:
-  contents: content/notes     # <--- Busca en tu carpeta de Obsidian migrada
-  type: table                 # <--- Formato tabla (limpio y denso)
+  # Busca en la carpeta de notas. 
+  contents: content/notes
+  
+  type: table
   sort: "title asc"
   categories: true
   sort-ui: true
@@ -12,8 +20,12 @@ listing:
   field-display-names:
     title: "Apunte"
     categories: "Tema"
-    reading-time: "Tiempo"
+    reading-time: "Lectura"
 ---
 
-> [!tip] Buscador
-> Escribe palabras clave (ej: "Lagrange", "GARCH") para filtrar los apuntes.
+## Biblioteca de Apuntes
+
+::: {.callout-tip appearance="simple"}
+## 💡 Buscador
+Escribe palabras clave (ej: *"Lagrange"*, *"GARCH"*) en la barra de **Filter** para encontrar los apuntes rápidamente.
+:::
