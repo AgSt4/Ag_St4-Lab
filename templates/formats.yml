@@ -2,7 +2,7 @@
 format:
   typst:
     # NO definimos output-file fijo para que tome el nombre del archivo .qmd
-    template: "/content/templates/doc_template.typ" 
+    template: "/templates/doc_template.typ" 
     logo_file: "/templates/logo.png" # La barra inicial / indica "desde la raíz del proyecto"
     
   beamer:
