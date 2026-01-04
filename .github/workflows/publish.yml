@@ -15,20 +15,21 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
-      # 1. Instala Quarto y TinyTeX automáticamente
+      # 1. Instala Quarto y TinyTeX
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
         with:
           tinytex: true
 
-      # 2. Instala SOLO los paquetes que usa tu tema (Metropolis + Fira)
+      # 2. Instala los paquetes (AHORA CON LA RUTA ARREGLADA)
       - name: Install LaTeX Theme & Fonts
         run: |
-          # Actualizar el gestor de paquetes
-          tlmgr update --self
+          # Le decimos a Linux dónde está TinyTeX (Esta es la línea mágica)
+          export PATH="$HOME/.TinyTeX/bin/x86_64-linux:$PATH"
           
-          # Instalar explícitamente Metropolis, Fira y utilidades de Beamer
-          tlmgr install beamertheme-metropolis fira pgfopts moresize anyfontsize
+          # Actualizamos e instalamos solo lo necesario para Metropolis y Fira
+          tlmgr update --self
+          tlmgr install beamertheme-metropolis fira pgfopts moresize anyfontsize fontaxes
 
       # 3. Renderiza y Publica
       - name: Render and Publish
