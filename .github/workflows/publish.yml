@@ -17,10 +17,24 @@ jobs:
         with:
           tinytex: true
       
+      - name: Install required LaTeX packages
+        run: |
+          tlmgr update --self
+          tlmgr install babel-spanish babel-english
+          tlmgr install beamer
+          tlmgr install pgf xcolor
+          tlmgr install amsmath amsfonts amssymb
+          tlmgr install geometry fancyhdr
+          tlmgr install graphicx
+          tlmgr install hyperref
+          tlmgr install ifthen
+          tlmgr install etoolbox
+          tlmgr install translator
+      
       - name: Install Fira Sans fonts
         run: |
           sudo apt-get update
-          sudo apt-get install -y fonts-firacode
+          sudo apt-get install -y fonts-firacode fonts-fira-sans
       
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
