@@ -1,13 +1,17 @@
 ---
 title: "Inversión Sostenible (ESG)"
-description: "Estado del arte sobre el impacto de factores ESG en retornos financieros."
-date: 2024-12-29
-categories: [Sustentabilidad, Inversiones, ESG]
-doc-brand: personal
+# ... (resto del encabezado)
 
-# AGREGA ESTO: Importa los formatos solo para esta nota
 metadata-files: 
   - "../../../templates/formats.yml" 
+
+format:
+  html: 
+    toc: true
+  typst:
+    output-file: "esg-investing.pdf"
+  beamer:
+    output-file: "esg-investing-slides.pdf"
 ---
 
 ## Definición
