@@ -15,31 +15,84 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
-      # 1. Instala Quarto y TinyTeX automáticamente
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
         with:
-          tinytex: true 
-      
-      # 2. Instala Fuentes y Paquetes LaTeX (Nombres corregidos)
-      # 2. Instala Fuentes y Paquetes LaTeX
-      - name: Install Fonts and LaTeX Packages
+          tinytex: true
+
+      - name: Ensure TinyTeX (add tlmgr to PATH if needed)
+        shell: bash
         run: |
-          # A. Preparar Repositorios (Fix para el error "Unable to locate package")
-          sudo apt-get update
-          sudo apt-get install -y software-properties-common
-          sudo add-apt-repository -y universe
-          sudo apt-get update
+          set -euo pipefail
+
+          # If tlmgr is already available, do nothing
+          if command -v tlmgr >/dev/null 2>&1; then
+            echo "tlmgr is already on PATH: $(command -v tlmgr)"
+            exit 0
+          fi
+
+          # Try common TinyTeX install locations and add the directory that contains tlmgr to GITHUB_PATH
+          candidates=(
+            "$HOME/.TinyTeX/bin"
+            "$HOME/.TinyTeX/bin/x86_64-linux"
+            "/usr/local/bin"
+            "/opt/TinyTeX/bin"
+          )
+
+          found=""
+          for base in "${candidates[@]}"; do
+            if [ -d "$base" ]; then
+              # search subdirs for tlmgr
+              while IFS= read -r -d '' d; do
+                if [ -x "$d/tlmgr" ] || [ -x "$d/tlmgr.pl" ]; then
+                  printf '%s\n' "$d" >> "$GITHUB_PATH"
+                  found="$d"
+                  break 2
+                fi
+              done < <(find "$base" -mindepth 1 -maxdepth 2 -type d -print0 2>/dev/null)
+            fi
+          done
+
+          if [ -n "$found" ]; then
+            echo "Added TinyTeX bin to PATH: $found"
+            # make tlmgr immediately available in this shell too
+            export PATH="$found:$PATH"
+          else
+            echo "Warning: tlmgr not found in common locations. Quarto action should have installed TinyTeX, but tlmgr is not available."
+            echo "Proceeding — subsequent step will fail early and give a clear error."
+          fi
+
+      - name: Install Fonts and LaTeX Packages
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          # A. Preparar Repositorios
+          # Retry apt-get update once if it fails transiently
+          sudo apt-get update -y || { sleep 3; sudo apt-get update -y; }
+
+          sudo apt-get install -y software-properties-common || true
+          # ensure 'universe' repository is enabled (required on some runners)
+          sudo add-apt-repository -y universe || true
+          sudo apt-get update -y
 
           # B. Instalar Fuentes del Sistema
-          # Agregué 'fonts-lato' porque es la que usa tu template de Typst
-          sudo apt-get install -y fonts-firacode fonts-lato
+          sudo apt-get install -y fonts-firacode fonts-lato || true
 
           # C. Instalar Paquetes de LaTeX (TinyTeX)
-          tlmgr update --self
-          tlmgr install babel-spanish babel-english beamer pgf xcolor amsmath amsfonts geometry fancyhdr graphics hyperref tools etoolbox translator
-          
-      # 3. Renderizar y Publicar
+          if ! command -v tlmgr >/dev/null 2>&1; then
+            echo "Error: tlmgr not found. TinyTeX must be installed and on PATH before calling tlmgr."
+            exit 127
+          fi
+
+          # update tlmgr and install required collections/packages (idempotent)
+          tlmgr option repository ctan || true
+          tlmgr --version
+          tlmgr update --self --all || true
+
+          # Install only what's needed; tolerate already-installed packages
+          tlmgr install --reinstall babel-spanish babel-english beamer pgf xcolor amsmath amsfonts geometry fancyhdr graphics hyperref tools etoolbox translator || true
+
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
         with:
