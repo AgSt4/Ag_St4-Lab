@@ -7,7 +7,7 @@ doc-brand: personal
 
 # 1. Importamos la configuración base
 metadata-files: 
-  - "../../../templates/formats.yml" 
+  - "/templates/formats.yml" 
 
 format:
   html: 
