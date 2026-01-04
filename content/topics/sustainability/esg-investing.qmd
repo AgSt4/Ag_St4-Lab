@@ -1,26 +1,27 @@
 ---
 title: "Inversión Sostenible (ESG)"
-description: "Comentarios sobre el impacto de factores ESG en retornos financieros."
+description: "Estado del arte sobre el impacto de factores ESG en retornos financieros."
 date: 2024-12-29
 categories: [Sustentabilidad, Inversiones, ESG]
 doc-brand: personal
 
-# 1. Importamos la configuración base
+# 1. RUTA CORREGIDA: Solo 2 niveles arriba para encontrar formats.yml
 metadata-files: 
-  - "../../../templates/formats.yml" 
+  - "../../templates/formats.yml" 
 
 format:
   html: 
     toc: true
-  # 2. SOBRESCRIBIMOS las rutas para corregir la profundidad (3 niveles: ../../../)
+    
+  # 2. RUTAS CORREGIDAS: Todas deben usar ../../
   typst:
     output-file: "esg-investing.pdf"
-    template: "../../../templates/doc_template.typ"
-    logo_file: "../../../templates/logo.png"
+    template: "../../templates/doc_template.typ"
+    logo_file: "../../templates/logo.png"
+    
   beamer:
     output-file: "esg-investing-slides.pdf"
-    titlegraphic: "\\hfill\\includegraphics[height=1.2cm]{../../../templates/logo.png}"
+    titlegraphic: "\\hfill\\includegraphics[height=1.2cm]{../../templates/logo.png}"
 ---
-
 ## Definición
 La inversión sostenible integra factores ambientales, sociales y de gobernanza... (ESG) en las decisiones de inversión para generar beneficios a largo plazo tanto financieros como sociales.
