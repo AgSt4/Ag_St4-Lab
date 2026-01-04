@@ -32,6 +32,7 @@ listing:
 * **Greene, W. (2008).** *Econometric Analysis*. Prentice-Hall, 6ta edición.
 :::
 
+
 ---
 
 ## I. Fundamentos del Análisis Empírico
