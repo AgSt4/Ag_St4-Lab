@@ -4,8 +4,6 @@ subtitle: "Temario de Examen de Grado"
 description: "Métodos cuantitativos, inferencia causal y análisis de series de tiempo."
 page-layout: full
 
-metadata-files: []
-
 format:
   html:
     toc: true
