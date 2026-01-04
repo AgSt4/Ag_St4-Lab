@@ -91,7 +91,7 @@ jobs:
           tlmgr update --self --all || true
 
           # Install only what's needed; tolerate already-installed packages
-          tlmgr install --reinstall babel-spanish babel-english beamer pgf xcolor amsmath amsfonts geometry fancyhdr graphics hyperref tools etoolbox translator || true
+          tlmgr install --reinstall babel-spanish babel-english beamer pgf xcolor amsmath amsfonts geometry fancyhdr graphics hyperref tools etoolbox translator metropolis || true
 
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
