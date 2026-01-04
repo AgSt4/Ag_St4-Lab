@@ -4,7 +4,6 @@ subtitle: "Temario de Examen de Grado"
 description: "Métodos cuantitativos, inferencia causal y análisis de series de tiempo."
 page-layout: full
 
-# 1. BLINDAJE: Corta la herencia para que no busque templates rotos
 metadata-files: []
 
 format:
@@ -13,8 +12,6 @@ format:
     toc-depth: 3
 
 listing:
-  # 2. SOLUCIÓN: Usamos la lista de contenidos con negación (!)
-  # Esto evita el error de "Validation failed" que te salía antes.
   contents: 
     - "*.qmd"
     - "!index.qmd"

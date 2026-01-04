@@ -4,7 +4,6 @@ subtitle: "Temario de Examen de Grado"
 description: "Teoría neoclásica, equilibrio general, teoría de juegos y organización industrial."
 page-layout: full
 
-# 1. BLINDAJE: Corta la herencia de configuración PDF
 metadata-files: []
 
 format:
@@ -13,8 +12,6 @@ format:
     toc-depth: 3
 
 listing:
-  # 2. LISTADO AUTOMÁTICO:
-  # Incluye todos los archivos .qmd de la carpeta, excepto este mismo.
   contents: 
     - "*.qmd"
     - "!index.qmd"
