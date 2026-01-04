@@ -2,6 +2,12 @@
 title: "Tópicos de Investigación"
 subtitle: "Modelos canónicos, revisiones de literatura y curiosidades teóricas"
 page-layout: full
+
+format:
+  html:
+    theme: cosmo
+    toc:
+
 listing:
   id: listing-topics
   contents: content/topics/*.qmd
