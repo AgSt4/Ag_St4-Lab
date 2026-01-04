@@ -21,7 +21,8 @@ format:
     
   beamer:
     output-file: "esg-investing-slides.pdf"
-    titlegraphic: "\\hfill\\includegraphics[height=1.2cm]{../../templates/logo.png}"
+    header-includes:
+        - \titlegraphic{\hfill\includegraphics[height=1.2cm]{../../templates/logo.png}}
 ---
 ## Definición
 La inversión sostenible integra factores ambientales, sociales y de gobernanza... (ESG) en las decisiones de inversión para generar beneficios a largo plazo tanto financieros como sociales.
