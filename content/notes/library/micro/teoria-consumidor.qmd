@@ -1,0 +1,12 @@
+---
+title: "Teoría del Consumidor"
+description: "Elección del Consumidor y Demanda."
+date: 2024-12-29
+categories: [Microeconomía, Fundamental]
+
+# Usa doc-brand en lugar de brand
+doc-brand: personal
+# doc-brand: uc
+---
+
+Consumo
