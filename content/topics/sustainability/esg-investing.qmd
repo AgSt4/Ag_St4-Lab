@@ -1,18 +1,4 @@
----
-title: "Inversión Sostenible (ESG)"
-date: 2024-12-29
 
-
-metadata-files: ["../../../../templates/formats.yml"]
-
-format:
-  html: 
-    toc: true
-  # Solo especificamos las rutas relativas específicas de este archivo
-  typst:
-    template: "../../../../templates/doc_template.typ"
-    logo_file: "../../../../templates/logo.png" 
----
 
 ## Definición
 La inversión sostenible integra factores ambientales, sociales y de gobernanza... (ESG) en las decisiones de inversión para generar beneficios a largo plazo tanto financieros como sociales.

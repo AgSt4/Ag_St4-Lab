@@ -1,0 +1,15 @@
+# templates/formats.yml
+format:
+  typst:
+    # NO definimos output-file fijo para que tome el nombre del archivo .qmd
+    template: "/templates/doc_template.typ" 
+    logo_file: "/templates/logo.png" # La barra inicial / indica "desde la raíz del proyecto"
+    
+  beamer:
+    theme: metropolis
+    classoption: "allowbreak"
+    header-includes: |
+      \definecolor{PrimaryColor}{RGB}{10, 40, 70}
+      \setbeamercolor{frametitle}{bg=PrimaryColor, fg=white}
+      \setbeamercolor{progress bar}{fg=PrimaryColor, bg=gray}
+      \titlegraphic{\hfill\includegraphics[height=1.2cm]{/templates/logo.png}}
