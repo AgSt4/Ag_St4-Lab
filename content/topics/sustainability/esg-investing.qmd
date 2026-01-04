@@ -7,7 +7,7 @@ doc-brand: personal
 
 # 1. Importamos la configuración base
 metadata-files: 
-  - "/templates/formats.yml" 
+  - "templates/formats.yml" 
 
 format:
   html: 
@@ -15,8 +15,8 @@ format:
   # 2. SOBRESCRIBIMOS las rutas para corregir la profundidad (3 niveles: ../../../)
   typst:
     output-file: "esg-investing.pdf"
-    template: "/templates/doc_template.typ"
-    logo_file: "../../../templates/logo.png"
+    template: "templates/doc_template.typ"
+    logo_file: "templates/logo.png"
   beamer:
     output-file: "esg-investing-slides.pdf"
     titlegraphic: "\\hfill\\includegraphics[height=1.2cm]{../../../templates/logo.png}"
