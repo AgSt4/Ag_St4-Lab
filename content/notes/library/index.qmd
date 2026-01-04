@@ -1,6 +1,11 @@
 ---
 title: "Knowledge Vault"
 subtitle: "Apuntes y ejercicios de economía"
+page-layout: full
+format:
+  html:
+    toc: false
+
 listing:
   contents: 
     - "micro/*.qmd"
@@ -13,7 +18,6 @@ listing:
   fields: [image, title, reading-time, categories]
   filter-ui: true
   sort-ui: false
-page-layout: full
 ---
 
 ## Introducción
