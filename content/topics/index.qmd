@@ -1,16 +1,19 @@
 ---
 title: "Tópicos de Investigación"
-subtitle: "Modelos canónicos, revisiones de literatura y curiosidades teóricas"
 page-layout: full
 
+# BLINDAJE CONTRA PDF (Recomendado)
 format:
   html:
-    theme: cosmo
     toc: true
+  typst: false   # Desactiva explícitamente
+  beamer: false  # Desactiva explícitamente
 
 listing:
   id: listing-topics
-  contents: content/topics/*.qmd
+  contents: "*.qmd"       # <--- CORRECCIÓN: Quita 'content/topics/'
+  exclude: 
+    - "index.qmd"         # Evita listarse a sí mismo
   sort: "date desc"
   type: grid
   categories: true
