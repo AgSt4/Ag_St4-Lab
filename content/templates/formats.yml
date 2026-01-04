@@ -1,11 +1,9 @@
-# templates/formats.yml
-# Este archivo contiene la configuración de SALIDA (PDF/Slides)
+# Archivo: templates/formats.yml
+# Aquí definimos CÓMO se ven los PDFs y Slides, pero no A QUIÉN se aplican.
 format:
   typst:
-    output-file: "documento.pdf" # Nombre genérico, Quarto lo ajusta
-    template: "_path_to_template_fix_" # Lo ajustaremos en el qmd si es necesario, o usa ruta absoluta
-    # TRUCO: Ruta absoluta desde la raíz del proyecto para evitar error de "../"
-    logo_file: "/templates/logo.png" 
+    output-file: "documento.pdf"
+    # El logo lo definimos en el metadata local para ajustar la ruta
     
   beamer:
     theme: metropolis
@@ -14,4 +12,5 @@ format:
       \definecolor{PrimaryColor}{RGB}{10, 40, 70}
       \setbeamercolor{frametitle}{bg=PrimaryColor, fg=white}
       \setbeamercolor{progress bar}{fg=PrimaryColor, bg=gray}
-      \titlegraphic{\hfill\includegraphics[height=1.2cm]{/templates/logo.png}}
+      \titlegraphic{\hfill\includegraphics[height=1.2cm]{../../templates/logo.png}} 
+      % Nota: En Beamer la ruta ../../ suele funcionar si compilas desde content/notes

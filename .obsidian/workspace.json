@@ -195,6 +195,7 @@
   },
   "active": "e131d3e9574537a9",
   "lastOpenFiles": [
+    "content/notes/_metadata.yml",
     "content/templates/logo.png",
     "content/templates/Logo UC.png",
     "content/templates/UC COLOR-01.png",
@@ -219,7 +220,6 @@
     "assets/logo.svg",
     "content/notes/library/macro/Untitled.md",
     "content/notes/library/macro/Untitled.canvas",
-    "docs/content/notes/library/macro/IS-LM.md",
-    "profile.jpg"
+    "docs/content/notes/library/macro/IS-LM.md"
   ]
 }

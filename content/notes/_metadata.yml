@@ -1,0 +1,9 @@
+# Archivo: content/notes/_metadata.yml
+metadata-files:
+  - "../../templates/formats.yml"
+
+format:
+  typst:
+    template: "../../templates/doc_template.typ"
+    logo_file: "../../templates/logo.png"
+    
