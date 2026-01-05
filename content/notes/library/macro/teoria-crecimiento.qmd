@@ -24,7 +24,8 @@ format:
     output-file: "teoria-crecimiento-slides.pdf"
     theme: metropolis
     aspectratio: 169
-    fonttheme: default 
+    fonttheme: default
+    classoption: allowbreak
     header-includes: |
        \definecolor{PrimaryColor}{RGB}{10, 40, 70}
        \setbeamercolor{frametitle}{bg=PrimaryColor, fg=white}
