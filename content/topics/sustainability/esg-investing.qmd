@@ -13,7 +13,7 @@ format:
     template: "../../templates/doc_template.typ"
     logo_file: "../../templates/logo.png"
   beamer:
-    output-file: "esg-investing-slides.pdf"
+    output-file: "esg-investing_slides.pdf"
     theme: metropolis
     aspectratio: 169
     fonttheme: default

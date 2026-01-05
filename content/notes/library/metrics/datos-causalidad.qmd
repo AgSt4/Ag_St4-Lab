@@ -9,9 +9,11 @@ format:
   html: 
     toc: true
   typst:
+    output-file: "causality.pdf"
     template: "../../../templates/doc_template.typ"
     logo_file: "../../../templates/logo.png"
   beamer:
+    output-file: "causality_slides.pdf"
     theme: metropolis
     aspectratio: 169
     fonttheme: default 

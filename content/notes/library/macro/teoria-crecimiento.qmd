@@ -9,10 +9,11 @@ format:
   html:
     toc: true
   typst:
-    output-file: "esg-investing.pdf"
+    output-file: "teoria-crecimiento.pdf"
     template: "../../../templates/doc_template.typ"
     logo_file: "../../../templates/logo.png"
   beamer:
+    output-file: "teoria-crecimiento_slides.pdf"
     theme: metropolis
     aspectratio: 169
     fonttheme: default

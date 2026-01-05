@@ -1,19 +1,19 @@
 ---
-title: "Teoría del Consumidor"
-description: "Elección del Consumidor y Demanda."
+title: "Proyecto 1"
+description: "Proyecto de prueba."
 date: 2024-12-29
-categories: [Microeconomía, Fundamental]
+categories: [Aplicado, Data]
 doc-brand: personal
 metadata-files: []
 format:
   html:
     toc: true
   typst:
-    output-file: "consumer.pdf"
+    output-file: "project1.pdf"
     template: "../../../templates/doc_template.typ"
     logo_file: "../../../templates/logo.png"
   beamer:
-    output-file: "consumer_slides.pdf"
+    output-file: "project1_slides.pdf"
     theme: metropolis
     aspectratio: 169
     fonttheme: default 
