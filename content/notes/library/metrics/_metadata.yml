@@ -1,11 +1,11 @@
-# SOBRESCRIBIMOS LAS RUTAS PARA QUE APUNTEN A content/templates
-# Usamos ../../../ (3 niveles) en lugar de ../../
+# SOBRESCRIBIMOS RUTAS PARA NIVEL 4 (Metrics)
+# Usamos ../../../ para llegar a la raíz correcta
 
 # 1. Configuración general
 metadata-files: 
   - "../../../templates/formats.yml" 
 
-# 2. Rutas específicas para PDF y Typst
+# 2. Rutas específicas que causaban el error "NotFound"
 format:
   typst:
     template: "../../../templates/doc_template.typ"
