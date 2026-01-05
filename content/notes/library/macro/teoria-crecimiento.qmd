@@ -4,6 +4,7 @@ description: "Crecimiento Económico en Economía Cerrada."
 date: 2024-12-29
 categories: [Macroeconomía, Economía del Crecimiento]
 doc-brand: personal
+logo_file: "../../../templates/logo.png"
 
 # 1. BLINDAJE
 metadata-files: []
@@ -17,7 +18,6 @@ format:
   typst:
     output-file: "teoria-crecimiento.pdf"
     template: "../../../templates/doc_template.typ"
-    logo_file: "../../../templates/logo.png"
     
   # --- SLIDES (Beamer) ---
   beamer:
@@ -32,7 +32,6 @@ format:
        \setbeamercolor{progress bar}{fg=PrimaryColor, bg=gray}
        \titlegraphic{\hfill\includegraphics[height=1.2cm]{../../../templates/logo.png}}
 ---
-
 
 ## 1. Introducción al Crecimiento
 
