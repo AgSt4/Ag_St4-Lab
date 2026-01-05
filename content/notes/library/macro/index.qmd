@@ -1,4 +1,26 @@
-
+---
+title: "Macroeconomía"
+subtitle: "Temario de Examen de Grado"
+description: "Crecimiento, ciclos económicos, política monetaria y macroeconomía internacional."
+page-layout: full
+metadata-files: []
+format:
+  html:
+    toc: true
+    toc-depth: 3
+listing:
+  contents: 
+    - "*.qmd"
+    - "!index.qmd"
+  type: table
+  sort: "title asc"
+  categories: true
+  fields: [title, description, categories]
+  field-display-names:
+    title: "Apunte"
+    description: "Contenido"
+    categories: "Temas"
+---
 
 ::: {.callout-tip appearance="simple" icon=false}
 ## 📚 Bibliografía de Referencia
