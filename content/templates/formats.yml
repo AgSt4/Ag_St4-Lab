@@ -1,8 +1,8 @@
 # templates/formats.yml
 format:
   typst:
-    template: "../../../templates/doc_template.typ"
-    logo_file: "../../../templates/logo.png" 
+    template: "../../templates/doc_template.typ"
+    logo_file: "../../templates/logo.png" 
     
   beamer:
     theme: metropolis
@@ -11,6 +11,6 @@ format:
       \definecolor{PrimaryColor}{RGB}{10, 40, 70}
       \setbeamercolor{frametitle}{bg=PrimaryColor, fg=white}
       \setbeamercolor{progress bar}{fg=PrimaryColor, bg=gray}
-      \titlegraphic{\hfill\includegraphics[height=1.2cm]{../../../templates/logo.png}}
+      \titlegraphic{\hfill\includegraphics[height=1.2cm]{../../templates/logo.png}}
       \usefonttheme{default}
       \usepackage{lmodern}
