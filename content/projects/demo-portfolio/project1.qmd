@@ -3,9 +3,6 @@ title: "Proyecto 1"
 description: "Proyecto de prueba."
 date: 2024-12-29
 categories: [Aplicado, Data]
-doc-brand: personal
-
-# 1. BLINDAJE
 metadata-files: []
 
 format:

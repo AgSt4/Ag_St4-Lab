@@ -3,7 +3,6 @@ title: "Teoría del Consumidor"
 description: "Elección del Consumidor y Demanda."
 date: 2024-12-29
 categories: [Microeconomía, Fundamental]
-doc-brand: personal
 metadata-files: []
 format:
   html:

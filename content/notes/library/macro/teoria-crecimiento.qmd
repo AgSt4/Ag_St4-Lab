@@ -3,7 +3,6 @@ title: "Teoría del Crecimiento"
 description: "Crecimiento Económico en Economía Cerrada."
 date: 2024-12-29
 categories: [Macroeconomía, Economía del Crecimiento]
-doc-brand: personal
 logo_file: "../../../templates/logo.png"
 
 # 1. BLINDAJE

@@ -3,7 +3,6 @@ title: "Datos y Causalidad"
 description: "Método Científico en Economía."
 date: 2024-12-29
 categories: [Econometría, Estadística]
-doc-brand: personal
 metadata-files: []
 format:
   html: 
