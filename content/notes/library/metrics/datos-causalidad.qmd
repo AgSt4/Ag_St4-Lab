@@ -22,5 +22,4 @@ format:
       - \titlegraphic{\hfill\includegraphics[height=1.2cm]{../../../templates/logo.png}}
 ---
 
-
 ddddd

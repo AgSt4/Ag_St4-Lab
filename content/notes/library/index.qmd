@@ -22,6 +22,7 @@ listing:
   sort-ui: false
 ---
 
+
 ## Introducción
 
 Este repositorio consolida mis apuntes de preparación para los exámenes de grado de **Ingeniería Comercial mención Economía** en la Pontificia Universidad Católica de Chile. El material se organiza en dos componentes: **teoría** y **ejercicios aplicados**.

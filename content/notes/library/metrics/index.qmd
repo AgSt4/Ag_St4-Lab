@@ -22,6 +22,7 @@ listing:
     categories: "Temas"
 ---
 
+
 ::: {.callout-tip appearance="simple" icon=false}
 ## 📚 Bibliografía de Referencia
 * **Wooldridge, J. (2015).** *Introducción a la Econometría*. Cengage Learning, 5ta edición.

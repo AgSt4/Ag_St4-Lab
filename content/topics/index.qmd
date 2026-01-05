@@ -19,6 +19,7 @@ listing:
   fields: [image, title, description, categories]
 ---
 
+
 ## Áreas de Interés
 
 ```{=html}

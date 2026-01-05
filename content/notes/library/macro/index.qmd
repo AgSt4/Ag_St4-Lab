@@ -22,6 +22,7 @@ listing:
     categories: "Temas"
 ---
 
+
 ::: {.callout-tip appearance="simple" icon=false}
 ## 📚 Bibliografía de Referencia
 * **Barro, R., Grilli, V. y Febrero, R. (1997).** *Macroeconomía: Teoría y Política*. McGraw-Hill.

@@ -22,6 +22,7 @@ listing:
     categories: "Temas"
 ---
 
+
 ::: {.callout-tip appearance="simple" icon=false}
 ## 📚 Bibliografía de Referencia
 * **Osborne, M. (2004).** *An Introduction to Game Theory*. Oxford University Press.
