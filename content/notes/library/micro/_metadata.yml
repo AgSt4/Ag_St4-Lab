@@ -1,21 +1,16 @@
-# =============================================================
-# CONFIGURACIÓN PARA NIVEL 4 (Metrics)
-# =============================================================
+# SOBRESCRIBIMOS LAS RUTAS PARA QUE APUNTEN A content/templates
+# Usamos ../../../ (3 niveles) en lugar de ../../
 
-# 1. Importamos los formatos generales (Subiendo 3 niveles)
+# 1. Configuración general
 metadata-files: 
   - "../../../templates/formats.yml" 
 
-# 2. SOBRESCRIBIMOS LAS RUTAS RELATIVAS
-# El archivo formats.yml tiene rutas de nivel 2 (../../).
-# Aquí las forzamos a nivel 3 (../../../) para que funcionen en esta carpeta.
-
+# 2. Rutas específicas para PDF y Typst
 format:
   typst:
     template: "../../../templates/doc_template.typ"
     logo_file: "../../../templates/logo.png"
     
   beamer:
-    # Ajustamos el logo para las diapositivas
     header-includes:
       - \titlegraphic{\hfill\includegraphics[height=1.2cm]{../../../templates/logo.png}}
