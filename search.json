@@ -326,6 +326,27 @@
     "href": "content/notes/library/macro/teoria-crecimiento.html",
     "title": "Teoría del Crecimiento",
     "section": "",
-    "text": "Introducción\nContenido…\n\n---\n\n## Cómo funciona\n\n1. **GitHub Actions ejecuta `quarto render`** → Renderiza TODO automáticamente\n2. **Cualquier nota en cualquier subcarpeta** hereda la configuración de `_metadata.yml`\n3. **Solo 2 archivos de configuración** en la raíz\n4. **Cambiar de estilo** = cambiar 1 línea en el frontmatter (`brand: personal` o `brand: uc`)\n5. **Zero configuración por carpeta** → Escalable infinitamente\n\n---\n\n## Estructura final\nproyecto/ ├── _quarto.yml # ← Formatos globales ├── _metadata.yml # ← Configuración global (1 solo archivo) ├── custom.scss ├── templates/ │ ├── doc_template.typ │ ├── logo.png │ ├── Logo UC.png │ └── UC COLOR-01.png └── content/ └── notes/ ├── library/ │ └── macro/ │ └── teoria-crecimiento.qmd ├── projects/ │ └── otra-nota.qmd └── topics/ └── otra-mas.qmd\n\n\n\n\n\n\nNoteDefinición: Capital Humano\n\n\n\nEl capital humano se refiere al valor económico de las habilidades y experiencia de un trabajador."
+    "text": "El crecimiento económico es el aumento sostenido del producto de una economía a lo largo del tiempo.\n\n\n\nEl producto por trabajador crece a una tasa constante.\nEl capital por trabajador crece a una tasa constante.\nLa tasa de retorno del capital es constante.\nLa relación capital-producto es constante."
+  },
+  {
+    "objectID": "content/notes/library/macro/teoria-crecimiento.html#introducción-al-crecimiento",
+    "href": "content/notes/library/macro/teoria-crecimiento.html#introducción-al-crecimiento",
+    "title": "Teoría del Crecimiento",
+    "section": "",
+    "text": "El crecimiento económico es el aumento sostenido del producto de una economía a lo largo del tiempo.\n\n\n\nEl producto por trabajador crece a una tasa constante.\nEl capital por trabajador crece a una tasa constante.\nLa tasa de retorno del capital es constante.\nLa relación capital-producto es constante."
+  },
+  {
+    "objectID": "content/notes/library/macro/teoria-crecimiento.html#modelo-de-solow-swan",
+    "href": "content/notes/library/macro/teoria-crecimiento.html#modelo-de-solow-swan",
+    "title": "Teoría del Crecimiento",
+    "section": "2. Modelo de Solow-Swan",
+    "text": "2. Modelo de Solow-Swan\nEl modelo básico asume una función de producción neoclásica con rendimientos constantes a escala.\n\nFunción de Producción\nSea la función de producción agregada:\n\\[Y(t) = F(K(t), A(t)L(t))\\]\nDonde: * \\(K\\): Capital * \\(L\\): Trabajo * \\(A\\): Tecnología (Labor augmenting)\n\n\nEcuación Fundamental\nLa dinámica del capital por unidad de trabajo efectivo (\\(k\\)) está dada por:\n\\[\\dot{k}(t) = s f(k(t)) - (n + g + \\delta) k(t)\\]"
+  },
+  {
+    "objectID": "content/notes/library/macro/teoria-crecimiento.html#estado-estacionario",
+    "href": "content/notes/library/macro/teoria-crecimiento.html#estado-estacionario",
+    "title": "Teoría del Crecimiento",
+    "section": "3. Estado Estacionario",
+    "text": "3. Estado Estacionario\nEn el estado estacionario, \\(\\dot{k} = 0\\), por lo que la inversión bruta iguala a la inversión de depreciación efectiva.\n\\[s f(k^*) = (n + g + \\delta) k^*\\]\nEsto implica que en el largo plazo, el crecimiento del PIB per cápita depende únicamente de la tasa de progreso tecnológico exógeno \\(g\\)."
   }
 ]

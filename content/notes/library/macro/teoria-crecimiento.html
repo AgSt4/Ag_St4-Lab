@@ -76,6 +76,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -359,9 +388,18 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#introducción" id="toc-introducción" class="nav-link active" data-scroll-target="#introducción">Introducción</a></li>
+  <li><a href="#introducción-al-crecimiento" id="toc-introducción-al-crecimiento" class="nav-link active" data-scroll-target="#introducción-al-crecimiento">1. Introducción al Crecimiento</a>
+  <ul class="collapse">
+  <li><a href="#hechos-estilizados-de-kaldor" id="toc-hechos-estilizados-de-kaldor" class="nav-link" data-scroll-target="#hechos-estilizados-de-kaldor">Hechos Estilizados de Kaldor</a></li>
+  </ul></li>
+  <li><a href="#modelo-de-solow-swan" id="toc-modelo-de-solow-swan" class="nav-link" data-scroll-target="#modelo-de-solow-swan">2. Modelo de Solow-Swan</a>
+  <ul class="collapse">
+  <li><a href="#función-de-producción" id="toc-función-de-producción" class="nav-link" data-scroll-target="#función-de-producción">Función de Producción</a></li>
+  <li><a href="#ecuación-fundamental" id="toc-ecuación-fundamental" class="nav-link" data-scroll-target="#ecuación-fundamental">Ecuación Fundamental</a></li>
+  </ul></li>
+  <li><a href="#estado-estacionario" id="toc-estado-estacionario" class="nav-link" data-scroll-target="#estado-estacionario">3. Estado Estacionario</a></li>
   </ul>
-<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="teoria-crecimiento.pdf"><i class="bi bi-file-pdf"></i>Typst</a></li><li><a href="teoria-crecimiento_slides.pdf"><i class="bi bi-file-pdf"></i>Beamer</a></li></ul></div></nav>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="teoria-crecimiento.pdf"><i class="bi bi-file-pdf"></i>Typst</a></li><li><a href="teoria-crecimiento-slides.pdf"><i class="bi bi-file-pdf"></i>Beamer</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -401,37 +439,41 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="introducción" class="level1">
-<h1>Introducción</h1>
-<p>Contenido…</p>
-<pre><code>
----
-
-## Cómo funciona
-
-1. **GitHub Actions ejecuta `quarto render`** → Renderiza TODO automáticamente
-2. **Cualquier nota en cualquier subcarpeta** hereda la configuración de `_metadata.yml`
-3. **Solo 2 archivos de configuración** en la raíz
-4. **Cambiar de estilo** = cambiar 1 línea en el frontmatter (`brand: personal` o `brand: uc`)
-5. **Zero configuración por carpeta** → Escalable infinitamente
-
----
-
-## Estructura final</code></pre>
-<p>proyecto/ ├── _quarto.yml # ← Formatos globales ├── _metadata.yml # ← Configuración global (1 solo archivo) ├── custom.scss ├── templates/ │ ├── doc_template.typ │ ├── logo.png │ ├── Logo UC.png │ └── UC COLOR-01.png └── content/ └── notes/ ├── library/ │ └── macro/ │ └── teoria-crecimiento.qmd ├── projects/ │ └── otra-nota.qmd └── topics/ └── otra-mas.qmd</p>
-<div class="callout callout-style-default callout-note callout-titled" title="Definición: Capital Humano">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Definición: Capital Humano
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>El capital humano se refiere al valor económico de las habilidades y experiencia de un trabajador.</p>
-</div>
-</div>
+<section id="introducción-al-crecimiento" class="level2">
+<h2 class="anchored" data-anchor-id="introducción-al-crecimiento">1. Introducción al Crecimiento</h2>
+<p>El crecimiento económico es el aumento sostenido del producto de una economía a lo largo del tiempo.</p>
+<section id="hechos-estilizados-de-kaldor" class="level3">
+<h3 class="anchored" data-anchor-id="hechos-estilizados-de-kaldor">Hechos Estilizados de Kaldor</h3>
+<ol type="1">
+<li>El producto por trabajador crece a una tasa constante.</li>
+<li>El capital por trabajador crece a una tasa constante.</li>
+<li>La tasa de retorno del capital es constante.</li>
+<li>La relación capital-producto es constante.</li>
+</ol>
+<hr>
+</section>
+</section>
+<section id="modelo-de-solow-swan" class="level2">
+<h2 class="anchored" data-anchor-id="modelo-de-solow-swan">2. Modelo de Solow-Swan</h2>
+<p>El modelo básico asume una función de producción neoclásica con rendimientos constantes a escala.</p>
+<section id="función-de-producción" class="level3">
+<h3 class="anchored" data-anchor-id="función-de-producción">Función de Producción</h3>
+<p>Sea la función de producción agregada:</p>
+<p><span class="math display">\[Y(t) = F(K(t), A(t)L(t))\]</span></p>
+<p>Donde: * <span class="math inline">\(K\)</span>: Capital * <span class="math inline">\(L\)</span>: Trabajo * <span class="math inline">\(A\)</span>: Tecnología (Labor augmenting)</p>
+</section>
+<section id="ecuación-fundamental" class="level3">
+<h3 class="anchored" data-anchor-id="ecuación-fundamental">Ecuación Fundamental</h3>
+<p>La dinámica del capital por unidad de trabajo efectivo (<span class="math inline">\(k\)</span>) está dada por:</p>
+<p><span class="math display">\[\dot{k}(t) = s f(k(t)) - (n + g + \delta) k(t)\]</span></p>
+<hr>
+</section>
+</section>
+<section id="estado-estacionario" class="level2">
+<h2 class="anchored" data-anchor-id="estado-estacionario">3. Estado Estacionario</h2>
+<p>En el estado estacionario, <span class="math inline">\(\dot{k} = 0\)</span>, por lo que la inversión bruta iguala a la inversión de depreciación efectiva.</p>
+<p><span class="math display">\[s f(k^*) = (n + g + \delta) k^*\]</span></p>
+<p>Esto implica que en el largo plazo, el crecimiento del PIB per cápita depende únicamente de la tasa de progreso tecnológico exógeno <span class="math inline">\(g\)</span>.</p>
 
 
 </section>
