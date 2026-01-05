@@ -1,37 +1,4 @@
----
-title: "Econometría"
-subtitle: "Temario de Examen de Grado"
-description: "Métodos cuantitativos, inferencia causal y análisis de series de tiempo."
-page-layout: full
 
-# 1. IMPORTANTE: Esto bloquea la importación manual de formatos rotos
-metadata-files: []
-
-format:
-  html:
-    toc: true
-    toc-depth: 3
-  
-  # 2. SOBRESCRIBIMOS LA RUTA DE TYPST AQUÍ MISMO
-  # Al definirlo aquí, ignoramos cualquier error de los archivos padre.
-  typst:
-    template: "../../../templates/doc_template.typ" # Ruta de 3 niveles (Correcta)
-    logo_file: "../../../templates/logo.png"
-
-  # 3. LO MISMO PARA BEAMER
-  beamer:
-    header-includes:
-      - \titlegraphic{\hfill\includegraphics[height=1.2cm]{../../../templates/logo.png}}
-
-listing:
-  contents: 
-    - "*.qmd"
-    - "!index.qmd"
-  type: table
-  sort: "title asc"
-  categories: true
-  fields: [title, description, categories]
----
 
 ::: {.callout-tip appearance="simple" icon=false}
 ## 📚 Bibliografía de Referencia
