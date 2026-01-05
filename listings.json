@@ -2,26 +2,26 @@
   {
     "listing": "/projects.html",
     "items": [
-      "/content/projects/demo-portfolio/index.html"
+      "/content/projects/demo-portfolio/project1.html"
+    ]
+  },
+  {
+    "listing": "/content/notes/library/macro/index.html",
+    "items": [
+      "/content/notes/library/macro/teoria-crecimiento.html"
+    ]
+  },
+  {
+    "listing": "/content/notes/library/micro/index.html",
+    "items": [
+      "/content/notes/library/micro/teoria-consumidor.html"
     ]
   },
   {
     "listing": "/content/topics/index.html",
-    "items": []
-  },
-  {
-    "listing": "/notes.html",
     "items": [
-      "/content/notes/library/metrics/index.html",
-      "/content/notes/library/macro/teoria-crecimiento.html",
-      "/content/notes/library/index.html",
-      "/content/notes/library/macro/index.html",
-      "/content/notes/library/micro/index.html"
+      "/content/topics/sustainability/esg-investing.html"
     ]
-  },
-  {
-    "listing": "/notes2.html",
-    "items": []
   },
   {
     "listing": "/topics.html",
@@ -31,9 +31,29 @@
     ]
   },
   {
-    "listing": "/content/notes/library/index.html",
+    "listing": "/notes2.html",
+    "items": []
+  },
+  {
+    "listing": "/notes.html",
     "items": [
+      "/content/notes/library/metrics/datos-causalidad.html",
+      "/content/notes/library/metrics/index.html",
+      "/content/notes/library/index.html",
+      "/content/notes/library/macro/index.html",
+      "/content/notes/library/micro/index.html",
+      "/content/notes/library/micro/teoria-consumidor.html",
       "/content/notes/library/macro/teoria-crecimiento.html"
     ]
+  },
+  {
+    "listing": "/content/notes/library/metrics/index.html",
+    "items": [
+      "/content/notes/library/metrics/datos-causalidad.html"
+    ]
+  },
+  {
+    "listing": "/content/notes/library/index.html",
+    "items": []
   }
 ]

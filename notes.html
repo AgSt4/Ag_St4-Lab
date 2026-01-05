@@ -87,7 +87,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-title','listing-categories','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
-      searchColumns: ["listing-title","listing-author"],
+      searchColumns: ["listing-date","listing-title","listing-author"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -409,14 +409,13 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(5)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(7)</span></div><div class="category" data-category="RWNvbm9tZXRyJUMzJUFEYQ==">Econometría <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RWNvbm9tJUMzJUFEYSUyMGRlbCUyMENyZWNpbWllbnRv">Economía del Crecimiento <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RXN0YWQlQzMlQURzdGljYQ==">Estadística <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RnVuZGFtZW50YWw=">Fundamental <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TWFjcm9lY29ub20lQzMlQURh">Macroeconomía <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TWljcm9lY29ub20lQzMlQURh">Microeconomía <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 
 <header id="title-block-header" class="quarto-title-block default">
@@ -427,7 +426,7 @@ window.Quarto = {
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page-left">
 
     
   
@@ -439,12 +438,25 @@ window.Quarto = {
 </header>
 
 
-<blockquote class="blockquote">
-<p>[!tip] Buscador Escribe palabras clave (ej: “Lagrange”, “GARCH”) para filtrar los apuntes.</p>
-</blockquote>
+<section id="biblioteca-de-apuntes" class="level2">
+<h2 class="anchored" data-anchor-id="biblioteca-de-apuntes">Biblioteca de Apuntes</h2>
+<div class="callout callout-style-simple callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>💡 Buscador
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Escribe palabras clave (ej: <em>“Lagrange”</em>, <em>“GARCH”</em>) en la barra de <strong>Filter</strong> para encontrar los apuntes rápidamente.</p>
+</div>
+</div>
 
 
 
+</section>
 
 <div class="quarto-listing quarto-listing-container-table" id="listing-listing">
 <div class="listing-actions-group">
@@ -476,14 +488,27 @@ Tema
 </th>
 
 <th>
-Tiempo
+Lectura
 </th>
 
 </tr>
 </thead>
 <tbody class="list">
 
-<tr data-index="0" data-listing-file-modified-sort="1767449755569" data-listing-reading-time-sort="2" data-listing-word-count-sort="280" data-listing-title-sort="Econometría" data-listing-filename-sort="index.qmd">
+<tr data-index="0" data-categories="RWNvbm9tZXRyJUMzJUFEYSUyQ0VzdGFkJUMzJUFEc3RpY2E=" data-listing-date-sort="1735430400000" data-listing-file-modified-sort="1767583009232" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="Datos y Causalidad" data-listing-filename-sort="datos-causalidad.qmd">
+<td>
+<a href="./content/notes/library/metrics/datos-causalidad.html" class="title listing-title">Datos y Causalidad</a>
+</td>
+<td>
+<span class="listing-categories">Econometría, Estadística</span>
+</td>
+<td>
+<span class="listing-reading-time">1 min</span>
+</td>
+
+</tr>
+
+<tr data-index="1" data-listing-file-modified-sort="1767583009232" data-listing-reading-time-sort="2" data-listing-word-count-sort="280" data-listing-title-sort="Econometría" data-listing-filename-sort="index.qmd">
 <td>
 <a href="./content/notes/library/metrics/index.html" class="title listing-title">Econometría</a>
 </td>
@@ -496,20 +521,7 @@ Tiempo
 
 </tr>
 
-<tr data-index="1" data-listing-file-modified-sort="1767449755569" data-listing-reading-time-sort="1" data-listing-word-count-sort="154" data-listing-title-sort="Introducción al Modelo de Solow" data-listing-filename-sort="teoria-crecimiento.qmd">
-<td>
-<a href="./content/notes/library/macro/teoria-crecimiento.html" class="title listing-title">Introducción al Modelo de Solow</a>
-</td>
-<td>
-<span class="listing-categories">&nbsp;</span>
-</td>
-<td>
-<span class="listing-reading-time">1 min</span>
-</td>
-
-</tr>
-
-<tr data-index="2" data-listing-file-modified-sort="1767449755569" data-listing-reading-time-sort="2" data-listing-word-count-sort="230" data-listing-title-sort="Knowledge Vault" data-listing-filename-sort="index.qmd">
+<tr data-index="2" data-listing-file-modified-sort="1767583009232" data-listing-reading-time-sort="2" data-listing-word-count-sort="230" data-listing-title-sort="Knowledge Vault" data-listing-filename-sort="index.qmd">
 <td>
 <a href="./content/notes/library/index.html" class="title listing-title">Knowledge Vault</a>
 </td>
@@ -522,7 +534,7 @@ Tiempo
 
 </tr>
 
-<tr data-index="3" data-listing-file-modified-sort="1767449755569" data-listing-reading-time-sort="3" data-listing-word-count-sort="567" data-listing-title-sort="Macroeconomía" data-listing-filename-sort="index.qmd">
+<tr data-index="3" data-listing-file-modified-sort="1767583009232" data-listing-reading-time-sort="3" data-listing-word-count-sort="567" data-listing-title-sort="Macroeconomía" data-listing-filename-sort="index.qmd">
 <td>
 <a href="./content/notes/library/macro/index.html" class="title listing-title">Macroeconomía</a>
 </td>
@@ -535,12 +547,38 @@ Tiempo
 
 </tr>
 
-<tr data-index="4" data-listing-file-modified-sort="1767449755570" data-listing-reading-time-sort="2" data-listing-word-count-sort="363" data-listing-title-sort="Microeconomía" data-listing-filename-sort="index.qmd">
+<tr data-index="4" data-listing-file-modified-sort="1767583009232" data-listing-reading-time-sort="2" data-listing-word-count-sort="363" data-listing-title-sort="Microeconomía" data-listing-filename-sort="index.qmd">
 <td>
 <a href="./content/notes/library/micro/index.html" class="title listing-title">Microeconomía</a>
 </td>
 <td>
 <span class="listing-categories">&nbsp;</span>
+</td>
+<td>
+<span class="listing-reading-time">2 min</span>
+</td>
+
+</tr>
+
+<tr data-index="5" data-categories="TWljcm9lY29ub20lQzMlQURhJTJDRnVuZGFtZW50YWw=" data-listing-date-sort="1735430400000" data-listing-file-modified-sort="1767583009232" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="Teoría del Consumidor" data-listing-filename-sort="teoria-consumidor.qmd">
+<td>
+<a href="./content/notes/library/micro/teoria-consumidor.html" class="title listing-title">Teoría del Consumidor</a>
+</td>
+<td>
+<span class="listing-categories">Microeconomía, Fundamental</span>
+</td>
+<td>
+<span class="listing-reading-time">1 min</span>
+</td>
+
+</tr>
+
+<tr data-index="6" data-categories="TWFjcm9lY29ub20lQzMlQURhJTJDRWNvbm9tJUMzJUFEYSUyMGRlbCUyMENyZWNpbWllbnRv" data-listing-date-sort="1735430400000" data-listing-file-modified-sort="1767583009232" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="210" data-listing-title-sort="Teoría del Crecimiento" data-listing-filename-sort="teoria-crecimiento.qmd">
+<td>
+<a href="./content/notes/library/macro/teoria-crecimiento.html" class="title listing-title">Teoría del Crecimiento</a>
+</td>
+<td>
+<span class="listing-categories">Macroeconomía, Economía del Crecimiento</span>
 </td>
 <td>
 <span class="listing-reading-time">2 min</span>

@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2024-12-29">
+<meta name="description" content="Crecimiento Económico en Economía Cerrada.">
 
-<title>teoria-crecimiento – Ag_St4</title>
+<title>Teoría del Crecimiento – Ag_St4</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -74,35 +76,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -386,76 +359,81 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#introducción-al-modelo-de-solow" id="toc-introducción-al-modelo-de-solow" class="nav-link active" data-scroll-target="#introducción-al-modelo-de-solow">Introducción al Modelo de Solow</a>
-  <ul class="collapse">
-  <li><a href="#supuestos-fundamentales" id="toc-supuestos-fundamentales" class="nav-link" data-scroll-target="#supuestos-fundamentales">Supuestos Fundamentales</a></li>
-  <li><a href="#la-función-de-producción" id="toc-la-función-de-producción" class="nav-link" data-scroll-target="#la-función-de-producción">La Función de Producción</a></li>
-  </ul></li>
+  <li><a href="#introducción" id="toc-introducción" class="nav-link active" data-scroll-target="#introducción">Introducción</a></li>
   </ul>
-</nav>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="teoria-crecimiento.pdf"><i class="bi bi-file-pdf"></i>Typst</a></li><li><a href="teoria-crecimiento_slides.pdf"><i class="bi bi-file-pdf"></i>Beamer</a></li></ul></div></nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
 
 
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Teoría del Crecimiento</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Macroeconomía</div>
+    <div class="quarto-category">Economía del Crecimiento</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    Crecimiento Económico en Economía Cerrada.
+  </div>
+</div>
 
 
+<div class="quarto-title-meta">
 
-<section id="introducción-al-modelo-de-solow" class="level1">
-<h1>Introducción al Modelo de Solow</h1>
-<p>Notas sobre el modelo de Solow. Esta versión usa sintaxis nativa para funcionar en los 3 formatos (Web, Doc y Slides).</p>
-<section id="supuestos-fundamentales" class="level2">
-<h2 class="anchored" data-anchor-id="supuestos-fundamentales">Supuestos Fundamentales</h2>
-<p>Si sigo escribiendo mis notas en este lugar, pasará lo siguiente:</p>
-<ol type="1">
-<li><strong>En la Web:</strong> Se verá como un post de blog normal.</li>
-<li><strong>En el Apunte:</strong> Se verá con el formato que elijas arriba (UC o Personal).</li>
-<li><strong>En las Slides:</strong> Cada título <code>##</code> creará una nueva diapositiva.</li>
-</ol>
-<hr>
-</section>
-<section id="la-función-de-producción" class="level2">
-<h2 class="anchored" data-anchor-id="la-función-de-producción">La Función de Producción</h2>
-<p><span class="math display">\[Y_t = F(K_t, A_t L_t)\]</span></p>
-<div class="callout callout-style-default callout-tip callout-titled" title="Ejemplo">
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">December 29, 2024</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="introducción" class="level1">
+<h1>Introducción</h1>
+<p>Contenido…</p>
+<pre><code>
+---
+
+## Cómo funciona
+
+1. **GitHub Actions ejecuta `quarto render`** → Renderiza TODO automáticamente
+2. **Cualquier nota en cualquier subcarpeta** hereda la configuración de `_metadata.yml`
+3. **Solo 2 archivos de configuración** en la raíz
+4. **Cambiar de estilo** = cambiar 1 línea en el frontmatter (`brand: personal` o `brand: uc`)
+5. **Zero configuración por carpeta** → Escalable infinitamente
+
+---
+
+## Estructura final</code></pre>
+<p>proyecto/ ├── _quarto.yml # ← Formatos globales ├── _metadata.yml # ← Configuración global (1 solo archivo) ├── custom.scss ├── templates/ │ ├── doc_template.typ │ ├── logo.png │ ├── Logo UC.png │ └── UC COLOR-01.png └── content/ └── notes/ ├── library/ │ └── macro/ │ └── teoria-crecimiento.qmd ├── projects/ │ └── otra-nota.qmd └── topics/ └── otra-mas.qmd</p>
+<div class="callout callout-style-default callout-note callout-titled" title="Definición: Capital Humano">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Ejemplo
+<span class="screen-reader-only">Note</span>Definición: Capital Humano
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Este cuadro se adapta automáticamente: - <strong>Web:</strong> Caja de alerta estándar. - <strong>Slides:</strong> Bloque de color (Beamer). - <strong>Apunte:</strong> Recuadro destacado (Typst).</p>
-</div>
-</div>
-<hr>
-<p>Y puedo seguir escribiendo nuevas cosas en este lugar</p>
-<p>Voy a seguir escribiendo porque necesito que colapste</p>
-<p>Así puedo pretender que se alcnace el líite</p>
-<p>Y probar el allow …</p>
-<p>Seguido de esto, vamos a ver los resultados</p>
-<div class="callout callout-style-default callout-tip callout-titled" title="Ejemplo">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Ejemplo
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Este cuadro se adapta automáticamente: - <strong>Web:</strong> Caja de alerta estándar.</p>
-<ul>
-<li><p><strong>Slides:</strong> Bloque de color (Beamer).</p></li>
-<li><p><strong>Apunte:</strong> Recuadro destacado (Typst).</p></li>
-</ul>
+<p>El capital humano se refiere al valor económico de las habilidades y experiencia de un trabajador.</p>
 </div>
 </div>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
