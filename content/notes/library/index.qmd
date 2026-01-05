@@ -2,20 +2,22 @@
 title: "Knowledge Vault"
 subtitle: "Apuntes y ejercicios de economía"
 page-layout: full
+metadata-files: []
 format:
   html:
     toc: false
-
 listing:
-  contents: 
-    - "micro/*.qmd"
-    - "macro/*.qmd"
-    - "metrics/*.qmd"
-    - "!*/index.qmd"
+  contents:
+    - "library/micro/*.qmd"
+    - "library/macro/*.qmd"
+    - "library/metrics/*.qmd"
+    - "!library/**/index.qmd"
   type: grid
   categories: true
   sort: "date desc"
   fields: [image, title, reading-time, categories]
+  field-display-names:
+    reading-time: "Lectura"
   filter-ui: true
   sort-ui: false
 ---

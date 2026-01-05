@@ -1,22 +1,28 @@
 ---
 title: "Tópicos de Investigación"
 page-layout: full
+
+# 1. BLINDAJE: Evitamos que herede configuraciones de PDF rotas
+metadata-files: []
+
 format: 
   html: 
     toc: true
+  # Desactivamos explícitamente motores de documentos para evitar errores
+  typst: default
+  beamer: default
 
 listing:
   id: listing-topics
-  # "Busca todo lo que sea .qmd MENOS el index.qmd"
   contents: 
-    - "**/*.qmd"
-    - "!index.qmd"
+    - "**/*.qmd"       # Busca recursivamente en todas las subcarpetas
+    - "!index.qmd"     # Excluye este mismo archivo
+    - "!**/index.qmd"  # Excluye los índices de las subcarpetas (para ver solo artículos) 
   sort: "date desc"
   type: grid
   categories: true
   fields: [image, title, description, categories]
 ---
-
 
 ## Áreas de Interés
 

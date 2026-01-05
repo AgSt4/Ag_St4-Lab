@@ -3,17 +3,15 @@ title: "Microeconomía"
 subtitle: "Temario de Examen de Grado"
 description: "Teoría neoclásica, equilibrio general, teoría de juegos y organización industrial."
 page-layout: full
-
+metadata-files: []
 format:
   html:
     toc: true
     toc-depth: 3
-
 listing:
   contents: 
     - "*.qmd"
     - "!index.qmd"
-    
   type: table
   sort: "title asc"
   categories: true
