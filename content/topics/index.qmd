@@ -1,24 +1,25 @@
 ---
 title: "Tópicos de Investigación"
 page-layout: full
+
+# 1. BLINDAJE: Esto evita que herede la configuración de PDF que está fallando
 metadata-files: []
+
 format: 
   html: 
     toc: true
-  typst: default
-  beamer: default
+
 listing:
   id: listing-topics
   contents: 
     - "**/*.qmd"
     - "!index.qmd"
-    - "!**/index.qmd" 
+    - "!**/index.qmd" # Excluye índices de subcarpetas
   sort: "date desc"
   type: grid
   categories: true
   fields: [image, title, description, categories]
 ---
-
 
 ## Áreas de Interés
 
