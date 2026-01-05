@@ -4,66 +4,72 @@ description: "Crecimiento Económico en Economía Cerrada."
 date: 2024-12-29
 categories: [Macroeconomía, Economía del Crecimiento]
 doc-brand: personal
+
+# 1. BLINDAJE
 metadata-files: []
+
 format:
+  # --- WEB ---
   html:
     toc: true
+  
+  # --- DOCUMENTO (Typst) ---
   typst:
     output-file: "teoria-crecimiento.pdf"
     template: "../../../templates/doc_template.typ"
     logo_file: "../../../templates/logo.png"
+    
+  # --- SLIDES (Beamer) ---
   beamer:
-    output-file: "teoria-crecimiento_slides.pdf"
+    output-file: "teoria-crecimiento-slides.pdf"
     theme: metropolis
     aspectratio: 169
-    fonttheme: default
-    header-includes:
-      - \definecolor{PrimaryColor}{RGB}{10, 40, 70}
-      - \setbeamercolor{frametitle}{bg=PrimaryColor, fg=white}
-      - \setbeamercolor{progress bar}{fg=PrimaryColor, bg=gray}
-      - \setbeamercolor{alerted text}{fg=PrimaryColor}
-      - \titlegraphic{\hfill\includegraphics[height=1.2cm]{../../../templates/logo.png}}
+    fonttheme: default 
+    header-includes: |
+       \definecolor{PrimaryColor}{RGB}{10, 40, 70}
+       \setbeamercolor{frametitle}{bg=PrimaryColor, fg=white}
+       \setbeamercolor{progress bar}{fg=PrimaryColor, bg=gray}
+       \titlegraphic{\hfill\includegraphics[height=1.2cm]{../../../templates/logo.png}}
 ---
 
 
-# Introducción
+## 1. Introducción al Crecimiento
 
-Contenido...
-```
+El crecimiento económico es el aumento sostenido del producto de una economía a lo largo del tiempo.
 
----
-
-## Cómo funciona
-
-1. **GitHub Actions ejecuta `quarto render`** → Renderiza TODO automáticamente
-2. **Cualquier nota en cualquier subcarpeta** hereda la configuración de `_metadata.yml`
-3. **Solo 2 archivos de configuración** en la raíz
-4. **Cambiar de estilo** = cambiar 1 línea en el frontmatter (`brand: personal` o `brand: uc`)
-5. **Zero configuración por carpeta** → Escalable infinitamente
+### Hechos Estilizados de Kaldor
+1. El producto por trabajador crece a una tasa constante.
+2. El capital por trabajador crece a una tasa constante.
+3. La tasa de retorno del capital es constante.
+4. La relación capital-producto es constante.
 
 ---
 
-## Estructura final
-```
-proyecto/
-├── _quarto.yml           # ← Formatos globales
-├── _metadata.yml         # ← Configuración global (1 solo archivo)
-├── custom.scss
-├── templates/
-│   ├── doc_template.typ
-│   ├── logo.png
-│   ├── Logo UC.png
-│   └── UC COLOR-01.png
-└── content/
-    └── notes/
-        ├── library/
-        │   └── macro/
-        │       └── teoria-crecimiento.qmd
-        ├── projects/
-        │   └── otra-nota.qmd
-        └── topics/
-            └── otra-mas.qmd
+## 2. Modelo de Solow-Swan
 
-::: {.callout-note title="Definición: Capital Humano"}
-El capital humano se refiere al valor económico de las habilidades y experiencia de un trabajador.
-:::
+El modelo básico asume una función de producción neoclásica con rendimientos constantes a escala.
+
+### Función de Producción
+Sea la función de producción agregada:
+
+$$Y(t) = F(K(t), A(t)L(t))$$
+
+Donde:
+* $K$: Capital
+* $L$: Trabajo
+* $A$: Tecnología (Labor augmenting)
+
+### Ecuación Fundamental
+La dinámica del capital por unidad de trabajo efectivo ($k$) está dada por:
+
+$$\dot{k}(t) = s f(k(t)) - (n + g + \delta) k(t)$$
+
+---
+
+## 3. Estado Estacionario
+
+En el estado estacionario, $\dot{k} = 0$, por lo que la inversión bruta iguala a la inversión de depreciación efectiva.
+
+$$s f(k^*) = (n + g + \delta) k^*$$
+
+Esto implica que en el largo plazo, el crecimiento del PIB per cápita depende únicamente de la tasa de progreso tecnológico exógeno $g$.
