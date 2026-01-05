@@ -9,6 +9,7 @@ format:
   html:
     toc: true
   typst:
+    output-file: "esg-investing.pdf"
     template: "../../../templates/doc_template.typ"
     logo_file: "../../../templates/logo.png"
   beamer:
