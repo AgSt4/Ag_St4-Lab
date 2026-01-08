@@ -15,8 +15,8 @@
               "state": {
                 "file": "content/notes/library/macro/teoria-crecimiento.qmd"
               },
-              "icon": "lucide-file",
-              "title": "teoria-crecimiento"
+              "icon": "lucide-ghost",
+              "title": "codeview"
             }
           }
         ]
