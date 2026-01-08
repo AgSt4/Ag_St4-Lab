@@ -16,7 +16,7 @@ format:
   # --- DOCUMENTO (Typst) ---
   typst:
     output-file: "teoria-crecimiento.pdf"
-    #template: "../../../templates/doc_template.typ"
+    template: "../../../templates/doc_template.typ"
     
     
   # --- SLIDES (Beamer) ---
