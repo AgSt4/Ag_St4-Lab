@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "ec068f033a064ced",
+        "id": "bbd59819ee7391f3",
         "type": "tabs",
         "children": [
           {
-            "id": "226f4db67fa22ba9",
+            "id": "741f3a81f1f41078",
             "type": "leaf",
             "state": {
-              "type": "codeview",
-              "state": {
-                "file": "content/notes/library/macro/teoria-crecimiento.qmd"
-              },
-              "icon": "lucide-ghost",
-              "title": "codeview"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Vista gráfica"
             }
           }
         ]
@@ -193,7 +191,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e131d3e9574537a9",
+  "active": "741f3a81f1f41078",
   "lastOpenFiles": [
     "content/projects/demo-portfolio/project1.qmd",
     "content/projects/project1.qmd",
