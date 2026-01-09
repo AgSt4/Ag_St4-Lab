@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Agustín Sandoval Tapia">
-<meta name="description" content="Métodos cuantitativos, inferencia causal y análisis de series de tiempo.">
+<meta name="description" content="Crecimiento Económico en Economía Cerrada.">
 
-<title>Econometría – Ag_St4</title>
+<title>Teoría del Crecimiento – Ag_St4</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -33,8 +33,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../../../">
 <link href="../../../../assets/logo.svg" rel="icon" type="image/svg+xml">
-<script src="../../../../site_libs/quarto-listing/list.min.js"></script>
-<script src="../../../../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../../../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../../../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -77,35 +75,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Buscar"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
@@ -411,7 +380,7 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
@@ -419,42 +388,40 @@ window.Quarto = {
     <h2 id="toc-title">En esta página</h2>
    
   <ul>
-  <li><a href="#i.-fundamentos-del-análisis-empírico" id="toc-i.-fundamentos-del-análisis-empírico" class="nav-link active" data-scroll-target="#i.-fundamentos-del-análisis-empírico">I. Fundamentos del Análisis Empírico</a>
+  <li><a href="#introducción-al-crecimiento" id="toc-introducción-al-crecimiento" class="nav-link active" data-scroll-target="#introducción-al-crecimiento">1. Introducción al Crecimiento</a>
   <ul class="collapse">
-  <li><a href="#método-científico-en-economía" id="toc-método-científico-en-economía" class="nav-link" data-scroll-target="#método-científico-en-economía">1. Método Científico en Economía</a></li>
-  <li><a href="#el-modelo-de-regresión-lineal-mrl" id="toc-el-modelo-de-regresión-lineal-mrl" class="nav-link" data-scroll-target="#el-modelo-de-regresión-lineal-mrl">2. El Modelo de Regresión Lineal (MRL)</a></li>
+  <li><a href="#hechos-estilizados-de-kaldor" id="toc-hechos-estilizados-de-kaldor" class="nav-link" data-scroll-target="#hechos-estilizados-de-kaldor">Hechos Estilizados de Kaldor</a></li>
   </ul></li>
-  <li><a href="#ii.-especificación-y-robustez" id="toc-ii.-especificación-y-robustez" class="nav-link" data-scroll-target="#ii.-especificación-y-robustez">II. Especificación y Robustez</a>
+  <li><a href="#modelo-de-solow-swan" id="toc-modelo-de-solow-swan" class="nav-link" data-scroll-target="#modelo-de-solow-swan">2. Modelo de Solow-Swan</a>
   <ul class="collapse">
-  <li><a href="#especificación-y-problemas-en-el-mrl" id="toc-especificación-y-problemas-en-el-mrl" class="nav-link" data-scroll-target="#especificación-y-problemas-en-el-mrl">3. Especificación y Problemas en el MRL</a></li>
-  <li><a href="#inferencia-causal" id="toc-inferencia-causal" class="nav-link" data-scroll-target="#inferencia-causal">4. Inferencia Causal</a></li>
-  <li><a href="#heterocedasticidad-y-dependencia" id="toc-heterocedasticidad-y-dependencia" class="nav-link" data-scroll-target="#heterocedasticidad-y-dependencia">5. Heterocedasticidad y Dependencia</a></li>
+  <li><a href="#función-de-producción" id="toc-función-de-producción" class="nav-link" data-scroll-target="#función-de-producción">Función de Producción</a></li>
+  <li><a href="#ecuación-fundamental" id="toc-ecuación-fundamental" class="nav-link" data-scroll-target="#ecuación-fundamental">Ecuación Fundamental</a></li>
   </ul></li>
-  <li><a href="#iv.-datos-temporales" id="toc-iv.-datos-temporales" class="nav-link" data-scroll-target="#iv.-datos-temporales">IV. Datos Temporales</a>
-  <ul class="collapse">
-  <li><a href="#series-de-tiempo" id="toc-series-de-tiempo" class="nav-link" data-scroll-target="#series-de-tiempo">6. Series de Tiempo</a></li>
-  </ul></li>
+  <li><a href="#estado-estacionario" id="toc-estado-estacionario" class="nav-link" data-scroll-target="#estado-estacionario">3. Estado Estacionario</a></li>
   </ul>
-</nav>
-    <h5 class="quarto-listing-category-title">Categorías</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">Todas <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RWNvbm9tZXRyJUMzJUFEYQ==">Econometría <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RXN0YWQlQzMlQURzdGljYQ==">Estadística <span class="quarto-category-count">(1)</span></div></div></div>
+<div class="quarto-alternate-formats"><h2>Otros formatos</h2><ul><li><a href="teoria-crecimiento.pdf"><i class="bi bi-file-pdf"></i>Typst</a></li><li><a href="teoria-crecimiento-slides.pdf"><i class="bi bi-file-pdf"></i>Beamer</a></li></ul></div></nav>
+    </div>
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Econometría</h1>
-<p class="subtitle lead">Temario de Examen de Grado</p>
-</div>
+<h1 class="title">Teoría del Crecimiento</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Macroeconomía</div>
+    <div class="quarto-category">Economía del Crecimiento</div>
+  </div>
+  </div>
 
 <div>
   <div class="description">
-    Métodos cuantitativos, inferencia causal y análisis de series de tiempo.
+    Crecimiento Económico en Economía Cerrada.
   </div>
 </div>
 
 
-<div class="quarto-title-meta column-page-left">
+<div class="quarto-title-meta">
 
     <div>
     <div class="quarto-title-meta-heading">Autor/a</div>
@@ -463,6 +430,12 @@ window.Quarto = {
           </div>
   </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Fecha de publicación</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">29 de diciembre de 2024</p>
+    </div>
+  </div>
   
     
   </div>
@@ -472,163 +445,46 @@ window.Quarto = {
 </header>
 
 
-<div class="callout callout-style-simple callout-tip no-icon callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>📚 Bibliografía de Referencia
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<ul>
-<li><strong>Wooldridge, J. (2015).</strong> <em>Introducción a la Econometría</em>. Cengage Learning, 5ta edición.</li>
-<li><strong>Stock, J. H. y M. Watson (2010).</strong> <em>Introduction to Econometrics</em>. Pearson Addison-Wesley, 3ra edición.</li>
-<li><strong>Johnston, J. y J. DiNardo (2001).</strong> <em>Métodos de Econometría</em>. Vicens-Vives, 1ra edición.</li>
-<li><strong>Greene, W. (2008).</strong> <em>Econometric Analysis</em>. Prentice-Hall, 6ta edición.</li>
-</ul>
-</div>
-</div>
-<hr>
-<section id="i.-fundamentos-del-análisis-empírico" class="level2">
-<h2 class="anchored" data-anchor-id="i.-fundamentos-del-análisis-empírico">I. Fundamentos del Análisis Empírico</h2>
-<section id="método-científico-en-economía" class="level3">
-<h3 class="anchored" data-anchor-id="método-científico-en-economía">1. Método Científico en Economía</h3>
-<p>👉 <strong><a href="../../../../content/notes/library/metrics/datos-causalidad.html">Apunte maestro: Datos y Causalidad</a></strong></p>
-<ul>
-<li>Estructura de los datos en Economía.</li>
-<li>Análisis causal y <em>ceteris paribus</em>.</li>
-</ul>
-</section>
-<section id="el-modelo-de-regresión-lineal-mrl" class="level3">
-<h3 class="anchored" data-anchor-id="el-modelo-de-regresión-lineal-mrl">2. El Modelo de Regresión Lineal (MRL)</h3>
-<p>👉 <strong><a href="regresion-ols.qmd">Apunte maestro: Regresión Lineal y OLS</a></strong></p>
-<ul>
-<li>MRL simple vs.&nbsp;múltiple.</li>
-<li>Estimador de Mínimos Cuadrados Ordinarios (MCO/OLS) y sus propiedades.</li>
-<li>Teorema de Gauss-Markov.</li>
-<li>Intervalos de confianza y test de hipótesis.</li>
-<li>Predicción.</li>
-</ul>
+<section id="introducción-al-crecimiento" class="level2">
+<h2 class="anchored" data-anchor-id="introducción-al-crecimiento">1. Introducción al Crecimiento</h2>
+<p>El crecimiento económico es el aumento sostenido del producto de una economía a lo largo del tiempo.</p>
+<section id="hechos-estilizados-de-kaldor" class="level3">
+<h3 class="anchored" data-anchor-id="hechos-estilizados-de-kaldor">Hechos Estilizados de Kaldor</h3>
+<ol type="1">
+<li>El producto por trabajador crece a una tasa constante.</li>
+<li>El capital por trabajador crece a una tasa constante.</li>
+<li>La tasa de retorno del capital es constante.</li>
+<li>La relación capital-producto es constante.</li>
+</ol>
 <hr>
 </section>
 </section>
-<section id="ii.-especificación-y-robustez" class="level2">
-<h2 class="anchored" data-anchor-id="ii.-especificación-y-robustez">II. Especificación y Robustez</h2>
-<section id="especificación-y-problemas-en-el-mrl" class="level3">
-<h3 class="anchored" data-anchor-id="especificación-y-problemas-en-el-mrl">3. Especificación y Problemas en el MRL</h3>
-<p>👉 <strong><a href="especificacion.qmd">Apunte maestro: Problemas de Especificación</a></strong></p>
-<ul>
-<li>Transformación de variables y relaciones no lineales.</li>
-<li>Selección de modelos.</li>
-<li>Variables binarias dependientes e independientes.</li>
-<li>Cambio estructural (Test de Chow).</li>
-<li>Multicolinealidad.</li>
-<li>Omisión de variables relevantes e inclusión de variables irrelevantes.</li>
-<li>Errores de medida.</li>
-</ul>
+<section id="modelo-de-solow-swan" class="level2">
+<h2 class="anchored" data-anchor-id="modelo-de-solow-swan">2. Modelo de Solow-Swan</h2>
+<p>El modelo básico asume una función de producción neoclásica con rendimientos constantes a escala.</p>
+<section id="función-de-producción" class="level3">
+<h3 class="anchored" data-anchor-id="función-de-producción">Función de Producción</h3>
+<p>Sea la función de producción agregada:</p>
+<p><span class="math display">\[Y(t) = F(K(t), A(t)L(t))\]</span></p>
+<p>Donde: * <span class="math inline">\(K\)</span>: Capital * <span class="math inline">\(L\)</span>: Trabajo * <span class="math inline">\(A\)</span>: Tecnología (Labor augmenting)</p>
 </section>
-<section id="inferencia-causal" class="level3">
-<h3 class="anchored" data-anchor-id="inferencia-causal">4. Inferencia Causal</h3>
-<p>👉 <strong><a href="inferencia-causal.qmd">Apunte maestro: Inferencia Causal y VI</a></strong></p>
-<ul>
-<li>Modelo de resultados (<em>outcomes</em>) potenciales.</li>
-<li>Sesgo de selección.</li>
-<li>Estimador de Variables Instrumentales (IV) / Mínimos Cuadrados en 2 Etapas (2SLS).
-<ul>
-<li>Validez de los instrumentos.</li>
-<li>Instrumentos débiles.</li>
-<li>Contraste de endogeneidad.</li>
-<li>Contraste de sobre-identificación.</li>
-</ul></li>
-<li>Estimador de Efecto Fijo (Fixed Effects).</li>
-<li>Estimador de Diferencias en Diferencias (Diff-in-Diff).</li>
-</ul>
-</section>
-<section id="heterocedasticidad-y-dependencia" class="level3">
-<h3 class="anchored" data-anchor-id="heterocedasticidad-y-dependencia">5. Heterocedasticidad y Dependencia</h3>
-<p>👉 <strong><a href="heterocedasticidad-gls.qmd">Apunte maestro: Heterocedasticidad y GLS</a></strong></p>
-<ul>
-<li>Causas y consecuencias.</li>
-<li>Contraste de heterocedasticidad.</li>
-<li>Contraste de autocorrelación.</li>
-<li>Inferencia robusta (Errores estándar robustos).</li>
-</ul>
+<section id="ecuación-fundamental" class="level3">
+<h3 class="anchored" data-anchor-id="ecuación-fundamental">Ecuación Fundamental</h3>
+<p>La dinámica del capital por unidad de trabajo efectivo (<span class="math inline">\(k\)</span>) está dada por:</p>
+<p><span class="math display">\[\dot{k}(t) = s f(k(t)) - (n + g + \delta) k(t)\]</span></p>
 <hr>
 </section>
 </section>
-<section id="iv.-datos-temporales" class="level2">
-<h2 class="anchored" data-anchor-id="iv.-datos-temporales">IV. Datos Temporales</h2>
-<section id="series-de-tiempo" class="level3">
-<h3 class="anchored" data-anchor-id="series-de-tiempo">6. Series de Tiempo</h3>
-<p>👉 <strong><a href="series-tiempo.qmd">Apunte maestro: Series de Tiempo</a></strong></p>
-<ul>
-<li>Tendencia en el tiempo lineal y exponencial.</li>
-<li>Dependencia débil.</li>
-<li>Prueba de raíz unitaria.</li>
-<li>Regresión espuria.</li>
-</ul>
-
+<section id="estado-estacionario" class="level2">
+<h2 class="anchored" data-anchor-id="estado-estacionario">3. Estado Estacionario</h2>
+<p>En el estado estacionario, <span class="math inline">\(\dot{k} = 0\)</span>, por lo que la inversión bruta iguala a la inversión de depreciación efectiva.</p>
+<p><span class="math display">\[s f(k^*) = (n + g + \delta) k^*\]</span></p>
+<p>Esto implica que en el largo plazo, el crecimiento del PIB per cápita depende únicamente de la tasa de progreso tecnológico exógeno <span class="math inline">\(g\)</span>.</p>
 
 
 </section>
-</section>
 
-<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-    <select id="listing-listing-sort" class="form-select" aria-label="Ordenar por" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-      <option value="" disabled="" selected="" hidden="">Ordenar por</option>
-      <option value="index" data-direction="asc">Por defecto</option>
-      <option value="listing-title-sort" data-direction="asc">
-        Apunte
-      </option>
-    </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filtro">
-    </div>
-</div>
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-
-<th>
-<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Apunte</a>
-</th>
-
-<th>
-Contenido
-</th>
-
-<th>
-Temas
-</th>
-
-</tr>
-</thead>
-<tbody class="list">
-
-<tr data-index="0" data-categories="RWNvbm9tZXRyJUMzJUFEYSUyQ0VzdGFkJUMzJUFEc3RpY2E=" data-listing-date-sort="1735430400000" data-listing-file-modified-sort="1767984662695" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="Datos y Causalidad" data-listing-filename-sort="datos-causalidad.qmd">
-<td>
-<a href="../../../../content/notes/library/metrics/datos-causalidad.html" class="title listing-title">Datos y Causalidad</a>
-</td>
-<td>
-<span class="listing-description">Método Científico en Economía.</span>
-</td>
-<td>
-<span class="listing-categories">Econometría, Estadística</span>
-</td>
-
-</tr>
-
-</tbody>
-</table>
-<div class="listing-no-matching d-none">No hay resultados</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
