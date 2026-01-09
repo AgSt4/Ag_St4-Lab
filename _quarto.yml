@@ -72,11 +72,3 @@ format:
       sidebar-width: 300px
       body-width: 1000px
       margin-width: 300px
-
-  typst:
-    template: templates/doc_template.typ
-    toc: true
-    
-  beamer:
-    theme: metropolis
-    aspectratio: 169
