@@ -1,42 +1,39 @@
-# ============================================
-# CONFIGURACIÓN QUARTO - PORTFOLIO
-# ============================================
-
 project:
   type: website
-  output-dir: docs
+  output-dir: _site
 
 # ============================================
-# CONFIGURACIÓN DEL SITIO
+# 1. CONFIGURACIÓN DEL SITIO (MENÚS Y BOTONES)
 # ============================================
 website:
   title: "Ag_St4"
   favicon: assets/logo.svg
   description: "Mi Portafolio personal sobre economía y carta de presentación."
   
-  # Navegación
   navbar:
-    logo: assets/logo.svg       # <--- CAMBIADO A .svg
+    logo: assets/logo.svg
     background: gray
     right:
       - text: "Home"
         href: index.qmd
       - text: "Proyectos"
         href: projects.qmd
-      - text: "Apuntes"          # <--- AQUÍ EMPIEZA EL CAMBIO
+      # --- MENÚ DESPLEGABLE APUNTES ---
+      - text: "Apuntes"
         menu:
           - text: "Biblioteca de Apuntes del Grado"
             href: content/notes/library/index.qmd
-          - text: "---"          # (Separador visual)
+          - text: "---"
           - text: "Microeconomía - Examen de Grado"
             href: content/notes/library/micro/index.qmd
           - text: "Macroeconomía - Examen de Grado"
             href: content/notes/library/macro/index.qmd
           - text: "Econometría - Examen de Grado"
             href: content/notes/library/metrics/index.qmd
-          - text: "---"          # (Separador visual)
+          - text: "---"
           - text: "Apuntes Generales de Economía y Negocios"
             href: content/notes/aditional/index.qmd
+      # --- MENÚ DESPLEGABLE TÓPICOS ---
       - text: "Tópicos"
         menu:
           - text: "Índice de Tópicos"
@@ -51,6 +48,7 @@ website:
           - text: "---"
           - text: "Últimas Revisiones"
             href: topics.qmd
+      # --- CONTACTO Y CV ---
       - text: "CV"
         href: cv.qmd
       - icon: github
@@ -58,22 +56,17 @@ website:
       - icon: linkedin
         href: https://www.linkedin.com/in/agustinsandovaltapia/
 
-
-project:
-  type: website
-  output-dir: _site
-
 # ============================================
-# METADATOS GLOBALES
+# 2. METADATOS GLOBALES
 # ============================================
 author: "Agustín Sandoval Tapia"
 lang: es
 
 # ============================================
-# CONFIGURACIÓN DE FORMATOS
+# 3. CONFIGURACIÓN DE FORMATOS (ESTÉTICA)
 # ============================================
 format:
-  # --- 1. WEB (HTML) ---
+  # --- WEB (HTML) ---
   html:
     theme:
       light: [flatly, custom.scss]
@@ -84,7 +77,7 @@ format:
       body-width: 1000px
       margin-width: 300px
 
-  # --- 2. APUNTES (TYPST - Estilo Paper Moderno) ---
+  # --- APUNTES (TYPST) ---
   typst:
     output-file: "documento.pdf"
     toc: true
@@ -95,15 +88,14 @@ format:
       x: 2cm
       y: 2.5cm
     
-    # Inyección de código Typst (Encabezado y Estilos)
     header-includes:
       - |
-        // --- DEFINICIÓN DE COLORES ---
+        // COLORES
         #let color_h1 = rgb("#0A2846") 
         #let color_h2 = rgb("#1E5896") 
         #let color_links = rgb("#0A2846") 
 
-        // --- HEADER CON CONTACTO ---
+        // HEADER
         #set page(
           header: [
             #set text(size: 8pt, fill: gray)
@@ -122,35 +114,31 @@ format:
           ]
         )
 
-        // --- ESTILOS DE TÍTULOS Y LINKS ---
+        // ESTILOS
         #show heading.where(level: 1): set text(fill: color_h1, weight: "bold", size: 1.3em)
         #show heading.where(level: 2): set text(fill: color_h2, weight: "bold", size: 1.1em)
         #show heading.where(level: 3): set text(fill: black, style: "italic")
         #show link: set text(fill: color_links)
 
-  # --- 3. SLIDES (BEAMER - Tema Metropolis) ---
+  # --- SLIDES (BEAMER) ---
   beamer:
     theme: metropolis
     aspectratio: 169
     fonttheme: default
     classoption: "allowbreak"
     
-    # Inyección de código LaTeX
     header-includes:
       - |
-        % --- COLORES ---
+        % COLORES
         \definecolor{PrimaryColor}{RGB}{10, 40, 70}
         \definecolor{AccentColor}{RGB}{30, 88, 150}
-        
-        % Aplicar colores al tema
         \setbeamercolor{frametitle}{bg=PrimaryColor, fg=white}
         \setbeamercolor{progress bar}{fg=PrimaryColor, bg=gray!20}
         \setbeamercolor{title separator}{fg=AccentColor}
         \setbeamercolor{structure}{fg=PrimaryColor}
         
-        % --- FUENTE Y CONTACTO ---
+        % FUENTE Y PORTADA
         \usepackage{sourcesanspro}
-        
         \makeatletter
         \setbeamertemplate{title page}{
           \begin{minipage}[b][\paperheight]{\textwidth}
@@ -163,7 +151,6 @@ format:
             \ifx\insertdate\@empty\else\usebeamertemplate*{date}\fi
             \ifx\insertinstitute\@empty\else\usebeamertemplate*{institute}\fi
             \vfill
-            % --- CONTACTO INYECTADO ---
             \vspace*{1mm}
             \footnotesize\color{gray}
             LinkedIn: /in/agustinsandovaltapia \quad $\cdot$ \quad GitHub: @Ag\_St4 \quad $\cdot$ \quad a.sandovaltapia@uc.cl
