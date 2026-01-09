@@ -11,7 +11,6 @@ format:
   
   typst:
     output-file: "teoria-crecimiento.pdf"
-    template: "../../../templates/doc_template.typ"
     toc: true
     number-sections: true
     font-size: 11pt
