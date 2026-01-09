@@ -2,22 +2,23 @@
 title: "Teoría del Crecimiento"
 description: "Crecimiento Económico en Economía Cerrada."
 date: 2024-12-29
+author: "Agustín Sandoval Tapia"
 categories: [Macroeconomía, Economía del Crecimiento]
 
-# 1. BLINDAJE
-metadata-files: []
-
 format:
-  # --- WEB ---
   html:
     toc: true
   
-  # --- DOCUMENTO (Typst) ---
   typst:
     output-file: "teoria-crecimiento.pdf"
     template: "../../../templates/doc_template.typ"
-    
-  # --- SLIDES (Beamer) ---
+    toc: true
+    number-sections: true
+    font-size: 11pt
+    margin:
+      x: 2cm
+      y: 2cm
+
   beamer:
     output-file: "teoria-crecimiento-slides.pdf"
     theme: metropolis
