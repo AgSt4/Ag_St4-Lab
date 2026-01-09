@@ -3,7 +3,6 @@ title: "Teoría del Crecimiento"
 description: "Crecimiento Económico en Economía Cerrada."
 date: 2024-12-29
 categories: [Macroeconomía, Economía del Crecimiento]
-logo_file: "../../../templates/logo.png"
 
 # 1. BLINDAJE
 metadata-files: []
@@ -17,8 +16,6 @@ format:
   typst:
     output-file: "teoria-crecimiento.pdf"
     template: "../../../templates/doc_template.typ"
-    keep-typ: true
-    
     
   # --- SLIDES (Beamer) ---
   beamer:
@@ -31,7 +28,6 @@ format:
        \definecolor{PrimaryColor}{RGB}{10, 40, 70}
        \setbeamercolor{frametitle}{bg=PrimaryColor, fg=white}
        \setbeamercolor{progress bar}{fg=PrimaryColor, bg=gray}
-       \titlegraphic{\hfill\includegraphics[height=1.2cm]{../../../templates/logo.png}}
 ---
 
 ## 1. Introducción al Crecimiento
