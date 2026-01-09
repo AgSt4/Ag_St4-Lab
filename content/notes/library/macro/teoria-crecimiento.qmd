@@ -30,6 +30,7 @@ format:
        \setbeamercolor{progress bar}{fg=PrimaryColor, bg=gray}
 ---
 
+
 ## 1. Introducción al Crecimiento
 
 El crecimiento económico es el aumento sostenido del producto de una economía a lo largo del tiempo.
