@@ -16,15 +16,15 @@ format:
 
 ::: {.callout-note appearance="simple"}
 **También te podría interesar una versión offline de estos apuntes:**
-[<i class="bi bi-file-pdf"></i> Descargar Apunte (PDF)](teoria-crecimiento.pdf){.btn .btn-outline-primary .btn-sm}
-[<i class="bi bi-file-earmark-slides"></i> Descargar Presentación](teoria-crecimiento-slides.pdf){.btn .btn-outline-primary .btn-sm}
+[<i class="bi bi-file-pdf"></i> Descargar Apunte (PDF)](teoria-crecimiento.pdf){target="_blank" .btn .btn-outline-primary .btn-sm}
+[<i class="bi bi-file-earmark-slides"></i> Descargar Presentación](teoria-crecimiento-slides.pdf){target="_blank" .btn .btn-outline-primary .btn-sm}
 :::
 
-## 1. Introducción al Crecimiento
+# Introducción al Crecimiento
 
 El crecimiento económico es el aumento sostenido del producto de una economía a lo largo del tiempo.
 
-### Hechos Estilizados de Kaldor
+## Hechos Estilizados de Kaldor
 1. El producto por trabajador crece a una tasa constante.
 2. El capital por trabajador crece a una tasa constante.
 3. La tasa de retorno del capital es constante.
@@ -32,11 +32,11 @@ El crecimiento económico es el aumento sostenido del producto de una economía 
 
 ---
 
-## 2. Modelo de Solow-Swan
+# Modelo de Solow-Swan
 
 El modelo básico asume una función de producción neoclásica con rendimientos constantes a escala.
 
-### Función de Producción
+## Función de Producción
 Sea la función de producción agregada:
 
 $$Y(t) = F(K(t), A(t)L(t))$$
@@ -46,13 +46,13 @@ Donde:
 * $L$: Trabajo
 * $A$: Tecnología (Labor augmenting)
 
-### Ecuación Fundamental
+## Ecuación Fundamental
 La dinámica del capital por unidad de trabajo efectivo ($k$) está dada por:
 
 $$\dot{k}(t) = s f(k(t)) - (n + g + \delta) k(t)$$
 
 
-## 3. Estado Estacionario
+# Estado Estacionario
 
 En el estado estacionario, $\dot{k} = 0$, por lo que la inversión bruta iguala a la inversión de depreciación efectiva.
 
