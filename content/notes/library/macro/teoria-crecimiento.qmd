@@ -6,6 +6,8 @@ author: "Agustín Sandoval Tapia"
 categories: [Macroeconomía, Economía del Crecimiento]
 
 format:
+  html:
+    toc: true
   typst:
     output-file: "teoria-crecimiento.pdf"
   beamer:
