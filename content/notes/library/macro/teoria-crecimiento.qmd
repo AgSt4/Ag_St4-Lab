@@ -46,7 +46,6 @@ La dinámica del capital por unidad de trabajo efectivo ($k$) está dada por:
 
 $$\dot{k}(t) = s f(k(t)) - (n + g + \delta) k(t)$$
 
----
 
 ## 3. Estado Estacionario
 
