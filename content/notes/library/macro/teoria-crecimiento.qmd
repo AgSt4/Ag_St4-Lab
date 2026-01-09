@@ -6,28 +6,10 @@ author: "Agustín Sandoval Tapia"
 categories: [Macroeconomía, Economía del Crecimiento]
 
 format:
-  html:
-    toc: true
-  
   typst:
     output-file: "teoria-crecimiento.pdf"
-    toc: true
-    number-sections: true
-    font-size: 11pt
-    margin:
-      x: 2cm
-      y: 2cm
-
   beamer:
     output-file: "teoria-crecimiento-slides.pdf"
-    theme: metropolis
-    aspectratio: 169
-    fonttheme: default
-    classoption: allowbreak
-    header-includes: |
-       \definecolor{PrimaryColor}{RGB}{10, 40, 70}
-       \setbeamercolor{frametitle}{bg=PrimaryColor, fg=white}
-       \setbeamercolor{progress bar}{fg=PrimaryColor, bg=gray}
 ---
 
 
