@@ -95,7 +95,7 @@
     "href": "content/projects/CV_Plantilla.html#resultado-de-la-plantilla",
     "title": "Plantilla Curriculum Vitae",
     "section": "1. Resultado de la Plantilla",
-    "text": "1. Resultado de la Plantilla\nAquí puedes previsualizar el documento final generado automáticamente por la última versión del código en el repositorio.\n\n\nTu navegador no puede mostrar este PDF. Haz clic aquí para descargarlo."
+    "text": "1. Resultado de la Plantilla\nAquí puedes previsualizar el documento final generado automáticamente por la última versión del código en el repositorio.\n&lt;object data=“{{&lt; resource files/preview_cv.pdf &gt;}}” type=“application/pdf” width=“100%” height=“600” style=“border: 1px solid #ddd; border-radius: 8px;”&gt;\n\nTu navegador no puede mostrar este PDF. &lt;a href=“{{&lt; resource files/preview_cv.pdf &gt;}}”&gt; Haz clic aquí para descargarlo."
   },
   {
     "objectID": "content/projects/CV_Plantilla.html#estructura-y-código-del-proyecto",
