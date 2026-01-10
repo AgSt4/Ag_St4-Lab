@@ -11,7 +11,7 @@ format:
     code-copy: true
 ---
 
-<a href="https://www.overleaf.com/docs?snip_uri=https://raw.githubusercontent.com/AgSt4/Projects/main/CV__Plantilla.zip"
+<a href="https://www.overleaf.com/docs?snip_uri=https://raw.githubusercontent.com/AgSt4/Projects/main/CV_Plantilla/CV___Plantilla.zip"
    target="_blank"
    class="btn btn-success btn-lg">
   Abrir en Overleaf
@@ -23,14 +23,16 @@ format:
 
 Aquí puedes previsualizar el documento final generado automáticamente por la última versión del código en el repositorio.
 
-<object data="/files/preview_cv.pdf"
+<object data="{{< resource files/preview_cv.pdf >}}"
         type="application/pdf"
         width="100%"
         height="600"
         style="border: 1px solid #ddd; border-radius: 8px;">
   <p>
     Tu navegador no puede mostrar este PDF.
-    <a href="/files/preview_cv.pdf">Haz clic aquí para descargarlo.</a>
+    <a href="{{< resource files/preview_cv.pdf >}}">
+      Haz clic aquí para descargarlo.
+    </a>
   </p>
 </object>
 
