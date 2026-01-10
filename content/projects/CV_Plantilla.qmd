@@ -11,6 +11,9 @@ format:
     code-copy: true
 ---
 
+<a href="https://www.google.com/search?q=https://www.overleaf.com/docs%3Fsnip_uri%3Dhttps://raw.githubusercontent.com/AgSt4/Projects/tree/main/CV__Plantilla.zip" target="_blank" class="btn btn-success btn-lg"> 🚀 Abrir en Overleaf </a>
+
+---
 ## 1. Resultado de la Plantilla
 Aquí puedes previsualizar el documento final generado automáticamente por la última versión del código en el repositorio.
 
@@ -31,7 +34,3 @@ La plantilla es modular. A continuación, se presenta la organización de los ar
 * `4_Voluntariados.tex`: Experiencia en voluntariados.
 * `5_Experiencia.tex`: Para añadir la experiencia laboral.
 * `6_Herramientas.tex`: Definición de habilidades e idiomas.
-
----
-
-<a href="https://www.google.com/search?q=https://www.overleaf.com/docs%3Fsnip_uri%3Dhttps://raw.githubusercontent.com/AgSt4/Projects/tree/main/CV_Plantilla" target="_blank" class="btn btn-success btn-lg"> 🚀 Abrir en Overleaf </a>
