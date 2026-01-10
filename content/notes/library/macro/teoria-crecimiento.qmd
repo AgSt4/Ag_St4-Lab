@@ -14,10 +14,14 @@ format:
     output-file: "teoria-crecimiento-slides.pdf"
 ---
 
+::: {.content-visible when-format="html"}
+
 ::: {.callout-note appearance="simple"}
 **También te podría interesar una versión offline de estos apuntes:**
 [<i class="bi bi-file-pdf"></i> Descargar Apunte (PDF)](teoria-crecimiento.pdf){target="_blank" .btn .btn-outline-primary .btn-sm}
 [<i class="bi bi-file-earmark-slides"></i> Descargar Presentación](teoria-crecimiento-slides.pdf){target="_blank" .btn .btn-outline-primary .btn-sm}
+:::
+
 :::
 
 # Introducción al Crecimiento
