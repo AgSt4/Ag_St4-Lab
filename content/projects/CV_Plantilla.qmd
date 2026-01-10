@@ -1,0 +1,12 @@
+---
+title: "Plantilla Curriculum Vitae"
+description: "Plantilla Latex para construir tu CV."
+date: 2025-11-24
+author: "Agustín Sandoval Tapia"
+categories: [Latex, Plantillas, Personal]
+
+format:
+  html:
+    toc: true
+---
+
