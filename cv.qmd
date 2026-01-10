@@ -3,7 +3,6 @@ title: "Curriculum Vitae"
 format:
   html:
     toc: true
-    css: styles.css
 ---
 
 ::: {style="text-align: center; margin: 2rem 0 3rem 0;"}
