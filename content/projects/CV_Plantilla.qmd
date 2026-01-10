@@ -23,17 +23,8 @@ format:
 
 Aquí puedes previsualizar el documento final generado automáticamente por la última versión del código en el repositorio.
 
-<object data="{{< resource files/preview_cv.pdf >}}"
-        type="application/pdf"
-        width="100%"
-        height="600"
-        style="border: 1px solid #ddd; border-radius: 8px;">
-  <p>
-    Tu navegador no puede mostrar este PDF.
-    <a href="{{< resource files/preview_cv.pdf >}}">
-      Haz clic aquí para descargarlo.
-    </a>
-  </p>
+<object data="files/preview_cv.pdf" type="application/pdf" width="100%" height="600px" style="border: 1px solid #ddd; border-radius: 8px;">
+    <p>Tu navegador no puede mostrar este PDF. <a href="files/preview_cv.pdf">Haz clic aquí para descargarlo.</a></p>
 </object>
 
 ---
