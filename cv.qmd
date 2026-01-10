@@ -6,7 +6,7 @@ format:
 ---
 
 ::: {style="text-align: center; margin: 2rem 0 3rem 0;"}
-[📥 Descargar PDF Oficial](assets/CV_Agustin.pdf){.btn .btn-primary style="padding: 0.8rem 2rem; border-radius: 8px; font-size: 1.1rem;"}
+[📥 Descargar PDF Oficial](assets/CV___AST.pdf){.btn .btn-primary style="padding: 0.8rem 2rem; border-radius: 8px; font-size: 1.1rem;"}
 :::
 
 ## 👤 Perfil Profesional
