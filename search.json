@@ -88,21 +88,21 @@
     "href": "content/projects/CV_Plantilla.html",
     "title": "Plantilla Curriculum Vitae",
     "section": "",
-    "text": "Aquí puedes previsualizar el documento final generado automáticamente por la última versión del código en el repositorio.\n\n\nTu navegador no puede mostrar este PDF. Haz clic aquí para descargarlo."
+    "text": "Abrir en Overleaf"
   },
   {
     "objectID": "content/projects/CV_Plantilla.html#resultado-de-la-plantilla",
     "href": "content/projects/CV_Plantilla.html#resultado-de-la-plantilla",
     "title": "Plantilla Curriculum Vitae",
-    "section": "",
-    "text": "Aquí puedes previsualizar el documento final generado automáticamente por la última versión del código en el repositorio.\n\n\nTu navegador no puede mostrar este PDF. Haz clic aquí para descargarlo."
+    "section": "1. Resultado de la Plantilla",
+    "text": "1. Resultado de la Plantilla\nAquí puedes previsualizar el documento final generado automáticamente por la última versión del código en el repositorio.\n\n\nTu navegador no puede mostrar este PDF. Haz clic aquí para descargarlo."
   },
   {
     "objectID": "content/projects/CV_Plantilla.html#estructura-y-código-del-proyecto",
     "href": "content/projects/CV_Plantilla.html#estructura-y-código-del-proyecto",
     "title": "Plantilla Curriculum Vitae",
     "section": "2. Estructura y Código del Proyecto",
-    "text": "2. Estructura y Código del Proyecto\nLa plantilla es modular. A continuación, se presenta la organización de los archivos y el código principal que permite la automatización.\n\nMapa de Archivos\n\n0_main.tex: Estructura global y carga de paquetes.\n1_Variables.tex: Datos personales (Placeholders).\n2_Perfil.tex: Resumen para el CV.\n3_Educación.tex: Información educacional.\n4_Voluntariados.tex: Experiencia en voluntariados.\n5_Experiencia.tex: Para añadir la experiencia laboral.\n6_Herramientas.tex: Definición de habilidades e idiomas.\n\n\n 🚀 Abrir en Overleaf"
+    "text": "2. Estructura y Código del Proyecto\nLa plantilla es modular. A continuación, se presenta la organización de los archivos y el código principal que permite la automatización.\n\nMapa de Archivos\n\n0_main.tex: Estructura global y carga de paquetes.\n1_Variables.tex: Datos personales (Placeholders).\n2_Perfil.tex: Resumen para el CV.\n3_Educación.tex: Información educacional.\n4_Voluntariados.tex: Experiencia en voluntariados.\n5_Experiencia.tex: Para añadir la experiencia laboral.\n6_Herramientas.tex: Definición de habilidades e idiomas."
   },
   {
     "objectID": "content/topics/index.html",
