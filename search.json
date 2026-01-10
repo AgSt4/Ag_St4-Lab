@@ -329,24 +329,24 @@
     "text": "También te podría interesar una versión offline de estos apuntes:  Descargar Apunte (PDF)  Descargar Presentación"
   },
   {
-    "objectID": "content/notes/library/macro/teoria-crecimiento.html#introducción-al-crecimiento",
-    "href": "content/notes/library/macro/teoria-crecimiento.html#introducción-al-crecimiento",
+    "objectID": "content/notes/library/macro/teoria-crecimiento.html#hechos-estilizados-de-kaldor",
+    "href": "content/notes/library/macro/teoria-crecimiento.html#hechos-estilizados-de-kaldor",
     "title": "Teoría del Crecimiento",
-    "section": "1. Introducción al Crecimiento",
-    "text": "1. Introducción al Crecimiento\nEl crecimiento económico es el aumento sostenido del producto de una economía a lo largo del tiempo.\n\nHechos Estilizados de Kaldor\n\nEl producto por trabajador crece a una tasa constante.\nEl capital por trabajador crece a una tasa constante.\nLa tasa de retorno del capital es constante.\nLa relación capital-producto es constante."
+    "section": "Hechos Estilizados de Kaldor",
+    "text": "Hechos Estilizados de Kaldor\n\nEl producto por trabajador crece a una tasa constante.\nEl capital por trabajador crece a una tasa constante.\nLa tasa de retorno del capital es constante.\nLa relación capital-producto es constante."
   },
   {
-    "objectID": "content/notes/library/macro/teoria-crecimiento.html#modelo-de-solow-swan",
-    "href": "content/notes/library/macro/teoria-crecimiento.html#modelo-de-solow-swan",
+    "objectID": "content/notes/library/macro/teoria-crecimiento.html#función-de-producción",
+    "href": "content/notes/library/macro/teoria-crecimiento.html#función-de-producción",
     "title": "Teoría del Crecimiento",
-    "section": "2. Modelo de Solow-Swan",
-    "text": "2. Modelo de Solow-Swan\nEl modelo básico asume una función de producción neoclásica con rendimientos constantes a escala.\n\nFunción de Producción\nSea la función de producción agregada:\n\\[Y(t) = F(K(t), A(t)L(t))\\]\nDonde: * \\(K\\): Capital * \\(L\\): Trabajo * \\(A\\): Tecnología (Labor augmenting)\n\n\nEcuación Fundamental\nLa dinámica del capital por unidad de trabajo efectivo (\\(k\\)) está dada por:\n\\[\\dot{k}(t) = s f(k(t)) - (n + g + \\delta) k(t)\\]"
+    "section": "Función de Producción",
+    "text": "Función de Producción\nSea la función de producción agregada:\n\\[Y(t) = F(K(t), A(t)L(t))\\]\nDonde: * \\(K\\): Capital * \\(L\\): Trabajo * \\(A\\): Tecnología (Labor augmenting)"
   },
   {
-    "objectID": "content/notes/library/macro/teoria-crecimiento.html#estado-estacionario",
-    "href": "content/notes/library/macro/teoria-crecimiento.html#estado-estacionario",
+    "objectID": "content/notes/library/macro/teoria-crecimiento.html#ecuación-fundamental",
+    "href": "content/notes/library/macro/teoria-crecimiento.html#ecuación-fundamental",
     "title": "Teoría del Crecimiento",
-    "section": "3. Estado Estacionario",
-    "text": "3. Estado Estacionario\nEn el estado estacionario, \\(\\dot{k} = 0\\), por lo que la inversión bruta iguala a la inversión de depreciación efectiva.\n\\[s f(k^*) = (n + g + \\delta) k^*\\]\nEsto implica que en el largo plazo, el crecimiento del PIB per cápita depende únicamente de la tasa de progreso tecnológico exógeno \\(g\\)."
+    "section": "Ecuación Fundamental",
+    "text": "Ecuación Fundamental\nLa dinámica del capital por unidad de trabajo efectivo (\\(k\\)) está dada por:\n\\[\\dot{k}(t) = s f(k(t)) - (n + g + \\delta) k(t)\\]"
   }
 ]
