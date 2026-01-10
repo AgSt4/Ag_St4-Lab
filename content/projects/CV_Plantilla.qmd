@@ -1,9 +1,9 @@
 ---
 title: "Plantilla Curriculum Vitae"
 description: "Plantilla Latex para construir tu CV."
-date: 2025-11-24
+date: "2025-11-24"
 author: "Agustín Sandoval Tapia"
-categories: [Latex, Plantillas, Personal, Portafolio]
+categories: ["Latex", "Plantillas", "Personal", "Portafolio"]
 
 format:
   html:
@@ -14,27 +14,34 @@ format:
 <a href="https://www.overleaf.com/docs?snip_uri=https://raw.githubusercontent.com/AgSt4/Projects/main/CV__Plantilla.zip"
    target="_blank"
    class="btn btn-success btn-lg">
-  🚀 Abrir en Overleaf
+  Abrir en Overleaf
 </a>
 
-
 ---
+
 ## 1. Resultado de la Plantilla
+
 Aquí puedes previsualizar el documento final generado automáticamente por la última versión del código en el repositorio.
 
-<object data="files/preview_cv.pdf" type="application/pdf" width="100%" height="600px" style="border: 1px solid #ddd; border-radius: 8px;">
-    <p>Tu navegador no puede mostrar este PDF.
-       <a href="files/preview_cv.pdf">Haz clic aquí para descargarlo.</a>
-    </p>
+<object data="/files/preview_cv.pdf"
+        type="application/pdf"
+        width="100%"
+        height="600"
+        style="border: 1px solid #ddd; border-radius: 8px;">
+  <p>
+    Tu navegador no puede mostrar este PDF.
+    <a href="/files/preview_cv.pdf">Haz clic aquí para descargarlo.</a>
+  </p>
 </object>
-
 
 ---
 
 ## 2. Estructura y Código del Proyecto
+
 La plantilla es modular. A continuación, se presenta la organización de los archivos y el código principal que permite la automatización.
 
 ### Mapa de Archivos
+
 * `0_main.tex`: Estructura global y carga de paquetes.
 * `1_Variables.tex`: Datos personales (Placeholders).
 * `2_Perfil.tex`: Resumen para el CV.
